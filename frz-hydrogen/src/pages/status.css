@@ -1,0 +1,65 @@
+.status-card {
+    height: 55px;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    background-color: rgba(0,0,0, 0.2);
+    border-radius: 5px;
+    padding: 6px;
+    color: #ffffff;
+    margin-top: 8px;
+}
+
+.status-card-left {
+    float: left;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.status-card-right {
+    color: #27ae60 !important;
+    margin-right: 50px;
+    float: right;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.margin-5 {
+    margin-right: 5px;
+}
+.green {
+    color: #27ae60 !important;
+}
+
+.yellow {
+    color: #f39c12 !important;
+}
+
+.red {
+    color: #c0392b !important;
+}
+
+.white {
+    color: #ffffff !important;
+}
+
+.card-red {
+    background-color: #c0392b;
+}
+.card-yellow {
+    background-color: #f39c12;
+}
+.card-green {
+    background-color: #27ae60;
+}
+
+.status-container {
+    margin-top: 15%;
+}
+
+.m-b {
+    margin-bottom: 30px;
+}
