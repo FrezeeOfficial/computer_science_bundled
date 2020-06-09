@@ -3,7 +3,7 @@ import './App.css';
 
 import { BrowserRouter as Router, Redirect, Route, Switch, } from 'react-router-dom';
 import Home from "./pages/home";
-import Dashboard from "./pages/dashboard";
+import Dashboard from "./pages/dashboard/dashboard";
 import Status from "./pages/status";
 
 import { render } from '@testing-library/react';

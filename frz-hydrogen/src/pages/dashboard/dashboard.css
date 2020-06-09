@@ -1,0 +1,100 @@
+.connectivity-bar {
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 999;
+}
+
+.connectivity-bar > span {
+    float: right;
+    margin-right: 5%;
+    font-family: Roboto;
+    font-size: 15px;
+    /* height: 25px; */
+    align-items: middle;
+    display: block;
+}
+
+.svgLoader {
+    margin-left:auto;
+    margin-right:auto; 
+    display:block;
+    margin-top: 15%;
+}
+
+.svgLoaderPath {
+    animation: shine 2s 2s infinite alternate;
+}
+
+@keyframes shine {
+    to {
+      opacity: 0;
+      right: 210%;
+    }
+}
+    
+.sidebar {
+    width: 303px;
+    background-color: #1A222E;
+    float: left;
+    height: 100%;
+}
+
+.topbar {
+    height: 40px;
+    background-color: rgba( 0,0,0,0.29);
+    width: 100%;
+}
+
+#menu-items {
+    padding: 0;
+}
+
+#menu-items > li{
+    list-style: none;
+    background-color: #323C4B;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 8px;
+    display: block;
+    margin: 0 auto;
+    text-align: -webkit-center;
+    padding-bottom: 8px;
+    font-family: Roboto;
+    font-weight: 400;
+
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+#current-item {
+    background-color: #FFFFFF !important;
+    color: #1A222E !important;
+}
+
+
+
+#menu-items > li:hover{
+    background-color: #FFFFFF !important;
+    color: #1A222E !important;
+    cursor: pointer;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    padding-left: 353px;
+    color: white;
+    font-family: Roboto;
+}
+
+.card-fullsize {
+    margin-bottom: 30px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: #1A222E;
+}
