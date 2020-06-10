@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
 import "./dashboard.css";
+import Socket from './socket';
 
 class Dashboard extends Component {
     constructor(props) {
         super(props);
         this.state = {
             isLoaded: false,
+            socket: {
+                error: false,
+                error_code: null,
+                error_point: null
+            },
             device: {
                 connected: false,
                 error: true,
@@ -14,17 +20,48 @@ class Dashboard extends Component {
         }
     }
 
-    componentDidMount(){
+    socketError = (error, error_code, error_point) => {
+        this.setState({socket: {error: error, error_code: error_code, error_point}});
+    }
+    socketAccepted = (val) => {
+        // established connection with the socket server
         this.setState({isLoaded: true});
+        this.setState({device: {connected: true, error: false, readable_error: "CONNECTED TO DEVICE"}})
+    }
+
+    componentDidMount(){
     }
 
     render(){
+        if (this.state.socket.error){
+            return (
+                <div className="error-modal">
+                <div className="error-modal-inner">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98">
+                      <g id="Group_11" data-name="Group 11" transform="translate(-863 -323)">
+                      <circle id="Ellipse_2" data-name="Ellipse 2" cx="49" cy="49" r="49" transform="translate(863 323)" fill="#f1f2f3"/>
+                      <line id="Line_32" data-name="Line 32" x2="45" y2="45" transform="translate(890.5 350.5)" fill="none" stroke="#e12c2c" stroke-width="2"/>
+                      <line id="Line_33" data-name="Line 33" y1="45" x2="45" transform="translate(890.5 350.5)" fill="none" stroke="#e12c2c" stroke-width="2"/>
+                      </g>
+                  </svg>
+
+                    <span className="oops-error">Whoops</span>
+            <span>You device failed to establish a socket request with {this.state.socket.error_point || "unknown"}</span>
+<br></br>
+                    <span className="small-text">Error Code: {this.state.socket.error_code || "Unknown"}</span>
+                    <span className="small-text">Failure Point: {this.state.socket.error_point || "Unknown"}</span>
+                </div>
+            </div>
+            )
+        }
         if (!this.state.isLoaded){
             return (
                 <React.Fragment>
+                <Socket socketAccepted={this.socketAccepted} socketFault={this.socketError}></Socket>
+                <span>{this.state.socket.error_message}</span>
                 <svg className="svgLoader" xmlns="http://www.w3.org/2000/svg" width="346" height="299" viewBox="0 0 346 299">
 
-                <path className="svgLoaderPath" d="M163.479,16.456a11,11,0,0,1,19.042,0L336.448,282.491A11,11,0,0,1,326.927,299H19.073a11,11,0,0,1-9.521-16.509Z" opacity="0.4"/>
+                <path className="svgLoaderPath" d="M163.479,16.456a11,11,0,0,1,19.042,0L336.448,282.491A11,11,0,0,1,326.927,299H19.073a11,11,0,0,1-9.521-16.509Z" fill="rgba(255, 44, 44, 0.2)"/>
                     
                 </svg>
                 <div className="connectivity-bar">

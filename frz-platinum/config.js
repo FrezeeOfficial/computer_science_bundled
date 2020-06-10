@@ -3,7 +3,7 @@ module.exports = {
     version: 1.1,
     production: false,
     https: true,
-    host: "192.168.1.3",
+    host: "localhost",
     mysql: {
         user: "nodejs",
         host: "127.0.0.1",

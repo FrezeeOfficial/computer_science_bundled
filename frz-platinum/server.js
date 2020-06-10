@@ -10,6 +10,17 @@ const routes = require("./routes");
 const req_logger = require("./middlewares/req_logger");
 const session_manager = require("./middlewares/session_manager");
 
+server = app.listen(5000)
+const io = require('socket.io')(server);
+io.on('connection', (socket) => {
+    console.log("new socket")
+    socket.emit('new_message', {command: "ACCEPTED"})
+
+    socket.on('new_message', (data) => {
+        console.log("yay")
+        console.log(data)
+    })
+})
 
 if (!config.production){
     app.use(bodyParser.urlencoded({extended: true}));
