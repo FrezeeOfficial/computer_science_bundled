@@ -15,7 +15,17 @@ class Dashboard extends Component {
             device: {
                 connected: false,
                 error: true,
-                readable_error: "NOT CONNECTED TO DEVICE"
+                readable_error: "NOT CONNECTED TO DEVICE",
+                app: {
+                    threat: false,
+                }
+            },
+            app_data: {
+                card1: {
+                    header: "CHECK A CERTAIN FILE",
+                    Textcolor: "red",
+                    body: "OUR SERVER WILL RUN ANY SUPPORTED FILE BELIEVED A THREAT AND SEND THE RESULTS BACK TO YOU"
+                }
             }
         }
     }
@@ -127,9 +137,14 @@ class Dashboard extends Component {
 
                     <div className="content">
                         <div className="card-fullsize">
-                            <span>DEVICE CONNECTION STATUS: {String( this.state.device.connected) }</span>
-                            <br></br>
-                            <span>DEVICE CONNECTION ERROR: {String( this.state.device.readable_error) }</span>
+                            <div className="card-left">
+                                <span className="card-header">{this.state.app_data.card1.header}<span className={ "text-color-" + this.state.app_data.card1.Textcolor} > - RECOMMENDED</span></span>
+                                <span className="card-body">{this.state.app_data.card1.body}</span>
+                            </div>
+                            <div className="card-right">
+                                <button>START</button>
+                                <span>OTHER OPTIONS</span>
+                            </div>
                         </div>
                     </div>
 
