@@ -17,6 +17,7 @@ const Socket = (props) => {
     useEffect(() => {
         const socket = socketIOClient(ENDPOINT);
 
+        socket.emit('new_message', "test")
         socket.on('new_message', (data) => {
             console.log(data)
             if (data.command == "KILL") {

@@ -2,6 +2,7 @@ process.env.NODE_ENV = 'production';
 
 var colors = require('colors');
 const express = require('express');
+const socket = require('./socket');
 const bodyParser = require('body-parser');
 const config = require("./config");
 var app = express();
@@ -10,25 +11,7 @@ const routes = require("./routes");
 const req_logger = require("./middlewares/req_logger");
 const session_manager = require("./middlewares/session_manager");
 
-server = app.listen(5000)
-const io = require('socket.io')(server);
-io.on('connection', (socket) => {
-    console.log("Socket initiated")
 
-    // notation for sending a message
-    socket.emit('new_message', 
-        {
-            command: "ACCEPTED",
-            app_data: {app_id: "93&jsd6%0Akjkda"}
-        }
-    )
-
-
-    // triggers when server receives a message
-    socket.on('new_message', (data) => {
-        
-    })
-})
 
 if (!config.production){
     app.use(bodyParser.urlencoded({extended: true}));
