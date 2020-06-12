@@ -1,0 +1,48 @@
+Server -> Client: 
+
+// different tiers for the client to interpret. The higher the level the more critical the request. Ensures proper routing and speed.
+level: {1, 2, 3, 4, 5} 
+
+// where data about the client software is contained
+app_data: {
+    virus_detected: true,
+    virus_data: {
+        virus_name: "12345.exe",
+        virus_size: "27MB",
+        recommended_action: "0x19", // action recommended to deal with the virus
+        main_card: true // will make the top card visible with this data.
+    }
+}
+
+// very important
+security: {
+    security_level: 8, // this is how secure the socket connection should be. ratio between the security and speed. x/10
+    security_hash: "982848289432'#sadff.923k23k4jfdsa98^6S**A%^a0a.("8282kdmasfsdjf" // hash to confirm no changed to session
+    
+    keep_alive_ttl: 300, // seconds
+}
+
+
+EXAMPLES: 
+(Client -> Server. Kill Connection)
+
+1. 
+{
+    level: 5
+    command: "end_session",
+    end_type: kill, // sudden connection drop. (peaceful, kill)
+    reason: "modified hash signature" // will be logged
+}
+
+2.
+{
+    level: 5,
+    command: "raise_security",
+    security_level: 10 // highest,
+    parameters: {
+        check_ip: true,
+        use_hash: true,
+        digest_type: "url64",
+        sha_type: "SHA512"
+    }
+}
