@@ -14,6 +14,8 @@ actions.setIO(io);
 io.on('connection', (socket) => {
     console.log("Socket initiated")
 
+    socket.emit("new_message", {command: "ACCEPTED"});
+
     // middleware
     io.use((socket, next) => {
         let token = socket.handshake.query.token;

@@ -40,6 +40,12 @@ class Dashboard extends Component {
     }
 
     componentDidMount(){
+        var session = localStorage.getItem("session_data");
+        if (session == null) {
+            console.log("hmmm")
+        } else {
+            console.log("ysy")
+        }
     }
 
     render(){

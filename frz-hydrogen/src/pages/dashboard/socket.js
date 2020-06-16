@@ -17,7 +17,13 @@ const Socket = (props) => {
     useEffect(() => {
         const socket = socketIOClient(ENDPOINT);
 
-        socket.emit('new_message', "test")
+        socket.emit('new_message', {
+            level: 5,
+            command: "login",
+            login_type: "uuid",
+            login_uuid: "kksdf3'asdfsa['dsaf;*272"
+        });
+        
         socket.on('new_message', (data) => {
             console.log(data)
             if (data.command == "KILL") {

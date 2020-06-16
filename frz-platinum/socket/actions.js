@@ -18,10 +18,17 @@ var Actions = (function(){
         socket.emit("new_message", {level: message_level, message_body})
     }
 
+    // TODO: add a backend model fetch
+    function login_user(socket, data) {
+        if (data.login_uuid == "1234") {
+            
+        }
+
     return {
         return_error,
         return_message,
-        setIO
+        setIO,
+        login_user
     }
 
 }());

@@ -1,0 +1,63 @@
+BEST AUTHENTICATION WAY KNOWN:
+
+    when a user first uses the web app, ask them to get a generated key from the software. this key will then be strongly encrytped with details that allow for tracing if leaked. it will be unique to user and
+    stored as a uuid.
+
+    users can reject keys and the key must be linked to only one device ip. 
+
+    the key when decrypted will contain data like the devices screen size, components web browser and things which can be compared to the web page requester. If data is considerably mismatched to the user then
+    the key will be auto revoked.
+
+    data will also be compared to database aswell and also the clients components
+
+    the spec below shows a method which is fall proof, data cannot be tampered and if attempted. Will result in immediate key rejection. The token acts as a token which links the user to app in its decrypted form
+
+
+{
+    IP: "192.168.1.1",
+    TOKEN: "kfksdjfj38we0fd8ad**200",
+    SCREEN_SIZE: "1922*2080",
+    CLIENT_SOFTWARE_VERSION: 1.2.9,
+    KEYBOARD_LAYOUT: "QWERTY",
+    KEYBOARD_SIZE: "100%",
+    FORCE_AUTH: FALSE,
+    DATE_CREATED: "15-06-2020",
+    TIME_CREATED: "21:16",
+    WEB_APP_VERSION: 1.8.2
+} 
+
+INTO
+
+HEADER
+{
+  "alg": "HS512",
+  "typ": "JWT"
+}
+
+BODY
+{
+    "IP": "192.168.1.1",
+    "TOKEN": "kfksdjfj38we0fd8ad**200",
+    "SCREEN_SIZE": "1922*2080",
+    "CLIENT_SOFTWARE_VERSION": "1.2.9",
+    "KEYBOARD_LAYOUT": "QWERTY",
+    "KEYBOARD_SIZE": "100%",
+    "FORCE_AUTH": "FALSE",
+    "DATE_CREATED": "15-06-2020",
+    "TIME_CREATED": "21:16",
+    "WEB_APP_VERSION": "1.8.2"
+} 
+
+HMACSHA512
+(
+  base64UrlEncode(header) + "." +
+  base64UrlEncode(payload),
+  
+;9fjifjasjdfijs0adfj*A&S(Dasdnansdnajsjashdhashdh3huas}]]a[sd[32367489eodcjm
+
+)
+
+
+ENCRYPTED
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJUCI6IjE5Mi4xNjguMS4xIiwiVE9LRU4iOiJrZmtzZGpmajM4d2UwZmQ4YWQqKjIwMCIsIlNDUkVFTl9TSVpFIjoiMTkyMioyMDgwIiwiQ0xJRU5UX1NPRlRXQVJFX1ZFUlNJT04iOiIxLjIuOSIsIktFWUJPQVJEX0xBWU9VVCI6IlFXRVJUWSIsIktFWUJPQVJEX1NJWkUiOiIxMDAlIiwiRk9SQ0VfQVVUSCI6IkZBTFNFIiwiREFURV9DUkVBVEVEIjoiMTUtMDYtMjAyMCIsIlRJTUVfQ1JFQVRFRCI6IjIxOjE2IiwiV0VCX0FQUF9WRVJTSU9OIjoiMS44LjIifQ.Lb_lsOUR1PfbSokm5ZjQPeXGRmGHfrHZIhuX5e2pNOuJqcVIxgm8rDqUZUTyP_CtI2JhyDeLYtJVgRvYAsGqeg
+
