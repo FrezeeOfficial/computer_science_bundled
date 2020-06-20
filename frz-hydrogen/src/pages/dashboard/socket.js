@@ -8,10 +8,10 @@ const Socket = (props) => {
     const [response, setResponse] = useState("");
     
     function invokeError(error, error_code, error_point){
-        props.socketFault(error, error_code, error_point)
+        props.socket_error(error, error_code, error_point)
     }
     function socketAccepted(val){
-        props.socketAccepted(val);
+        props.socket_accepted(val);
     }
 
     useEffect(() => {
