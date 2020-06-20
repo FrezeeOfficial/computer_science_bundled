@@ -31,7 +31,7 @@ class Dashboard extends Component {
     }
 
     socketError = (error, error_code, error_point) => {
-        this.setState({socket: {error: error, error_code: error_code, error_point}});
+        this.setState({socket: {error: error, error_code: error_code, error_point}, device: {readable_error: "ENDPOINT REVOKED"}});
     }
     socketAccepted = (val) => {
         // established connection with the socket server
@@ -51,6 +51,7 @@ class Dashboard extends Component {
     render(){
         if (this.state.socket.error){
             return (
+                <React.Fragment>
                 <div className="error-modal">
                 <div className="error-modal-inner">
                   <svg xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98">
@@ -68,6 +69,10 @@ class Dashboard extends Component {
                     <span className="small-text">Failure Point: {this.state.socket.error_point || "Unknown"}</span>
                 </div>
             </div>
+            <div className="connectivity-bar">
+                <span>{this.state.device.readable_error}<i>I</i></span>
+            </div>
+            </React.Fragment>
             )
         }
         if (!this.state.isLoaded){
