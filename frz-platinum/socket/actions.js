@@ -20,8 +20,9 @@ var Actions = (function(){
 
     // TODO: add a backend model fetch
     function login_user(socket, data) {
-        if (data.login_uuid == "1234") {
-            
+        console.log(data)
+        if (data.login_uuid == "11111-11111-11111-11111-11111") {
+            return_message(5, {command: "login", status: "accepted"})
         }
     }
 

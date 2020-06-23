@@ -78,7 +78,7 @@ class Dashboard extends Component {
             return (<span>sorry you can'sign up yet</span>)
         } else {
             // will display splash screen
-            return (<div> <Socket socket_data={localStorage.getItem("session_data")} socket_error={this.socketError} socket_accepted={this.socketAccepted} socket_rejected={this.socketRejected}/> <SplashPage/> <StatusBar/> </div>)
+            return (<div> <Socket socket_data={localStorage.getItem("app_data")} socket_error={this.socketError} socket_accepted={this.socketAccepted} socket_rejected={this.socketRejected}/> <SplashPage/> <StatusBar/> </div>)
         }
     }
 }

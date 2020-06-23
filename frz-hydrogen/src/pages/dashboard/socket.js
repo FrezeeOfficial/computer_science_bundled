@@ -5,6 +5,7 @@ const ENDPOINT = "http://localhost:5000";
 
 const Socket = (props) => {
 
+    var app_data = JSON.parse(props.socket_data);
     const [response, setResponse] = useState("");
     
     function invokeError(error, error_code, error_point){
@@ -21,14 +22,14 @@ const Socket = (props) => {
             level: 5,
             command: "login",
             login_type: "uuid",
-            login_uuid: "kksdf3'asdfsa['dsaf;*272"
+            login_uuid: app_data.uuid
         });
         
         socket.on('new_message', (data) => {
             console.log(data)
             if (data.command == "KILL") {
                 invokeError(true, "0x02", "C6100")
-            } else if (data.command == "ACCEPTED") {
+            } else if (data.command == "login" || data.status == "accepted") {
                 socketAccepted(true);
             }
         })
