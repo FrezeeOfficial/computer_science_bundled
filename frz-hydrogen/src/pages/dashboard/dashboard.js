@@ -59,8 +59,8 @@ class Dashboard extends Component {
         // this is the function which self invokes. It's where all calls will originate from
 
         // check if user hos used this computer before
-        var session = localStorage.getItem("session_data");
-        if (session != null) {
+        var app_data = localStorage.getItem("app_data");
+        if (app_data != null) {
             this.setState({userExist: true})
         }
 

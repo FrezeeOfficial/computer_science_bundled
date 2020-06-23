@@ -23,6 +23,7 @@ var Actions = (function(){
         if (data.login_uuid == "1234") {
             
         }
+    }
 
     return {
         return_error,
