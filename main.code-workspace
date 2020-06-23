@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "frz-hydrogen"
+		},
+		{
+			"path": "frz-platinum"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

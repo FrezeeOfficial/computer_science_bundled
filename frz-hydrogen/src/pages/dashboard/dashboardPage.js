@@ -58,8 +58,8 @@ class DashboardPage extends Component {
             <div className="content">
                 <div className="card-fullsize">
                     <div className="card-left">
-                        <span className="card-header">{this.state.app_data.card1.header}<span className={ "text-color-" + this.state.app_data.card1.Textcolor} > - RECOMMENDED</span></span>
-                        <span className="card-body">{this.state.app_data.card1.body}</span>
+                        <span className="card-header">{this.props.app_data.app_data.card1.header}<span className={ "text-color-" + this.props.app_data.app_data.card1.Textcolor} > - RECOMMENDED</span></span>
+                        <span className="card-body">{this.props.app_data.app_data.card1.body}</span>
                     </div>
                     <div className="card-right">
                         <button>START</button>

@@ -1,3 +1,5 @@
+var Authenticate = require("./authenticate");
+
 var Actions = (function(){
     var io = undefined;
 
@@ -20,9 +22,8 @@ var Actions = (function(){
 
     // TODO: add a backend model fetch
     function login_user(socket, data) {
-        console.log(data)
-        if (data.login_uuid == "11111-11111-11111-11111-11111") {
-            return_message(5, {command: "login", status: "accepted"})
+        if (Authenticate()) {
+            return_message(socket, "5", { command: "login", status: "accepted" })
         }
     }
 

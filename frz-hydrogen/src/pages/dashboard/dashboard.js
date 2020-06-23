@@ -65,14 +65,14 @@ class Dashboard extends Component {
         }
 
     }
-
+ 
     render(){
-        if (this.state.isLoaded) {
-            // displays the dashboard
-            return (<div> <DashboardPage/> <StatusBar/> </div>)
-        } else if (this.state.error.error) {
+        if (this.state.error.error) {
             // displays the error
             return (<div> <ErrorPage error_code={this.state.error.error_code} error_point={this.state.error_point}/> <StatusBar/> </div>)
+        } else if (this.state.isLoaded) {
+            // displays the dashboard
+            return (<div> <DashboardPage app_data={this.state} /> <StatusBar/> </div>)
         } else if (!this.state.userExist){
             // display the new user signup form
             return (<span>sorry you can'sign up yet</span>)

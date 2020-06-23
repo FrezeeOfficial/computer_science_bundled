@@ -1,5 +1,5 @@
 var Authenticate = function(){
-    return false
+    return true
 };
 
 module.exports = Authenticate;

@@ -36,6 +36,7 @@
     
 .sidebar {
     width: 303px;
+    position: fixed;
     background-color: #1A222E;
     float: left;
     height: 100%;

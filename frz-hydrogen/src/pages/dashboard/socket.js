@@ -29,7 +29,7 @@ const Socket = (props) => {
             console.log(data)
             if (data.command == "KILL") {
                 invokeError(true, "0x02", "C6100")
-            } else if (data.command == "login" || data.status == "accepted") {
+            } else if (data.message_body.command == "login" && data.message_body.status == "accepted") {
                 socketAccepted(true);
             }
         })
