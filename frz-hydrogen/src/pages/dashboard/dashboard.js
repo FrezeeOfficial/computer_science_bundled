@@ -7,6 +7,7 @@ import ErrorPage from './errorPage'
 import DashboardPage from './dashboardPage';
 import SplashPage from './splashPage';
 import StatusBar from './statusBar';
+import LoginPage from './login';
 
 class Dashboard extends Component {
     constructor(props) {
@@ -55,6 +56,11 @@ class Dashboard extends Component {
 
     }
 
+    login_complete(event){
+        console.log(event);
+        console.log("yey")
+    }
+
     componentDidMount(){
         // this is the function which self invokes. It's where all calls will originate from
 
@@ -75,7 +81,7 @@ class Dashboard extends Component {
             return (<div> <DashboardPage app_data={this.state} /> <StatusBar/> </div>)
         } else if (!this.state.userExist){
             // display the new user signup form
-            return (<span>sorry you can'sign up yet</span>)
+            return (<LoginPage completed={this.login_complete} />)
         } else {
             // will display splash screen
             return (<div> <Socket socket_data={localStorage.getItem("app_data")} socket_error={this.socketError} socket_accepted={this.socketAccepted} socket_rejected={this.socketRejected}/> <SplashPage/> <StatusBar/> </div>)

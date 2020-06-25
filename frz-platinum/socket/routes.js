@@ -1,5 +1,4 @@
 const Actions = require("./actions");
-var jwtDecode = require('jwt-decode');
 
 var Routes = (function() {
     _private: {
@@ -7,12 +6,7 @@ var Routes = (function() {
 
     function handleL5(socket, data){
         if (data.command == "login") {
-            var decoded_token = jwtDecode(JSON.parse(data.app_data).session);
-            if (decoded_token.token == "11111-11111-11111-11111-11111") {
-                Actions.login_user(socket, data);
-            } else {
-                Actions.return_error(socket, 5, "failed session data")
-            }
+            Actions.login_user(socket, data);
         }
     }
 
