@@ -13,7 +13,7 @@ actions.setIO(io);
 // controller will manage the session, routes will handle a recieved message and action will do the appropriate action
 io.on('connection', (socket) => {
     console.log("Socket initiated")
-    socket.emit("new_message", {command: "KILL"})
+
     // middleware
     io.use((socket, next) => {
         let token = socket.handshake.query.token;

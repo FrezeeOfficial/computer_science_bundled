@@ -22,7 +22,8 @@ const Socket = (props) => {
             level: 5,
             command: "login",
             login_type: "uuid",
-            login_uuid: app_data.uuid
+            login_uuid: app_data.uuid,
+            app_data: props.socket_data
         });
         
         socket.on('new_message', (data) => {

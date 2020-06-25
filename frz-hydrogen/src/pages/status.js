@@ -7,7 +7,7 @@ class Status extends Component {
         super(props);
         this.state = {
             header: {
-                status: "Released Statement: Regularly monitor for service changes",
+                status: "Generated: ",
                 icon: "white fa fa-times",
                 colour: "m-b card-yellow"
             },
@@ -21,8 +21,31 @@ class Status extends Component {
 
     componentDidMount(){
         // fetch data here
-            
+        
+        
     }
+
+    ping(ip, callback) {
+
+        if(!this.inUse) {
+      
+          this.inUse = true;
+          this.callback = callback
+          this.ip = ip;
+      
+          var _that = this;
+      
+          this.img = new Image();
+      
+          this.img.onload = function() {_that.good();};
+          this.img.onerror = function() {_that.good();};
+      
+          this.start = new Date().getTime();
+          this.img.src = "http://" + ip;
+          this.timer = setTimeout(function() { _that.bad();}, 1500);
+      
+        }
+      }
 
     render() {
         var rows = [];
