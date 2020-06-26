@@ -20,12 +20,14 @@ class NeuralNetwork {
 public:
     NeuralNetwork(std::vector<int> topology, Scalar learningRate = Scalar(0.005));
 
-    void propagateForward(RowVector& output);
+    void propagateForward(RowVector& input);
     void propagateBackward(RowVector& output);
 
     void calcErrors(RowVector& output);
     void updateWeights();
-    void train(std::vector<RowVector*> data);
+    void train(std::vector<RowVector*> input_data, std::vector<RowVector*> output_data);
+
+    Scalar activationFunctionDerivative(Scalar x);
 
     std::vector<RowVector*> neuronLayers;
     std::vector<RowVector*> cacheLayers;
