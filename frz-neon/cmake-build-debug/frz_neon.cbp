@@ -5,7 +5,7 @@
 		<Option title="frz_neon"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\eigen\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="G:/Computer Science/Bundled/frz-neon/cmake-build-debug"/>
@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -47,6 +48,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -84,17 +86,26 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="G:/Computer Science/Bundled/frz-neon/include/perceptron.h">
+		<Unit filename="G:/Computer Science/Bundled/frz-neon/include/NeuralNetwork.h">
 			<Option target="frz_neon"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/frz-neon/main.cpp">
 			<Option target="frz_neon"/>
 		</Unit>
-		<Unit filename="G:/Computer Science/Bundled/frz-neon/src/perceptron.cpp">
+		<Unit filename="G:/Computer Science/Bundled/frz-neon/src/NeuralNetwork.cpp">
 			<Option target="frz_neon"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/frz-neon/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/frz-neon/lib/eigen/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\lib\eigen\"/>
+		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/frz-neon/lib/eigen/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\lib\eigen\"/>
+		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/frz-neon/lib/eigen/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\lib\eigen\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\CMakeFiles\4ee2daf59167b43a087eb3d1cf1f6451\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AE3CF8EB-22F6-3012-BDA2-40A1FE7B25E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

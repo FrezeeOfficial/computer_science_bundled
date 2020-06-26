@@ -77,35 +77,35 @@ CMakeFiles\frz_neon.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\frz_neon.dir\main.cpp.s /c "G:\Computer Science\Bundled\frz-neon\main.cpp"
 <<
 
-CMakeFiles\frz_neon.dir\src\perceptron.cpp.obj: CMakeFiles\frz_neon.dir\flags.make
-CMakeFiles\frz_neon.dir\src\perceptron.cpp.obj: ..\src\perceptron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Computer Science\Bundled\frz-neon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/frz_neon.dir/src/perceptron.cpp.obj"
+CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.obj: CMakeFiles\frz_neon.dir\flags.make
+CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.obj: ..\src\NeuralNetwork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Computer Science\Bundled\frz-neon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/frz_neon.dir/src/NeuralNetwork.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\frz_neon.dir\src\perceptron.cpp.obj /FdCMakeFiles\frz_neon.dir\ /FS -c "G:\Computer Science\Bundled\frz-neon\src\perceptron.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.obj /FdCMakeFiles\frz_neon.dir\ /FS -c "G:\Computer Science\Bundled\frz-neon\src\NeuralNetwork.cpp"
 <<
 
-CMakeFiles\frz_neon.dir\src\perceptron.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frz_neon.dir/src/perceptron.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\frz_neon.dir\src\perceptron.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Computer Science\Bundled\frz-neon\src\perceptron.cpp"
+CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frz_neon.dir/src/NeuralNetwork.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Computer Science\Bundled\frz-neon\src\NeuralNetwork.cpp"
 <<
 
-CMakeFiles\frz_neon.dir\src\perceptron.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frz_neon.dir/src/perceptron.cpp.s"
+CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frz_neon.dir/src/NeuralNetwork.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\frz_neon.dir\src\perceptron.cpp.s /c "G:\Computer Science\Bundled\frz-neon\src\perceptron.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.s /c "G:\Computer Science\Bundled\frz-neon\src\NeuralNetwork.cpp"
 <<
 
 # Object files for target frz_neon
 frz_neon_OBJECTS = \
 "CMakeFiles\frz_neon.dir\main.cpp.obj" \
-"CMakeFiles\frz_neon.dir\src\perceptron.cpp.obj"
+"CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.obj"
 
 # External object files for target frz_neon
 frz_neon_EXTERNAL_OBJECTS =
 
 frz_neon.exe: CMakeFiles\frz_neon.dir\main.cpp.obj
-frz_neon.exe: CMakeFiles\frz_neon.dir\src\perceptron.cpp.obj
+frz_neon.exe: CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.obj
 frz_neon.exe: CMakeFiles\frz_neon.dir\build.make
 frz_neon.exe: CMakeFiles\frz_neon.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Computer Science\Bundled\frz-neon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable frz_neon.exe"

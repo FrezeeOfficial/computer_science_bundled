@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_JacobiSVD_basic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\snippets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{938D25BA-2ED1-3FD9-AF1E-21A0A72A2E7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

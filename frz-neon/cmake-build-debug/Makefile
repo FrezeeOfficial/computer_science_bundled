@@ -151,32 +151,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\main.cpp.s
 .PHONY : main.cpp.s
 
-src\perceptron.obj: src\perceptron.cpp.obj
+src\NeuralNetwork.obj: src\NeuralNetwork.cpp.obj
 
-.PHONY : src\perceptron.obj
+.PHONY : src\NeuralNetwork.obj
 
 # target to build an object file
-src\perceptron.cpp.obj:
-	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\perceptron.cpp.obj
-.PHONY : src\perceptron.cpp.obj
+src\NeuralNetwork.cpp.obj:
+	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.obj
+.PHONY : src\NeuralNetwork.cpp.obj
 
-src\perceptron.i: src\perceptron.cpp.i
+src\NeuralNetwork.i: src\NeuralNetwork.cpp.i
 
-.PHONY : src\perceptron.i
+.PHONY : src\NeuralNetwork.i
 
 # target to preprocess a source file
-src\perceptron.cpp.i:
-	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\perceptron.cpp.i
-.PHONY : src\perceptron.cpp.i
+src\NeuralNetwork.cpp.i:
+	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.i
+.PHONY : src\NeuralNetwork.cpp.i
 
-src\perceptron.s: src\perceptron.cpp.s
+src\NeuralNetwork.s: src\NeuralNetwork.cpp.s
 
-.PHONY : src\perceptron.s
+.PHONY : src\NeuralNetwork.s
 
 # target to generate assembly for a file
-src\perceptron.cpp.s:
-	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\perceptron.cpp.s
-.PHONY : src\perceptron.cpp.s
+src\NeuralNetwork.cpp.s:
+	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.s
+.PHONY : src\NeuralNetwork.cpp.s
 
 # Help Target
 help:
@@ -190,9 +190,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/perceptron.obj
-	@echo ... src/perceptron.i
-	@echo ... src/perceptron.s
+	@echo ... src/NeuralNetwork.obj
+	@echo ... src/NeuralNetwork.i
+	@echo ... src/NeuralNetwork.s
 .PHONY : help
 
 

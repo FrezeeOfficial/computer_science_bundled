@@ -1,0 +1,1554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E41556B4-D170-3207-90E7-66B71FA1A655}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Computer Science\Bundled\frz-neon\lib\eigen\doc;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7;G:\Computer Science\Bundled\frz-neon\lib\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Computer Science\Bundled\frz-neon\lib\eigen\doc;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7;G:\Computer Science\Bundled\frz-neon\lib\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Computer Science\Bundled\frz-neon\lib\eigen\doc;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7;G:\Computer Science\Bundled\frz-neon\lib\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Computer Science\Bundled\frz-neon\lib\eigen\doc;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7;G:\Computer Science\Bundled\frz-neon\lib\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7" "-BG:/Computer Science/Bundled/frz-neon/lib/eigen" --check-stamp-file "G:/Computer Science/Bundled/frz-neon/lib/eigen/doc/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\Doxyfile.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_footer.html.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_header.html.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_layout.xml.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7" "-BG:/Computer Science/Bundled/frz-neon/lib/eigen" --check-stamp-file "G:/Computer Science/Bundled/frz-neon/lib/eigen/doc/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\Doxyfile.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_footer.html.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_header.html.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_layout.xml.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7" "-BG:/Computer Science/Bundled/frz-neon/lib/eigen" --check-stamp-file "G:/Computer Science/Bundled/frz-neon/lib/eigen/doc/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\Doxyfile.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_footer.html.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_header.html.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_layout.xml.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7" "-BG:/Computer Science/Bundled/frz-neon/lib/eigen" --check-stamp-file "G:/Computer Science/Bundled/frz-neon/lib/eigen/doc/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\Doxyfile.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_footer.html.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_header.html.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\doc\eigendoxy_layout.xml.in;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\ZERO_CHECK.vcxproj">
+      <Project>{E41CE922-E18B-3E0E-BC78-62F379F3F497}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\CustomizingEigen_Inheritance.vcxproj">
+      <Project>{8D625DA9-76CB-3F59-B9B4-A6D7ADBEED75}</Project>
+      <Name>CustomizingEigen_Inheritance</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Cwise_erf.vcxproj">
+      <Project>{6D97FB23-D446-38C7-B488-BE768A287F17}</Project>
+      <Name>Cwise_erf</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Cwise_erfc.vcxproj">
+      <Project>{89E5D910-E8E3-3F61-8B70-29774A295B91}</Project>
+      <Name>Cwise_erfc</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Cwise_lgamma.vcxproj">
+      <Project>{09A7840D-97C8-3B91-810D-9EF1EE930515}</Project>
+      <Name>Cwise_lgamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\DenseBase_middleCols_int.vcxproj">
+      <Project>{17FBF7F7-1AFF-32A0-BC1B-1A04AA420FE5}</Project>
+      <Name>DenseBase_middleCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\DenseBase_middleRows_int.vcxproj">
+      <Project>{27C9E7BA-CE52-38B3-A0FE-CB097BE92655}</Project>
+      <Name>DenseBase_middleRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\DenseBase_template_int_middleCols.vcxproj">
+      <Project>{B41656EF-E090-3EFB-95AD-3C02BD7CF573}</Project>
+      <Name>DenseBase_template_int_middleCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\DenseBase_template_int_middleRows.vcxproj">
+      <Project>{66D0EDF8-FD08-3F72-A140-1541AD1CC70F}</Project>
+      <Name>DenseBase_template_int_middleRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\QuickStart_example.vcxproj">
+      <Project>{7EC2D28A-73B8-38B4-8ED5-AFF53CB9D411}</Project>
+      <Name>QuickStart_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\QuickStart_example2_dynamic.vcxproj">
+      <Project>{EDF7FEA9-37B3-3779-9AD2-DC8AF7B02FF1}</Project>
+      <Name>QuickStart_example2_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\QuickStart_example2_fixed.vcxproj">
+      <Project>{B87577C7-F854-3646-BB3B-CEC9B4C3A82C}</Project>
+      <Name>QuickStart_example2_fixed</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TemplateKeyword_flexible.vcxproj">
+      <Project>{D297206E-ED0E-3A2A-8ACB-F4F893F60BDB}</Project>
+      <Name>TemplateKeyword_flexible</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TemplateKeyword_simple.vcxproj">
+      <Project>{CAF3402C-462D-3784-B43A-C16E833B9A6B}</Project>
+      <Name>TemplateKeyword_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialInplaceLU.vcxproj">
+      <Project>{8443123E-870B-3E9F-B61B-2237A5637811}</Project>
+      <Name>TutorialInplaceLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialLinAlgComputeTwice.vcxproj">
+      <Project>{E4258086-B4F5-320F-A847-82DB9673ACC8}</Project>
+      <Name>TutorialLinAlgComputeTwice</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialLinAlgExComputeSolveError.vcxproj">
+      <Project>{757FA533-B51A-3D8C-8B27-B90FF6A42FEA}</Project>
+      <Name>TutorialLinAlgExComputeSolveError</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialLinAlgExSolveColPivHouseholderQR.vcxproj">
+      <Project>{689827EE-996D-319B-A004-D2F179A13627}</Project>
+      <Name>TutorialLinAlgExSolveColPivHouseholderQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialLinAlgExSolveLDLT.vcxproj">
+      <Project>{F7392F9E-ABBF-3571-AE68-B4E53B1D7BF4}</Project>
+      <Name>TutorialLinAlgExSolveLDLT</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialLinAlgInverseDeterminant.vcxproj">
+      <Project>{39F72E05-1142-33A8-AD98-8CD4E1698B83}</Project>
+      <Name>TutorialLinAlgInverseDeterminant</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialLinAlgRankRevealing.vcxproj">
+      <Project>{AD39B0C9-A8FA-3DF7-96CF-0EBB7D08B12C}</Project>
+      <Name>TutorialLinAlgRankRevealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialLinAlgSVDSolve.vcxproj">
+      <Project>{76DEC67B-4E9C-3E00-A660-25AF3737CD00}</Project>
+      <Name>TutorialLinAlgSVDSolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialLinAlgSelfAdjointEigenSolver.vcxproj">
+      <Project>{94F14631-D113-3EB2-B573-0EACA7177EA1}</Project>
+      <Name>TutorialLinAlgSelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\TutorialLinAlgSetThreshold.vcxproj">
+      <Project>{059F46F8-78A4-3C8C-96D1-B7328EB4E01C}</Project>
+      <Name>TutorialLinAlgSetThreshold</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ArrayClass_accessors.vcxproj">
+      <Project>{139237B1-A6F2-3D37-82BF-79CEED9C32C9}</Project>
+      <Name>Tutorial_ArrayClass_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ArrayClass_addition.vcxproj">
+      <Project>{DDFB793A-6EE5-3ABA-8C43-37B49DCB182A}</Project>
+      <Name>Tutorial_ArrayClass_addition</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ArrayClass_cwise_other.vcxproj">
+      <Project>{C351963E-6197-3BE1-A543-6DB17032EE93}</Project>
+      <Name>Tutorial_ArrayClass_cwise_other</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ArrayClass_interop.vcxproj">
+      <Project>{E1969ABE-6D40-3816-BA5B-4CE3402EE203}</Project>
+      <Name>Tutorial_ArrayClass_interop</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ArrayClass_interop_matrix.vcxproj">
+      <Project>{4175EAA1-FA2D-3969-8ABC-B2A2CB726DC9}</Project>
+      <Name>Tutorial_ArrayClass_interop_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ArrayClass_mult.vcxproj">
+      <Project>{4083D2F0-62DE-3B90-895F-5DB996E96B0C}</Project>
+      <Name>Tutorial_ArrayClass_mult</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_BlockOperations_block_assignment.vcxproj">
+      <Project>{5C59F689-9A41-3872-86F9-CDDAE2811CBA}</Project>
+      <Name>Tutorial_BlockOperations_block_assignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_BlockOperations_colrow.vcxproj">
+      <Project>{B97E02FE-63B7-3DAA-93B4-F3C346420E06}</Project>
+      <Name>Tutorial_BlockOperations_colrow</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_BlockOperations_corner.vcxproj">
+      <Project>{AAA510F7-2853-303C-AFE8-A3B67F040632}</Project>
+      <Name>Tutorial_BlockOperations_corner</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_BlockOperations_print_block.vcxproj">
+      <Project>{6A1FDE39-01DF-38A0-93D1-A2582DE6F809}</Project>
+      <Name>Tutorial_BlockOperations_print_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_BlockOperations_vector.vcxproj">
+      <Project>{953A1E15-FECF-3AA9-9BF3-153AE03B4EDA}</Project>
+      <Name>Tutorial_BlockOperations_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_PartialLU_solve.vcxproj">
+      <Project>{3122E57B-8505-343E-B1C8-074DD7F2E833}</Project>
+      <Name>Tutorial_PartialLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.vcxproj">
+      <Project>{B821DC80-D8A7-32DA-91CF-B6D6CA0B4A64}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.vcxproj">
+      <Project>{EAF43A7A-C33E-3393-9E6C-DBFF00C49FBE}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.vcxproj">
+      <Project>{65761959-04E4-32EF-8502-A9FAFCD8F129}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_colwise.vcxproj">
+      <Project>{7D486999-17E1-31C8-95BD-2FD5E2309068}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_maxnorm.vcxproj">
+      <Project>{12753AF1-F403-3645-A575-699918DEBEFC}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_maxnorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.vcxproj">
+      <Project>{DA1EFA47-E148-3735-9A26-B787187EB1E8}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_bool</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.vcxproj">
+      <Project>{54863FCB-2C83-36D8-8082-DD8B3FAC3BAB}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.vcxproj">
+      <Project>{84AC0538-3CE5-3BCE-A713-39FEF4AABA39}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_rowwise.vcxproj">
+      <Project>{CA3917CF-4562-3567-BF7D-AEAA017BFC09}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_visitors.vcxproj">
+      <Project>{E00F4CC7-C535-3D71-87F6-BEF337F1DC9E}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_visitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_simple_example_dynamic_size.vcxproj">
+      <Project>{C582645A-48F2-30B3-97CC-2E91D76C1A7D}</Project>
+      <Name>Tutorial_simple_example_dynamic_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\Tutorial_simple_example_fixed_size.vcxproj">
+      <Project>{99CC5CD5-6709-3330-931B-61100FCB0C11}</Project>
+      <Name>Tutorial_simple_example_fixed_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\class_Block.vcxproj">
+      <Project>{AE1A81C0-4978-35CD-ABD3-5C2403B43F93}</Project>
+      <Name>class_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\class_CwiseBinaryOp.vcxproj">
+      <Project>{0E2CDF09-D92E-3FFD-91F9-1C4D610048F8}</Project>
+      <Name>class_CwiseBinaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\class_CwiseUnaryOp.vcxproj">
+      <Project>{3FAA976C-2103-3A5F-B4B8-CC2772BB6E56}</Project>
+      <Name>class_CwiseUnaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\class_CwiseUnaryOp_ptrfun.vcxproj">
+      <Project>{5DC7CF47-5583-34E8-BE04-613FEB75A50B}</Project>
+      <Name>class_CwiseUnaryOp_ptrfun</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\class_FixedBlock.vcxproj">
+      <Project>{1879F8F4-FA42-39A6-AE62-A2230D5E3934}</Project>
+      <Name>class_FixedBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\class_FixedVectorBlock.vcxproj">
+      <Project>{9232DA48-601D-39E7-8E4E-CEF7DAC0E76F}</Project>
+      <Name>class_FixedVectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\class_VectorBlock.vcxproj">
+      <Project>{EC869996-F342-31AD-A559-FD322D643939}</Project>
+      <Name>class_VectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_AngleAxis_mimic_euler.vcxproj">
+      <Project>{590079D2-8BCE-390D-B071-9F51687100ED}</Project>
+      <Name>compile_AngleAxis_mimic_euler</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_BiCGSTAB_simple.vcxproj">
+      <Project>{B0B3FF8B-AEE4-3402-B179-1502DA06302C}</Project>
+      <Name>compile_BiCGSTAB_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_BiCGSTAB_step_by_step.vcxproj">
+      <Project>{34413DE1-2AE9-3377-9CC8-D14D8E30DF7A}</Project>
+      <Name>compile_BiCGSTAB_step_by_step</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_ColPivHouseholderQR_solve.vcxproj">
+      <Project>{BEE16682-732B-38BF-8AD6-07D59ABDD339}</Project>
+      <Name>compile_ColPivHouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_ComplexEigenSolver_compute.vcxproj">
+      <Project>{286576BD-EE43-3973-BA6C-FCA1E8A240D7}</Project>
+      <Name>compile_ComplexEigenSolver_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_ComplexEigenSolver_eigenvalues.vcxproj">
+      <Project>{1283F6DC-B07F-391D-BDC1-608210C8BB22}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_ComplexEigenSolver_eigenvectors.vcxproj">
+      <Project>{86AADFA7-A16F-3768-BDBB-C83C85F1F537}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_ComplexSchur_compute.vcxproj">
+      <Project>{CFB44E5C-107F-33BA-89AC-BB7837219F5C}</Project>
+      <Name>compile_ComplexSchur_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_ComplexSchur_matrixT.vcxproj">
+      <Project>{C364E11A-A344-352A-9C49-F67FB82D7203}</Project>
+      <Name>compile_ComplexSchur_matrixT</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_ComplexSchur_matrixU.vcxproj">
+      <Project>{42010C87-942D-3161-BDCD-4DDC1580D38D}</Project>
+      <Name>compile_ComplexSchur_matrixU</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_abs.vcxproj">
+      <Project>{214EABD7-F64B-378C-AAC7-F6655BB55CB4}</Project>
+      <Name>compile_Cwise_abs</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_abs2.vcxproj">
+      <Project>{B2D4E0E9-D205-3EB8-B7E0-94EA0583246D}</Project>
+      <Name>compile_Cwise_abs2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_acos.vcxproj">
+      <Project>{7A84FD34-5333-3D1B-8D78-D61135851B83}</Project>
+      <Name>compile_Cwise_acos</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_arg.vcxproj">
+      <Project>{A2AD3993-E01D-3329-B5FD-B79512EF0C67}</Project>
+      <Name>compile_Cwise_arg</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_array_power_array.vcxproj">
+      <Project>{2184CC37-CD4C-3DBF-85A2-0D9FBB771B79}</Project>
+      <Name>compile_Cwise_array_power_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_asin.vcxproj">
+      <Project>{AAFDFD67-1FDC-3654-AD04-796812B5DE2A}</Project>
+      <Name>compile_Cwise_asin</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_atan.vcxproj">
+      <Project>{3FE8C7BC-5CF8-3049-906F-66B53685CE29}</Project>
+      <Name>compile_Cwise_atan</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_boolean_and.vcxproj">
+      <Project>{2C9BF760-D09F-3B3D-8912-178E9AC36C60}</Project>
+      <Name>compile_Cwise_boolean_and</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_boolean_not.vcxproj">
+      <Project>{11B61390-C72A-3B33-9F0A-A154672E6C95}</Project>
+      <Name>compile_Cwise_boolean_not</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_boolean_or.vcxproj">
+      <Project>{0E6D0066-6D80-3245-A699-B2F79EA78B50}</Project>
+      <Name>compile_Cwise_boolean_or</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_boolean_xor.vcxproj">
+      <Project>{ABAB410E-A0E5-31B4-BF6C-E0036909A449}</Project>
+      <Name>compile_Cwise_boolean_xor</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_ceil.vcxproj">
+      <Project>{3F001560-21CB-3FF7-883B-693C4EDABAB8}</Project>
+      <Name>compile_Cwise_ceil</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_cos.vcxproj">
+      <Project>{33F62D95-E333-3A22-A407-251F00500525}</Project>
+      <Name>compile_Cwise_cos</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_cosh.vcxproj">
+      <Project>{B4A43EB9-36DD-3664-8809-AFC570A95A43}</Project>
+      <Name>compile_Cwise_cosh</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_cube.vcxproj">
+      <Project>{D1F3A29F-566C-3B8A-871D-09303538C025}</Project>
+      <Name>compile_Cwise_cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_equal_equal.vcxproj">
+      <Project>{D56CC54D-3B89-3484-B43D-6AE7B0E1762E}</Project>
+      <Name>compile_Cwise_equal_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_exp.vcxproj">
+      <Project>{C00D8EB9-DC02-310F-B05B-905E67D032BA}</Project>
+      <Name>compile_Cwise_exp</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_floor.vcxproj">
+      <Project>{724D21EF-BB5B-3718-B660-87CB4A954141}</Project>
+      <Name>compile_Cwise_floor</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_greater.vcxproj">
+      <Project>{83B20A7D-75E0-3C1E-BACF-7A92CF86A90D}</Project>
+      <Name>compile_Cwise_greater</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_greater_equal.vcxproj">
+      <Project>{88DEEEAE-23E9-3C31-BCA5-76B1AFE755E6}</Project>
+      <Name>compile_Cwise_greater_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_inverse.vcxproj">
+      <Project>{5F6CC566-B76A-37DA-8E68-8D5F8DA06393}</Project>
+      <Name>compile_Cwise_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_isFinite.vcxproj">
+      <Project>{65755CB4-067E-336B-B3E6-F468D679C307}</Project>
+      <Name>compile_Cwise_isFinite</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_isInf.vcxproj">
+      <Project>{B0CC8D96-48F5-32C6-B55F-30299E9E2B26}</Project>
+      <Name>compile_Cwise_isInf</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_isNaN.vcxproj">
+      <Project>{C02451D6-01AC-3C89-83BF-CAB4160034DE}</Project>
+      <Name>compile_Cwise_isNaN</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_less.vcxproj">
+      <Project>{E84A50EA-74FD-345A-8E6D-D2F7A6BE0D29}</Project>
+      <Name>compile_Cwise_less</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_less_equal.vcxproj">
+      <Project>{75C9FD30-1AFC-36F4-9989-8892622603F3}</Project>
+      <Name>compile_Cwise_less_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_log.vcxproj">
+      <Project>{B6B2B33A-F2E5-36C9-96BB-76E561D9455B}</Project>
+      <Name>compile_Cwise_log</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_log10.vcxproj">
+      <Project>{AF2B4E2F-0E30-3EB7-B27C-CB454AF53180}</Project>
+      <Name>compile_Cwise_log10</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_max.vcxproj">
+      <Project>{389B64FF-EED2-311C-AD60-A390FB75C40D}</Project>
+      <Name>compile_Cwise_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_min.vcxproj">
+      <Project>{579620B8-937A-3900-A0A3-3692EDFA1AB2}</Project>
+      <Name>compile_Cwise_min</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_minus.vcxproj">
+      <Project>{CB8B2476-3862-3894-B6C7-0315EC553B07}</Project>
+      <Name>compile_Cwise_minus</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_minus_equal.vcxproj">
+      <Project>{3AF18A35-E97F-3A84-8FE4-AB5A478A4918}</Project>
+      <Name>compile_Cwise_minus_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_not_equal.vcxproj">
+      <Project>{1BDFEE3B-FA3B-3278-91E5-199DE8A0D502}</Project>
+      <Name>compile_Cwise_not_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_plus.vcxproj">
+      <Project>{12E7A994-F701-33AC-92AB-301227582ED6}</Project>
+      <Name>compile_Cwise_plus</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_plus_equal.vcxproj">
+      <Project>{9A88AEED-AFFD-311B-B8BD-0F0CF0C3FAA9}</Project>
+      <Name>compile_Cwise_plus_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_pow.vcxproj">
+      <Project>{FAC38CC3-01E7-370B-A76F-EF35B65B5381}</Project>
+      <Name>compile_Cwise_pow</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_product.vcxproj">
+      <Project>{E6FBD9DE-0C36-34B9-9C96-A9386F7E47AD}</Project>
+      <Name>compile_Cwise_product</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_quotient.vcxproj">
+      <Project>{E2FD6F5B-E2E8-351D-BFD7-C2AB95682DA5}</Project>
+      <Name>compile_Cwise_quotient</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_round.vcxproj">
+      <Project>{0CB4CCB3-B806-3854-82DD-1D54BB93C7DC}</Project>
+      <Name>compile_Cwise_round</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_scalar_power_array.vcxproj">
+      <Project>{F145DAFB-E695-3364-B468-13B0A64DD875}</Project>
+      <Name>compile_Cwise_scalar_power_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_sign.vcxproj">
+      <Project>{E944A2A2-D5B0-3C1D-A3BE-F94EB9898C9B}</Project>
+      <Name>compile_Cwise_sign</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_sin.vcxproj">
+      <Project>{2D21C04D-390B-32A7-8895-5818F07A92F1}</Project>
+      <Name>compile_Cwise_sin</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_sinh.vcxproj">
+      <Project>{DF10A672-12EE-38EB-A96B-C1380517D84A}</Project>
+      <Name>compile_Cwise_sinh</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_slash_equal.vcxproj">
+      <Project>{4AE9D58B-0CCB-3B0E-8ECD-826E77EC7B22}</Project>
+      <Name>compile_Cwise_slash_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_sqrt.vcxproj">
+      <Project>{9561B538-46F4-3556-9CB5-1423093F40CE}</Project>
+      <Name>compile_Cwise_sqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_square.vcxproj">
+      <Project>{E1C6B9ED-A6AD-314A-A1C7-C0FAB4E4AF69}</Project>
+      <Name>compile_Cwise_square</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_tan.vcxproj">
+      <Project>{36ADE042-162F-364A-B3F9-F0F7BCDFE0EF}</Project>
+      <Name>compile_Cwise_tan</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_tanh.vcxproj">
+      <Project>{5F6C5EAC-634F-3D19-82B6-3A419E0556E9}</Project>
+      <Name>compile_Cwise_tanh</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Cwise_times_equal.vcxproj">
+      <Project>{AF853CF2-4220-364E-924A-949C89A62970}</Project>
+      <Name>compile_Cwise_times_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_DenseBase_LinSpaced.vcxproj">
+      <Project>{A9C8381C-FC55-37DA-B163-2E7B13454D04}</Project>
+      <Name>compile_DenseBase_LinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_DenseBase_LinSpacedInt.vcxproj">
+      <Project>{4085A21E-6ED6-321A-A4B7-F2C516D67EC8}</Project>
+      <Name>compile_DenseBase_LinSpacedInt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_DenseBase_LinSpaced_seq.vcxproj">
+      <Project>{C2B25DC9-96F8-3BB6-BEDE-751147B87059}</Project>
+      <Name>compile_DenseBase_LinSpaced_seq</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_DenseBase_setLinSpaced.vcxproj">
+      <Project>{18E11D5E-A92B-3B65-8DE9-014E0E9CF79E}</Project>
+      <Name>compile_DenseBase_setLinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_DirectionWise_hnormalized.vcxproj">
+      <Project>{A557D346-69CA-33D3-A826-8F214B0D42D1}</Project>
+      <Name>compile_DirectionWise_hnormalized</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_DirectionWise_replicate.vcxproj">
+      <Project>{A51F364C-EF63-3E45-84A9-26BE15654317}</Project>
+      <Name>compile_DirectionWise_replicate</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_DirectionWise_replicate_int.vcxproj">
+      <Project>{6AEB0DD9-752C-3694-B624-50C990B1D144}</Project>
+      <Name>compile_DirectionWise_replicate_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_EigenSolver_EigenSolver_MatrixType.vcxproj">
+      <Project>{DCF41E36-819C-3B78-8DD3-92110F89C4E3}</Project>
+      <Name>compile_EigenSolver_EigenSolver_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_EigenSolver_compute.vcxproj">
+      <Project>{C177BB0D-A651-3DE2-AD57-55650EEB46E3}</Project>
+      <Name>compile_EigenSolver_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_EigenSolver_eigenvalues.vcxproj">
+      <Project>{CF66C7DC-370D-3BC8-9DAE-53FD4408C732}</Project>
+      <Name>compile_EigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_EigenSolver_eigenvectors.vcxproj">
+      <Project>{24328ECA-21F4-34BF-BE17-784140843A85}</Project>
+      <Name>compile_EigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_EigenSolver_pseudoEigenvectors.vcxproj">
+      <Project>{52BEF76F-FEBC-313E-B361-E8B5D13EC2FD}</Project>
+      <Name>compile_EigenSolver_pseudoEigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_FullPivHouseholderQR_solve.vcxproj">
+      <Project>{E149F9B8-6C44-3AEA-AF29-7D9F603B3287}</Project>
+      <Name>compile_FullPivHouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_FullPivLU_image.vcxproj">
+      <Project>{1264EE13-7072-3A29-B876-777663F55ED9}</Project>
+      <Name>compile_FullPivLU_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_FullPivLU_kernel.vcxproj">
+      <Project>{9C4D09B9-0F22-3E12-95E3-1D0669E0105C}</Project>
+      <Name>compile_FullPivLU_kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_FullPivLU_solve.vcxproj">
+      <Project>{BDC9AEB3-146D-3600-8381-313113CC444A}</Project>
+      <Name>compile_FullPivLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_GeneralizedEigenSolver.vcxproj">
+      <Project>{78F9DCDA-025B-307B-B184-8CAC9144FBA9}</Project>
+      <Name>compile_GeneralizedEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_HessenbergDecomposition_compute.vcxproj">
+      <Project>{3655BC03-AD0A-3264-8832-1A5F669E9629}</Project>
+      <Name>compile_HessenbergDecomposition_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_HessenbergDecomposition_matrixH.vcxproj">
+      <Project>{FA113A35-DDD3-3B24-B31C-98E25C591DE4}</Project>
+      <Name>compile_HessenbergDecomposition_matrixH</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_HessenbergDecomposition_packedMatrix.vcxproj">
+      <Project>{F8803EB1-52C0-33D1-A756-B09DBAF48AB4}</Project>
+      <Name>compile_HessenbergDecomposition_packedMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_HouseholderQR_householderQ.vcxproj">
+      <Project>{EBB39473-A183-386B-9A71-60FE9C1E02E0}</Project>
+      <Name>compile_HouseholderQR_householderQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_HouseholderQR_solve.vcxproj">
+      <Project>{4D6A8A78-38BF-3B6C-8DB9-0C30937F78EF}</Project>
+      <Name>compile_HouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_HouseholderSequence_HouseholderSequence.vcxproj">
+      <Project>{E6F50EF3-233C-3B8F-AC8A-6B68E9780285}</Project>
+      <Name>compile_HouseholderSequence_HouseholderSequence</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_IOFormat.vcxproj">
+      <Project>{01DF4580-A89A-30B9-8959-53873ED98EAC}</Project>
+      <Name>compile_IOFormat</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_JacobiSVD_basic.vcxproj">
+      <Project>{E410647F-55C2-36D8-A3FD-1833B683F278}</Project>
+      <Name>compile_JacobiSVD_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Jacobi_makeGivens.vcxproj">
+      <Project>{59BD4797-CE8C-3731-BA68-BA8B0CAD45E1}</Project>
+      <Name>compile_Jacobi_makeGivens</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Jacobi_makeJacobi.vcxproj">
+      <Project>{BD6A28ED-C881-362A-83EE-B710178E63F6}</Project>
+      <Name>compile_Jacobi_makeJacobi</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_LLT_example.vcxproj">
+      <Project>{E0872333-D961-3CE5-808F-EA5F04EA095C}</Project>
+      <Name>compile_LLT_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_LLT_solve.vcxproj">
+      <Project>{AA65AE5A-5664-3EDD-A9B3-959DB38A897F}</Project>
+      <Name>compile_LLT_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_LeastSquaresNormalEquations.vcxproj">
+      <Project>{681F18DE-8B32-364B-98ED-8C77009C6F5D}</Project>
+      <Name>compile_LeastSquaresNormalEquations</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_LeastSquaresQR.vcxproj">
+      <Project>{1DC02B99-1CCD-3B5F-9EEA-2EAF6D3A0042}</Project>
+      <Name>compile_LeastSquaresQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Map_general_stride.vcxproj">
+      <Project>{EBC7C9FA-61E7-3031-9C75-DAD3E8D871ED}</Project>
+      <Name>compile_Map_general_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Map_inner_stride.vcxproj">
+      <Project>{55D0F3AC-4FC6-3BAF-9C86-17DC4AB40E38}</Project>
+      <Name>compile_Map_inner_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Map_outer_stride.vcxproj">
+      <Project>{617E288A-CD03-37C1-B9D5-10927FAF8E28}</Project>
+      <Name>compile_Map_outer_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Map_placement_new.vcxproj">
+      <Project>{706D5FFB-DDD9-39E9-B4CA-330872D5EBF3}</Project>
+      <Name>compile_Map_placement_new</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Map_simple.vcxproj">
+      <Project>{32B50033-6952-3D3D-92E1-620BB9D6EC89}</Project>
+      <Name>compile_Map_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_adjoint.vcxproj">
+      <Project>{99CDF494-018B-32E6-B850-FDD2C8C1201D}</Project>
+      <Name>compile_MatrixBase_adjoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_all.vcxproj">
+      <Project>{6C85FCA6-81BB-3854-BC56-F92F5C2F650D}</Project>
+      <Name>compile_MatrixBase_all</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_applyOnTheLeft.vcxproj">
+      <Project>{E3E2FB52-EF3B-3F9A-AD43-F36FC98AE8E7}</Project>
+      <Name>compile_MatrixBase_applyOnTheLeft</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_applyOnTheRight.vcxproj">
+      <Project>{C2C08D0D-5AD2-3882-B29F-2735D4D0CCE3}</Project>
+      <Name>compile_MatrixBase_applyOnTheRight</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_array.vcxproj">
+      <Project>{C38589BD-2B13-35E6-9B15-221CAF1FC75B}</Project>
+      <Name>compile_MatrixBase_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_array_const.vcxproj">
+      <Project>{30B715A7-D826-3BA5-A0CD-D004FEB7A420}</Project>
+      <Name>compile_MatrixBase_array_const</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_asDiagonal.vcxproj">
+      <Project>{8FA9BE16-5A86-3049-8C01-60FD369980C4}</Project>
+      <Name>compile_MatrixBase_asDiagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_block_int_int.vcxproj">
+      <Project>{D900518B-2F99-3811-A266-44482570E3B3}</Project>
+      <Name>compile_MatrixBase_block_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_block_int_int_int_int.vcxproj">
+      <Project>{152A63EA-8665-3BF3-8995-6DCFFA13FA0A}</Project>
+      <Name>compile_MatrixBase_block_int_int_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_bottomLeftCorner_int_int.vcxproj">
+      <Project>{EA9B9976-6B62-34B3-A50E-51FDFE662063}</Project>
+      <Name>compile_MatrixBase_bottomLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_bottomRightCorner_int_int.vcxproj">
+      <Project>{B9EC785F-22F9-33DB-87FF-FB19B0BBB79C}</Project>
+      <Name>compile_MatrixBase_bottomRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_bottomRows_int.vcxproj">
+      <Project>{62A331DC-2151-3AFD-B05E-D4F46E61831A}</Project>
+      <Name>compile_MatrixBase_bottomRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cast.vcxproj">
+      <Project>{EB207123-D806-3CF9-BAFB-51469E9D1E7D}</Project>
+      <Name>compile_MatrixBase_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_col.vcxproj">
+      <Project>{AAFA39F0-DAD8-372A-A8FC-4F7DE55BDA31}</Project>
+      <Name>compile_MatrixBase_col</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_colwise.vcxproj">
+      <Project>{A888BED3-01C2-3BA8-A040-7A427F5FD29B}</Project>
+      <Name>compile_MatrixBase_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_computeInverseAndDetWithCheck.vcxproj">
+      <Project>{DCD69434-13FF-3D2D-99CC-FBE6B130101B}</Project>
+      <Name>compile_MatrixBase_computeInverseAndDetWithCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_computeInverseWithCheck.vcxproj">
+      <Project>{FECEE674-A7AB-39BE-A254-683AB0C5AAFD}</Project>
+      <Name>compile_MatrixBase_computeInverseWithCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseAbs.vcxproj">
+      <Project>{D6AEB45F-1EE9-3709-8B3A-533797AB6EB5}</Project>
+      <Name>compile_MatrixBase_cwiseAbs</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseAbs2.vcxproj">
+      <Project>{46BADD03-FBFC-3B6E-8403-109BB7D8601B}</Project>
+      <Name>compile_MatrixBase_cwiseAbs2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseEqual.vcxproj">
+      <Project>{50300E8D-F6F2-3524-9355-1C4BB50511E7}</Project>
+      <Name>compile_MatrixBase_cwiseEqual</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseInverse.vcxproj">
+      <Project>{C6991134-CCAC-33B4-9874-1848988EBAE8}</Project>
+      <Name>compile_MatrixBase_cwiseInverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseMax.vcxproj">
+      <Project>{4C16336E-66FD-320E-B0D4-9265B304AC50}</Project>
+      <Name>compile_MatrixBase_cwiseMax</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseMin.vcxproj">
+      <Project>{63BCF5F2-32D6-37A4-97CB-A70F80B1D251}</Project>
+      <Name>compile_MatrixBase_cwiseMin</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseNotEqual.vcxproj">
+      <Project>{9DDD93F8-1297-34CB-AED8-F3024265C442}</Project>
+      <Name>compile_MatrixBase_cwiseNotEqual</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseProduct.vcxproj">
+      <Project>{9649193C-4AFE-32A0-865C-A21DFC9DB8BD}</Project>
+      <Name>compile_MatrixBase_cwiseProduct</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseQuotient.vcxproj">
+      <Project>{2B26C409-9B94-33A8-8134-5DDA6D80413B}</Project>
+      <Name>compile_MatrixBase_cwiseQuotient</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseSign.vcxproj">
+      <Project>{1D885308-96F9-363A-B619-691D0590BAAC}</Project>
+      <Name>compile_MatrixBase_cwiseSign</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_cwiseSqrt.vcxproj">
+      <Project>{FB3291A3-5BE9-3D92-829D-A7F39A6B5918}</Project>
+      <Name>compile_MatrixBase_cwiseSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_diagonal.vcxproj">
+      <Project>{ADF43232-89B2-3C11-BA28-B7773E4ACCF0}</Project>
+      <Name>compile_MatrixBase_diagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_diagonal_int.vcxproj">
+      <Project>{8CE50822-79F9-3A0E-ABEF-8F7AA105132B}</Project>
+      <Name>compile_MatrixBase_diagonal_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_diagonal_template_int.vcxproj">
+      <Project>{BCEAE241-534E-3856-8201-C7EAB545D4D7}</Project>
+      <Name>compile_MatrixBase_diagonal_template_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_eigenvalues.vcxproj">
+      <Project>{B1CEE433-1FC7-3FBD-80B1-10270A0922B0}</Project>
+      <Name>compile_MatrixBase_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_end_int.vcxproj">
+      <Project>{606173EE-0665-3865-AE0B-581D2AFA2317}</Project>
+      <Name>compile_MatrixBase_end_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_eval.vcxproj">
+      <Project>{004655E2-1070-3ED9-9E46-7A115FFAC04B}</Project>
+      <Name>compile_MatrixBase_eval</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_fixedBlock_int_int.vcxproj">
+      <Project>{BD2B04A2-5549-312B-967D-68DE16927FFA}</Project>
+      <Name>compile_MatrixBase_fixedBlock_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_hnormalized.vcxproj">
+      <Project>{9DF40A2C-A2A9-38CA-B19F-38E10FD22D4D}</Project>
+      <Name>compile_MatrixBase_hnormalized</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_homogeneous.vcxproj">
+      <Project>{0ECF9844-79A2-309A-87C6-C3E71DA7F2FB}</Project>
+      <Name>compile_MatrixBase_homogeneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_identity.vcxproj">
+      <Project>{1F36F18E-F90D-37A4-A906-CC581E3F0073}</Project>
+      <Name>compile_MatrixBase_identity</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_identity_int_int.vcxproj">
+      <Project>{91FD1EB5-5A31-3E06-9534-AD3125D96004}</Project>
+      <Name>compile_MatrixBase_identity_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_inverse.vcxproj">
+      <Project>{05274044-7E82-3E5E-9182-C7CB1F3BCD82}</Project>
+      <Name>compile_MatrixBase_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_isDiagonal.vcxproj">
+      <Project>{96C8F975-B752-3176-9108-6A90558F5B14}</Project>
+      <Name>compile_MatrixBase_isDiagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_isIdentity.vcxproj">
+      <Project>{13D84937-8579-32FC-9ECF-A655D211F393}</Project>
+      <Name>compile_MatrixBase_isIdentity</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_isOnes.vcxproj">
+      <Project>{0B6929A1-76FF-3F58-B67B-DD0506D66B77}</Project>
+      <Name>compile_MatrixBase_isOnes</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_isOrthogonal.vcxproj">
+      <Project>{D651E311-1BD6-32C3-8582-2DB88F568D80}</Project>
+      <Name>compile_MatrixBase_isOrthogonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_isUnitary.vcxproj">
+      <Project>{4DC93F8D-F410-3D75-993C-5BBA01791E4B}</Project>
+      <Name>compile_MatrixBase_isUnitary</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_isZero.vcxproj">
+      <Project>{7B62B325-352E-3F57-BCC4-570322B6D513}</Project>
+      <Name>compile_MatrixBase_isZero</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_leftCols_int.vcxproj">
+      <Project>{8595E222-8B26-3245-A3FF-5E8854E515FB}</Project>
+      <Name>compile_MatrixBase_leftCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_noalias.vcxproj">
+      <Project>{53D26AF8-28C9-3D9F-8670-BA5F904A8062}</Project>
+      <Name>compile_MatrixBase_noalias</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_ones.vcxproj">
+      <Project>{73F2499D-EBAB-3A82-8BDE-5748ADAAE1DA}</Project>
+      <Name>compile_MatrixBase_ones</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_ones_int.vcxproj">
+      <Project>{0A8A0B54-24EE-35A2-B0E6-522ADF135427}</Project>
+      <Name>compile_MatrixBase_ones_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_ones_int_int.vcxproj">
+      <Project>{E356C9A0-D36F-306F-9911-C9C6733D4450}</Project>
+      <Name>compile_MatrixBase_ones_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_operatorNorm.vcxproj">
+      <Project>{3777A778-17F2-3DE5-87AE-9FA207A615B8}</Project>
+      <Name>compile_MatrixBase_operatorNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_prod.vcxproj">
+      <Project>{7A96EAAB-3483-3717-8A3A-5A06B89D90AC}</Project>
+      <Name>compile_MatrixBase_prod</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_random.vcxproj">
+      <Project>{39888AB3-5590-3AE2-908E-B0B8242E0254}</Project>
+      <Name>compile_MatrixBase_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_random_int.vcxproj">
+      <Project>{997A4D58-26DF-3532-A3C6-B0974C88C9E8}</Project>
+      <Name>compile_MatrixBase_random_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_random_int_int.vcxproj">
+      <Project>{1318F3C9-65AA-3758-8C96-27BD80F084B5}</Project>
+      <Name>compile_MatrixBase_random_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_replicate.vcxproj">
+      <Project>{D50575E3-6933-3B60-BBA8-E6E4A4E70F79}</Project>
+      <Name>compile_MatrixBase_replicate</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_replicate_int_int.vcxproj">
+      <Project>{13676D49-3311-3C0F-90D3-B901B0A71D99}</Project>
+      <Name>compile_MatrixBase_replicate_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_reverse.vcxproj">
+      <Project>{FCDDFC79-9B6A-3261-9726-DF8D2B222D77}</Project>
+      <Name>compile_MatrixBase_reverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_rightCols_int.vcxproj">
+      <Project>{DC7B261C-0A69-3266-93E2-EA3E0DF56EA3}</Project>
+      <Name>compile_MatrixBase_rightCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_row.vcxproj">
+      <Project>{60A729A2-5D60-3706-834C-B9703CB0347B}</Project>
+      <Name>compile_MatrixBase_row</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_rowwise.vcxproj">
+      <Project>{3A27E4F1-0867-3028-9A04-0D5D615D579F}</Project>
+      <Name>compile_MatrixBase_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_segment_int_int.vcxproj">
+      <Project>{63A4BCC8-1866-383B-9D4D-33B6D6705F21}</Project>
+      <Name>compile_MatrixBase_segment_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_select.vcxproj">
+      <Project>{BC9D9BDD-08AD-3AC1-9409-A532268ADF70}</Project>
+      <Name>compile_MatrixBase_select</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_selfadjointView.vcxproj">
+      <Project>{7D4C1EA5-FF17-38B5-9524-DBEB2EE5C6E1}</Project>
+      <Name>compile_MatrixBase_selfadjointView</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_set.vcxproj">
+      <Project>{97BF3095-C9EC-3EE8-B7CD-74EDE2C93268}</Project>
+      <Name>compile_MatrixBase_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_setIdentity.vcxproj">
+      <Project>{C77327BA-B4B9-3154-B040-9893259FF8DF}</Project>
+      <Name>compile_MatrixBase_setIdentity</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_setOnes.vcxproj">
+      <Project>{251990A9-A72C-3593-A095-AA618E0217E7}</Project>
+      <Name>compile_MatrixBase_setOnes</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_setRandom.vcxproj">
+      <Project>{CDA585F7-730D-36AF-94AE-0C08D3FC122E}</Project>
+      <Name>compile_MatrixBase_setRandom</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_setZero.vcxproj">
+      <Project>{536DAD4A-FBC9-3331-A826-58A07E908C97}</Project>
+      <Name>compile_MatrixBase_setZero</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_start_int.vcxproj">
+      <Project>{BD237CDF-ABDE-30B4-A2E1-102C82A59862}</Project>
+      <Name>compile_MatrixBase_start_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_bottomRows.vcxproj">
+      <Project>{1432BB60-A2B2-3C44-87BC-10FFD51A2E59}</Project>
+      <Name>compile_MatrixBase_template_int_bottomRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_end.vcxproj">
+      <Project>{1725B37E-CB7C-30DF-A51D-31438F0614E2}</Project>
+      <Name>compile_MatrixBase_template_int_end</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_int_block_int_int_int_int.vcxproj">
+      <Project>{369CF37E-0B1C-32FE-9E2C-08FF7D5DDE2B}</Project>
+      <Name>compile_MatrixBase_template_int_int_block_int_int_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner.vcxproj">
+      <Project>{5837A771-40A0-3336-B828-437458405858}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner_int_int.vcxproj">
+      <Project>{FAE11F6F-6C3E-3317-B4D3-AB1665CBFDE2}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner.vcxproj">
+      <Project>{13158706-5787-3BD0-B76F-93D378B7E1BA}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner_int_int.vcxproj">
+      <Project>{BA1D7D45-8283-325C-A2D1-27D77AE07280}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner.vcxproj">
+      <Project>{C3D33753-7959-3B8A-967E-ACA0B4DDE867}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner_int_int.vcxproj">
+      <Project>{3A6D7C1D-98CB-38BB-971E-F983ED4F693A}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner.vcxproj">
+      <Project>{1036B38E-27B0-3E9F-8692-566348A407B7}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner_int_int.vcxproj">
+      <Project>{0B0D751B-8C07-374D-A385-C73097A297A3}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_leftCols.vcxproj">
+      <Project>{1B31902A-23FA-3002-A698-6103BE02F825}</Project>
+      <Name>compile_MatrixBase_template_int_leftCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_rightCols.vcxproj">
+      <Project>{7B3CFA14-8CBB-39DF-A840-E80AFC59E978}</Project>
+      <Name>compile_MatrixBase_template_int_rightCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_segment.vcxproj">
+      <Project>{73F20C02-FAB4-3623-991E-50EE8EC2CB4D}</Project>
+      <Name>compile_MatrixBase_template_int_segment</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_start.vcxproj">
+      <Project>{015DD569-009D-3B8A-9C3E-1805790908CE}</Project>
+      <Name>compile_MatrixBase_template_int_start</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_template_int_topRows.vcxproj">
+      <Project>{62D0494E-500A-3244-BBBF-D312031FA937}</Project>
+      <Name>compile_MatrixBase_template_int_topRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_topLeftCorner_int_int.vcxproj">
+      <Project>{D055A52D-A16E-3A75-B316-35B099DCCAD5}</Project>
+      <Name>compile_MatrixBase_topLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_topRightCorner_int_int.vcxproj">
+      <Project>{ADE06469-F9CA-3444-9FDE-CABEA77A3E7D}</Project>
+      <Name>compile_MatrixBase_topRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_topRows_int.vcxproj">
+      <Project>{B8F94AD3-BD4A-3FE7-86A5-7BCBD0629535}</Project>
+      <Name>compile_MatrixBase_topRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_transpose.vcxproj">
+      <Project>{7299A108-EB4D-3B6D-8E63-70B7D799F097}</Project>
+      <Name>compile_MatrixBase_transpose</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_triangularView.vcxproj">
+      <Project>{38B263B0-3724-366F-8CA7-A0B730BA3BF3}</Project>
+      <Name>compile_MatrixBase_triangularView</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_zero.vcxproj">
+      <Project>{0C9ACEE1-1B9F-3861-A1FA-8376ACBD8771}</Project>
+      <Name>compile_MatrixBase_zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_zero_int.vcxproj">
+      <Project>{00AE3A00-67DA-31B0-BFB8-2DF43ECDC4EB}</Project>
+      <Name>compile_MatrixBase_zero_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_MatrixBase_zero_int_int.vcxproj">
+      <Project>{56C5D6C8-ABA8-3E99-BB7C-C24796E3838C}</Project>
+      <Name>compile_MatrixBase_zero_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_Map_stride.vcxproj">
+      <Project>{B9939B1A-4905-375B-9D2E-68B2F87E8F9A}</Project>
+      <Name>compile_Matrix_Map_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_resize_NoChange_int.vcxproj">
+      <Project>{D18DC35A-4471-3D0C-BE0E-4E5E14262966}</Project>
+      <Name>compile_Matrix_resize_NoChange_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_resize_int.vcxproj">
+      <Project>{FB2B9ECD-1E74-3F0E-8E61-47CFD9EBC350}</Project>
+      <Name>compile_Matrix_resize_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_resize_int_NoChange.vcxproj">
+      <Project>{46968CCF-9AEC-36EE-9180-4D2FFEAAA611}</Project>
+      <Name>compile_Matrix_resize_int_NoChange</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_resize_int_int.vcxproj">
+      <Project>{3B40FA17-F2FD-34E3-B333-C85530B8C44E}</Project>
+      <Name>compile_Matrix_resize_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_setConstant_int.vcxproj">
+      <Project>{CA749468-AED7-3E77-B620-DAA83F7CEAF5}</Project>
+      <Name>compile_Matrix_setConstant_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_setConstant_int_int.vcxproj">
+      <Project>{F72CF23C-4EAB-3FB9-8860-6103B0D1A632}</Project>
+      <Name>compile_Matrix_setConstant_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_setIdentity_int_int.vcxproj">
+      <Project>{FD1ED8D4-5EF6-340E-A1C1-B806599B2C8C}</Project>
+      <Name>compile_Matrix_setIdentity_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_setOnes_int.vcxproj">
+      <Project>{CFC3BD47-AB19-3D7B-9D31-754EA1F96C35}</Project>
+      <Name>compile_Matrix_setOnes_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_setOnes_int_int.vcxproj">
+      <Project>{A1534E12-5B00-325B-A943-0D3C3A7CE101}</Project>
+      <Name>compile_Matrix_setOnes_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_setRandom_int.vcxproj">
+      <Project>{B2B2EEB4-BA66-374E-9E3E-07A57F9B7523}</Project>
+      <Name>compile_Matrix_setRandom_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_setRandom_int_int.vcxproj">
+      <Project>{718475FA-6C7F-31F9-A257-114223ABE29B}</Project>
+      <Name>compile_Matrix_setRandom_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_setZero_int.vcxproj">
+      <Project>{D17B0E7A-10AB-305A-A80E-143B78D1BCB2}</Project>
+      <Name>compile_Matrix_setZero_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Matrix_setZero_int_int.vcxproj">
+      <Project>{447B40B9-0C80-3667-9B8B-C8A358C2F77C}</Project>
+      <Name>compile_Matrix_setZero_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_PartialPivLU_solve.vcxproj">
+      <Project>{72CEF37B-13E2-3CE2-8C1C-842A86ED9B4E}</Project>
+      <Name>compile_PartialPivLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_PartialRedux_count.vcxproj">
+      <Project>{C9B72242-5B13-383B-BBCD-B04BEF2EA14D}</Project>
+      <Name>compile_PartialRedux_count</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_PartialRedux_maxCoeff.vcxproj">
+      <Project>{47A07A16-0DEE-3E74-9A48-C9590D8EF54C}</Project>
+      <Name>compile_PartialRedux_maxCoeff</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_PartialRedux_minCoeff.vcxproj">
+      <Project>{09F8623A-17AC-3332-8F6B-EB818D241F33}</Project>
+      <Name>compile_PartialRedux_minCoeff</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_PartialRedux_norm.vcxproj">
+      <Project>{0085E001-DB0C-38A8-81E0-42403CB15FE8}</Project>
+      <Name>compile_PartialRedux_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_PartialRedux_prod.vcxproj">
+      <Project>{26360602-B74A-3E11-97E2-6455101FC67C}</Project>
+      <Name>compile_PartialRedux_prod</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_PartialRedux_squaredNorm.vcxproj">
+      <Project>{1988EF91-0518-369B-B11C-28F7ECF0BEAC}</Project>
+      <Name>compile_PartialRedux_squaredNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_PartialRedux_sum.vcxproj">
+      <Project>{04343E78-419C-39C6-8C3E-6AE21D26F5CD}</Project>
+      <Name>compile_PartialRedux_sum</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_RealQZ_compute.vcxproj">
+      <Project>{983C80B3-05DD-3F21-AFCF-4AD66A2848BF}</Project>
+      <Name>compile_RealQZ_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_RealSchur_RealSchur_MatrixType.vcxproj">
+      <Project>{15104B56-C907-3506-8B17-F61AC92D9694}</Project>
+      <Name>compile_RealSchur_RealSchur_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_RealSchur_compute.vcxproj">
+      <Project>{BBD95D2A-802A-343D-884F-054D58A1EF2A}</Project>
+      <Name>compile_RealSchur_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.vcxproj">
+      <Project>{36D73405-94F4-35C3-9615-F65A6A4DA84A}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.vcxproj">
+      <Project>{43A10FAA-2B09-3DEA-95B9-B31790EF1980}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.vcxproj">
+      <Project>{0C532ED3-1AD0-333A-8EF1-AAF4522574C1}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType.vcxproj">
+      <Project>{7A706C74-597B-3794-A72A-EFC5D54A713F}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType2.vcxproj">
+      <Project>{F17A61F1-82EA-347A-B586-D26957D53A1E}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointEigenSolver_eigenvalues.vcxproj">
+      <Project>{E5B88028-15BD-3A8C-A6DB-36C55E8101B6}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointEigenSolver_eigenvectors.vcxproj">
+      <Project>{1309BEFC-1F21-3E79-B655-39AABEFB2CD6}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointEigenSolver_operatorInverseSqrt.vcxproj">
+      <Project>{BE8C0AE6-0E13-3E0E-8A66-83E7EDB73A33}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorInverseSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointEigenSolver_operatorSqrt.vcxproj">
+      <Project>{3129BD17-EFB6-300C-BBD3-655C93E25A49}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointView_eigenvalues.vcxproj">
+      <Project>{C316CCD5-D87E-36AA-87BD-6E482FD6D3D5}</Project>
+      <Name>compile_SelfAdjointView_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SelfAdjointView_operatorNorm.vcxproj">
+      <Project>{38FEA075-CFCD-345A-B6BC-C576A91FF14C}</Project>
+      <Name>compile_SelfAdjointView_operatorNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_SparseMatrix_coeffs.vcxproj">
+      <Project>{D1BE6228-43E6-3203-8204-2E29C7F62F30}</Project>
+      <Name>compile_SparseMatrix_coeffs</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_TopicAliasing_block.vcxproj">
+      <Project>{4AA6DC72-6ED2-3917-A591-3F28A459EEBC}</Project>
+      <Name>compile_TopicAliasing_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_TopicAliasing_block_correct.vcxproj">
+      <Project>{D32BF072-EFCF-3FA8-A6AA-B74B2A2FCD24}</Project>
+      <Name>compile_TopicAliasing_block_correct</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_TopicAliasing_cwise.vcxproj">
+      <Project>{A8B9290D-24A4-3A28-B987-9476DA3BC5A2}</Project>
+      <Name>compile_TopicAliasing_cwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_TopicAliasing_mult1.vcxproj">
+      <Project>{BB842099-42F9-3A1E-AE92-C6C085F8D93B}</Project>
+      <Name>compile_TopicAliasing_mult1</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_TopicAliasing_mult2.vcxproj">
+      <Project>{DC9BF7F1-A612-30EA-B2CD-E94C56FC48BF}</Project>
+      <Name>compile_TopicAliasing_mult2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_TopicAliasing_mult3.vcxproj">
+      <Project>{D414F783-DA60-30B8-9F3E-8F5F78B091DD}</Project>
+      <Name>compile_TopicAliasing_mult3</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_TopicAliasing_mult4.vcxproj">
+      <Project>{DF1AE273-49F8-3B84-AF66-A039F73E93A3}</Project>
+      <Name>compile_TopicAliasing_mult4</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_TopicAliasing_mult5.vcxproj">
+      <Project>{41705139-BE6A-31AD-BF26-72617538AA70}</Project>
+      <Name>compile_TopicAliasing_mult5</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_TopicStorageOrders_example.vcxproj">
+      <Project>{E30A7FD6-DAD1-367B-B095-F1DCCCC36444}</Project>
+      <Name>compile_TopicStorageOrders_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Triangular_solve.vcxproj">
+      <Project>{838CB5A6-A7C6-3022-B8F3-97EF29386DB1}</Project>
+      <Name>compile_Triangular_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tridiagonalization_Tridiagonalization_MatrixType.vcxproj">
+      <Project>{4F1747B4-1E70-38B1-831C-414BEF5519CD}</Project>
+      <Name>compile_Tridiagonalization_Tridiagonalization_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tridiagonalization_compute.vcxproj">
+      <Project>{6FCB8415-725B-3361-9293-37ED8937B2CA}</Project>
+      <Name>compile_Tridiagonalization_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tridiagonalization_decomposeInPlace.vcxproj">
+      <Project>{4E6CD6D0-8077-3676-B93F-0783D9959B89}</Project>
+      <Name>compile_Tridiagonalization_decomposeInPlace</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tridiagonalization_diagonal.vcxproj">
+      <Project>{FA2CA1E4-3D4F-3F55-B1E2-F7B66AD45EAB}</Project>
+      <Name>compile_Tridiagonalization_diagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tridiagonalization_householderCoefficients.vcxproj">
+      <Project>{1ED78F8A-0585-319C-AB12-5532673B90EB}</Project>
+      <Name>compile_Tridiagonalization_householderCoefficients</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tridiagonalization_packedMatrix.vcxproj">
+      <Project>{25C79D09-AC9E-3457-9A24-DF54911A61FA}</Project>
+      <Name>compile_Tridiagonalization_packedMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_AdvancedInitialization_Block.vcxproj">
+      <Project>{77ED763A-9582-3E0F-A32E-C3B32F1C9BAF}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_AdvancedInitialization_CommaTemporary.vcxproj">
+      <Project>{AD0D7971-82F0-3C2A-9B88-8F8E2A5CC88A}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_CommaTemporary</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_AdvancedInitialization_Join.vcxproj">
+      <Project>{B4F4A293-7BCA-3E7F-88A7-D6418F383339}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Join</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_AdvancedInitialization_LinSpaced.vcxproj">
+      <Project>{380F2B1F-7EAD-3749-9C0B-9F677C8FA140}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_LinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_AdvancedInitialization_ThreeWays.vcxproj">
+      <Project>{B2BD8D56-6B8E-3D1C-9813-8B64AD5CA349}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_ThreeWays</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_AdvancedInitialization_Zero.vcxproj">
+      <Project>{E83082EE-09E3-3BAB-8E32-755BE4399F61}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_Map_rowmajor.vcxproj">
+      <Project>{296356D4-A4AC-3386-817A-CEBC061BF01E}</Project>
+      <Name>compile_Tutorial_Map_rowmajor</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_Map_using.vcxproj">
+      <Project>{E86A3F18-2BFB-3FD8-913B-E1F6893813BF}</Project>
+      <Name>compile_Tutorial_Map_using</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_ReshapeMat2Mat.vcxproj">
+      <Project>{ECE6341A-8F5D-36C0-B029-68A90565AA5B}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Mat</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_ReshapeMat2Vec.vcxproj">
+      <Project>{F907749A-7E91-30E0-8566-08E36517DB41}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Vec</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_SlicingCol.vcxproj">
+      <Project>{7C4A4DD6-D4B1-3B8E-B9F5-EF3990BA8794}</Project>
+      <Name>compile_Tutorial_SlicingCol</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_SlicingVec.vcxproj">
+      <Project>{F7E2024C-57B0-3EC8-9FB8-7B132BA95A08}</Project>
+      <Name>compile_Tutorial_SlicingVec</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_commainit_01.vcxproj">
+      <Project>{DA6383D0-0AD5-39E3-9980-3137F7D81216}</Project>
+      <Name>compile_Tutorial_commainit_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_commainit_01b.vcxproj">
+      <Project>{8E80275F-B772-3320-BE9D-3CDB4409FDC5}</Project>
+      <Name>compile_Tutorial_commainit_01b</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_commainit_02.vcxproj">
+      <Project>{282FF0BD-3A53-33D6-BC08-6CC339A339B8}</Project>
+      <Name>compile_Tutorial_commainit_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_solve_matrix_inverse.vcxproj">
+      <Project>{BFBD3178-CCAD-35EF-91EF-36F98BF9A465}</Project>
+      <Name>compile_Tutorial_solve_matrix_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_solve_multiple_rhs.vcxproj">
+      <Project>{A3091FDE-CB73-37A5-945A-93CA5C561472}</Project>
+      <Name>compile_Tutorial_solve_multiple_rhs</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_solve_reuse_decomposition.vcxproj">
+      <Project>{DCCF9D6E-63DA-303B-8445-39D2C8F4B91A}</Project>
+      <Name>compile_Tutorial_solve_reuse_decomposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_solve_singular.vcxproj">
+      <Project>{D57CD19F-4AFF-33A5-B7C2-599FE8E24E62}</Project>
+      <Name>compile_Tutorial_solve_singular</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_solve_triangular.vcxproj">
+      <Project>{820813C7-C871-3E77-BFA2-3F5E080B42DE}</Project>
+      <Name>compile_Tutorial_solve_triangular</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Tutorial_solve_triangular_inplace.vcxproj">
+      <Project>{6EB6F754-E9D0-36F2-999B-2600C3AE399C}</Project>
+      <Name>compile_Tutorial_solve_triangular_inplace</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_VectorwiseOp_homogeneous.vcxproj">
+      <Project>{5AEAEE19-D66D-3BA1-8DB8-E677EB00F735}</Project>
+      <Name>compile_VectorwiseOp_homogeneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_Vectorwise_reverse.vcxproj">
+      <Project>{1EB63CD1-2F0B-317D-A663-B51CC1458715}</Project>
+      <Name>compile_Vectorwise_reverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_class_FullPivLU.vcxproj">
+      <Project>{C24C943D-5113-3E84-990C-D427BEC66F8C}</Project>
+      <Name>compile_class_FullPivLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_tut_arithmetic_redux_minmax.vcxproj">
+      <Project>{4193A578-1CB3-376B-9D2D-ADC1F70C5F61}</Project>
+      <Name>compile_tut_arithmetic_redux_minmax</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_tut_arithmetic_transpose_aliasing.vcxproj">
+      <Project>{7554B9A3-726E-3A8C-8237-AF0D04CEFA13}</Project>
+      <Name>compile_tut_arithmetic_transpose_aliasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_tut_arithmetic_transpose_conjugate.vcxproj">
+      <Project>{E5FD51A0-04EE-38E2-A130-B588FA7D07FA}</Project>
+      <Name>compile_tut_arithmetic_transpose_conjugate</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_tut_arithmetic_transpose_inplace.vcxproj">
+      <Project>{E3A92D10-1176-3725-A418-747A3078799D}</Project>
+      <Name>compile_tut_arithmetic_transpose_inplace</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\snippets\compile_tut_matrix_assignment_resizing.vcxproj">
+      <Project>{1CD7C417-3217-3C24-9711-E4C1C8CAF11F}</Project>
+      <Name>compile_tut_matrix_assignment_resizing</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\doc.vcxproj">
+      <Project>{8130695D-B056-34F4-BCFD-494CCBE374A1}</Project>
+      <Name>doc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\doc-eigen-prerequisites.vcxproj">
+      <Project>{33B78FE7-1764-3691-8F79-5FC22FADB5B9}</Project>
+      <Name>doc-eigen-prerequisites</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\doc-unsupported-prerequisites.vcxproj">
+      <Project>{77776F29-8C7B-3FB5-B240-9756F54E357F}</Project>
+      <Name>doc-unsupported-prerequisites</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\function_taking_eigenbase.vcxproj">
+      <Project>{8D27A97A-E511-3C37-8CCA-E7B438276E96}</Project>
+      <Name>function_taking_eigenbase</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\function_taking_ref.vcxproj">
+      <Project>{4006BF1A-2825-3140-8C24-21380D11B49E}</Project>
+      <Name>function_taking_ref</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\make_circulant.vcxproj">
+      <Project>{683F4B51-8342-3BAB-BAE2-E793F1061148}</Project>
+      <Name>make_circulant</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\make_circulant2.vcxproj">
+      <Project>{661E583C-CCCB-3C37-B25A-A8FAEA1B6951}</Project>
+      <Name>make_circulant2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\matrixfree_cg.vcxproj">
+      <Project>{46155E77-A931-302F-896E-0DC6F635A28E}</Project>
+      <Name>matrixfree_cg</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\nullary_indexing.vcxproj">
+      <Project>{48CC43A2-6F2F-3C9F-8DE9-8A28D6568A5B}</Project>
+      <Name>nullary_indexing</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\tut_arithmetic_add_sub.vcxproj">
+      <Project>{FB28DC2D-FC44-30FB-ACC6-23A6771A8590}</Project>
+      <Name>tut_arithmetic_add_sub</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\tut_arithmetic_dot_cross.vcxproj">
+      <Project>{056E0C59-8D30-3952-A21B-BA23D8742E36}</Project>
+      <Name>tut_arithmetic_dot_cross</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\tut_arithmetic_matrix_mul.vcxproj">
+      <Project>{BE0686CE-713A-36A5-9C8E-E44BDB16F97B}</Project>
+      <Name>tut_arithmetic_matrix_mul</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\tut_arithmetic_redux_basic.vcxproj">
+      <Project>{E899362A-4C5A-37EF-979C-9077E9DF1A4E}</Project>
+      <Name>tut_arithmetic_redux_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\tut_arithmetic_scalar_mul_div.vcxproj">
+      <Project>{31E2F358-57B5-3A0E-9357-408BD732D9AD}</Project>
+      <Name>tut_arithmetic_scalar_mul_div</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\tut_matrix_coefficient_accessors.vcxproj">
+      <Project>{09946BCC-E760-36D7-9559-29E1672B22B2}</Project>
+      <Name>tut_matrix_coefficient_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\tut_matrix_resize.vcxproj">
+      <Project>{8A88038D-04A9-38EE-A334-113D9242682A}</Project>
+      <Name>tut_matrix_resize</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\doc\examples\tut_matrix_resize_fixed_size.vcxproj">
+      <Project>{5141B230-D70F-39E1-8943-3A2272A4E007}</Project>
+      <Name>tut_matrix_resize_fixed_size</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

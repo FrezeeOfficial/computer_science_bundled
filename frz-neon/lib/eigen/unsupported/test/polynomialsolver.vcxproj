@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BE8DDC20-5C08-3EF5-AE66-754E7EFDAEA3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>polynomialsolver</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7;G:\Computer Science\Bundled\frz-neon\lib\eigen;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\unsupported;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\Eigen;G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7;G:\Computer Science\Bundled\frz-neon\lib\eigen;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\unsupported;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\Eigen;G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7;G:\Computer Science\Bundled\frz-neon\lib\eigen;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\unsupported;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\Eigen;G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7;G:\Computer Science\Bundled\frz-neon\lib\eigen;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\test;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\unsupported;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\..\..\Eigen;G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\unsupported\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7" "-BG:/Computer Science/Bundled/frz-neon/lib/eigen" --check-stamp-file "G:/Computer Science/Bundled/frz-neon/lib/eigen/unsupported/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindAdolc.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindFFTW.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGLEW.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGMP.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGoogleHash.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7" "-BG:/Computer Science/Bundled/frz-neon/lib/eigen" --check-stamp-file "G:/Computer Science/Bundled/frz-neon/lib/eigen/unsupported/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindAdolc.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindFFTW.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGLEW.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGMP.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGoogleHash.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7" "-BG:/Computer Science/Bundled/frz-neon/lib/eigen" --check-stamp-file "G:/Computer Science/Bundled/frz-neon/lib/eigen/unsupported/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindAdolc.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindFFTW.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGLEW.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGMP.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGoogleHash.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Computer Science/Bundled/frz-neon/lib/eigen-3.3.7" "-BG:/Computer Science/Bundled/frz-neon/lib/eigen" --check-stamp-file "G:/Computer Science/Bundled/frz-neon/lib/eigen/unsupported/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\SelectLibraryConfigurations.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindAdolc.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindFFTW.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGLEW.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGMP.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindGoogleHash.cmake;G:\Computer Science\Bundled\frz-neon\lib\eigen-3.3.7\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\ZERO_CHECK.vcxproj">
+      <Project>{E41CE922-E18B-3E0E-BC78-62F379F3F497}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_1.vcxproj">
+      <Project>{B260D36A-D97B-3023-9930-6584D0EB096D}</Project>
+      <Name>polynomialsolver_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_10.vcxproj">
+      <Project>{53408D3B-F632-3C72-98ED-372CEE23874A}</Project>
+      <Name>polynomialsolver_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_11.vcxproj">
+      <Project>{234BDF29-EFBF-3AEC-81DC-89825AFA0D96}</Project>
+      <Name>polynomialsolver_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_2.vcxproj">
+      <Project>{D1AE203D-6827-3B08-A5D2-543A1A5334F8}</Project>
+      <Name>polynomialsolver_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_3.vcxproj">
+      <Project>{A7B36A81-4024-32F8-AC10-AC23AE8023DF}</Project>
+      <Name>polynomialsolver_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_4.vcxproj">
+      <Project>{B1E234BF-601A-3874-9A64-A4F797BC7B33}</Project>
+      <Name>polynomialsolver_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_5.vcxproj">
+      <Project>{EEC428F2-B593-3150-BA3F-34D9F3F384E1}</Project>
+      <Name>polynomialsolver_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_6.vcxproj">
+      <Project>{F17D9B52-4556-3A69-8525-C70725E2290D}</Project>
+      <Name>polynomialsolver_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_7.vcxproj">
+      <Project>{9824F8F9-E4B7-3B17-AE91-D917330ED278}</Project>
+      <Name>polynomialsolver_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_8.vcxproj">
+      <Project>{2AFCE6AF-2D98-3887-BF80-F8C6885D0743}</Project>
+      <Name>polynomialsolver_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\Computer Science\Bundled\frz-neon\lib\eigen\unsupported\test\polynomialsolver_9.vcxproj">
+      <Project>{F21AF0B9-A611-3235-8920-83E2C8AB4ABD}</Project>
+      <Name>polynomialsolver_9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
