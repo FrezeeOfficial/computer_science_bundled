@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Computer Science/Bundled/frz-neon/include/perceptron.h
+iostream
+-
+vector
+-
+
+G:/Computer Science/Bundled/frz-neon/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+fstream
+-
+string
+-
+math.h
+-
+./include/perceptron.h
+G:/Computer Science/Bundled/frz-neon/include/perceptron.h
+
