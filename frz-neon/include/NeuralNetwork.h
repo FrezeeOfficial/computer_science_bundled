@@ -18,7 +18,7 @@ typedef Eigen::VectorXf ColVector;
 
 class NeuralNetwork {
 public:
-    NeuralNetwork(std::vector<int> topology, Scalar learningRate = Scalar(0.005));
+    NeuralNetwork(std::vector<int> topology, Scalar learning_rate = Scalar(0.005));
 
     void propagateForward(RowVector& input);
     void propagateBackward(RowVector& output);
@@ -30,10 +30,10 @@ public:
     Scalar activationFunctionDerivative(Scalar x);
     Scalar activationFunction(Scalar x);
 
-    std::vector<RowVector*> neuronLayers;
-    std::vector<RowVector*> cacheLayers;
+    std::vector<RowVector*> neuron_layers;
+    std::vector<RowVector*> cache_layers;
     std::vector<RowVector*> deltas;
     std::vector<Matrix*> weights;
     std::vector<int> topology;
-    Scalar learningRate;
+    Scalar learning_rate;
 };

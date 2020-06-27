@@ -11,11 +11,3 @@
 #include <fstream>
 #include <sstream>
 #include <Eigen/Eigen>
-#include "./NeuralNetwork.h"
-
-typedef std::string data_out;
-
-class NeuralParser {
-public:
-    void read_file(std::string filename, std::vector<RowVector*>& data);
-};
