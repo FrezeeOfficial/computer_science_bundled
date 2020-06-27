@@ -96,19 +96,40 @@ CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.s /c "G:\Computer Science\Bundled\frz-neon\src\NeuralNetwork.cpp"
 <<
 
+CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.obj: CMakeFiles\frz_neon.dir\flags.make
+CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.obj: ..\src\NeuralParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Computer Science\Bundled\frz-neon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/frz_neon.dir/src/NeuralParser.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\frz_neon.dir\src\NeuralParser.cpp.obj /FdCMakeFiles\frz_neon.dir\ /FS -c "G:\Computer Science\Bundled\frz-neon\src\NeuralParser.cpp"
+<<
+
+CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frz_neon.dir/src/NeuralParser.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Computer Science\Bundled\frz-neon\src\NeuralParser.cpp"
+<<
+
+CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frz_neon.dir/src/NeuralParser.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\frz_neon.dir\src\NeuralParser.cpp.s /c "G:\Computer Science\Bundled\frz-neon\src\NeuralParser.cpp"
+<<
+
 # Object files for target frz_neon
 frz_neon_OBJECTS = \
 "CMakeFiles\frz_neon.dir\main.cpp.obj" \
-"CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.obj"
+"CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.obj" \
+"CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.obj"
 
 # External object files for target frz_neon
 frz_neon_EXTERNAL_OBJECTS =
 
 frz_neon.exe: CMakeFiles\frz_neon.dir\main.cpp.obj
 frz_neon.exe: CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.obj
+frz_neon.exe: CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.obj
 frz_neon.exe: CMakeFiles\frz_neon.dir\build.make
 frz_neon.exe: CMakeFiles\frz_neon.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Computer Science\Bundled\frz-neon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable frz_neon.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Computer Science\Bundled\frz-neon\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable frz_neon.exe"
 	C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7223.86\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\frz_neon.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\frz_neon.dir\objects1.rsp @<<
  /out:frz_neon.exe /implib:frz_neon.lib /pdb:"G:\Computer Science\Bundled\frz-neon\cmake-build-debug\frz_neon.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

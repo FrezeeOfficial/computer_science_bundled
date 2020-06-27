@@ -28,6 +28,7 @@ public:
     void train(std::vector<RowVector*> input_data, std::vector<RowVector*> output_data);
 
     Scalar activationFunctionDerivative(Scalar x);
+    Scalar activationFunction(Scalar x);
 
     std::vector<RowVector*> neuronLayers;
     std::vector<RowVector*> cacheLayers;

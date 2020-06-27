@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "G:/Computer Science/Bundled/frz-neon/main.cpp" "G:/Computer Science/Bundled/frz-neon/cmake-build-debug/CMakeFiles/frz_neon.dir/main.cpp.obj"
   "G:/Computer Science/Bundled/frz-neon/src/NeuralNetwork.cpp" "G:/Computer Science/Bundled/frz-neon/cmake-build-debug/CMakeFiles/frz_neon.dir/src/NeuralNetwork.cpp.obj"
+  "G:/Computer Science/Bundled/frz-neon/src/NeuralParser.cpp" "G:/Computer Science/Bundled/frz-neon/cmake-build-debug/CMakeFiles/frz_neon.dir/src/NeuralParser.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

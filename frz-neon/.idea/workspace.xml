@@ -30,15 +30,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9c4b4dc-02e3-4b5c-920c-1c9539c977f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/files/training.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/NeuralParser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NeuralParser.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/src/NeuralNetwork.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/frz_neon.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/frz_neon.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/frz_neon.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/frz_neon.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/frz_neon.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/frz_neon.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/frz_neon.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/frz_neon.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/frz_neon.ilk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/frz_neon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/frz_neon.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/NeuralNetwork.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/NeuralNetwork.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -68,6 +83,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Computer Science\Bundled\frz-neon\files" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="frz_neon" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="frz_neon" TARGET_NAME="frz_neon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="frz_neon" RUN_TARGET_NAME="frz_neon">
       <method v="2">
@@ -86,6 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1593192365250</updated>
       <workItem from="1593192368305" duration="6710000" />
+      <workItem from="1593249385915" duration="9381000" />
+      <workItem from="1593262742027" duration="1610000" />
     </task>
     <servers />
   </component>
@@ -102,39 +124,44 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1879" height="348" key="GridCell.Tab.0.bottom" timestamp="1593199275116">
+    <state width="1879" height="348" key="GridCell.Tab.0.bottom" timestamp="1593265156073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593199275116" />
-    <state width="1879" height="348" key="GridCell.Tab.0.center" timestamp="1593199275116">
+    <state width="1879" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593265156073" />
+    <state width="1879" height="348" key="GridCell.Tab.0.center" timestamp="1593265156073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593199275116" />
-    <state width="1879" height="348" key="GridCell.Tab.0.left" timestamp="1593199275116">
+    <state width="1879" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593265156073" />
+    <state width="1879" height="348" key="GridCell.Tab.0.left" timestamp="1593265156072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593199275116" />
-    <state width="1879" height="348" key="GridCell.Tab.0.right" timestamp="1593199275116">
+    <state width="1879" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593265156072" />
+    <state width="1879" height="348" key="GridCell.Tab.0.right" timestamp="1593265156073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593199275116" />
-    <state width="1879" height="348" key="GridCell.Tab.1.bottom" timestamp="1593199275116">
+    <state width="1879" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593265156073" />
+    <state width="1879" height="348" key="GridCell.Tab.1.bottom" timestamp="1593265156073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593199275116" />
-    <state width="1879" height="348" key="GridCell.Tab.1.center" timestamp="1593199275116">
+    <state width="1879" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593265156073" />
+    <state width="1879" height="348" key="GridCell.Tab.1.center" timestamp="1593265156073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593199275116" />
-    <state width="1879" height="348" key="GridCell.Tab.1.left" timestamp="1593199275116">
+    <state width="1879" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593265156073" />
+    <state width="1879" height="348" key="GridCell.Tab.1.left" timestamp="1593265156073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593199275116" />
-    <state width="1879" height="348" key="GridCell.Tab.1.right" timestamp="1593199275116">
+    <state width="1879" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593265156073" />
+    <state width="1879" height="348" key="GridCell.Tab.1.right" timestamp="1593265156073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593199275116" />
+    <state width="1879" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593265156073" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1593256351686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593256351686" />
   </component>
 </project>

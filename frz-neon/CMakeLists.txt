@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 find_package (Eigen3 3.3 REQUIRED NO_MODULE)
 
-add_executable(frz_neon main.cpp src/NeuralNetwork.cpp include/NeuralNetwork.h)
+add_executable(frz_neon main.cpp src/NeuralNetwork.cpp include/NeuralNetwork.h include/NeuralParser.h src/NeuralParser.cpp)
 target_link_libraries (frz_neon Eigen3::Eigen)

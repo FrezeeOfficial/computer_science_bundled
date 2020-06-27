@@ -47,7 +47,7 @@ void NeuralNetwork::propagateForward(RowVector& input)
     }
     for (int i = 1; i < topology.size() - 1; i++) {
         int(*ExampleFunctionPointer)(float, bool);
-        neuronLayers[i]->block(0, 0, 1, topology[i]).unaryExpr(std::ptr_fun(activationFunction));
+        neuronLayers[i]->block(0, 0, 1, topology[i]);
     }
 }
 
@@ -84,7 +84,7 @@ void NeuralNetwork::propagateBackward(RowVector &output) {
     updateWeights();
 }
 
-Scalar activationFunction(Scalar x)
+Scalar NeuralNetwork::activationFunction(Scalar x)
 {
     return tanhf(x);
 }

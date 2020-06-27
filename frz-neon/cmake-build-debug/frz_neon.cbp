@@ -89,10 +89,16 @@
 		<Unit filename="G:/Computer Science/Bundled/frz-neon/include/NeuralNetwork.h">
 			<Option target="frz_neon"/>
 		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/frz-neon/include/NeuralParser.h">
+			<Option target="frz_neon"/>
+		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/frz-neon/main.cpp">
 			<Option target="frz_neon"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/frz-neon/src/NeuralNetwork.cpp">
+			<Option target="frz_neon"/>
+		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/frz-neon/src/NeuralParser.cpp">
 			<Option target="frz_neon"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/frz-neon/CMakeLists.txt">

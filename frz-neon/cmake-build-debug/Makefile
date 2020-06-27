@@ -178,6 +178,33 @@ src\NeuralNetwork.cpp.s:
 	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\NeuralNetwork.cpp.s
 .PHONY : src\NeuralNetwork.cpp.s
 
+src\NeuralParser.obj: src\NeuralParser.cpp.obj
+
+.PHONY : src\NeuralParser.obj
+
+# target to build an object file
+src\NeuralParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.obj
+.PHONY : src\NeuralParser.cpp.obj
+
+src\NeuralParser.i: src\NeuralParser.cpp.i
+
+.PHONY : src\NeuralParser.i
+
+# target to preprocess a source file
+src\NeuralParser.cpp.i:
+	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.i
+.PHONY : src\NeuralParser.cpp.i
+
+src\NeuralParser.s: src\NeuralParser.cpp.s
+
+.PHONY : src\NeuralParser.s
+
+# target to generate assembly for a file
+src\NeuralParser.cpp.s:
+	$(MAKE) -f CMakeFiles\frz_neon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\frz_neon.dir\src\NeuralParser.cpp.s
+.PHONY : src\NeuralParser.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -193,6 +220,9 @@ help:
 	@echo ... src/NeuralNetwork.obj
 	@echo ... src/NeuralNetwork.i
 	@echo ... src/NeuralNetwork.s
+	@echo ... src/NeuralParser.obj
+	@echo ... src/NeuralParser.i
+	@echo ... src/NeuralParser.s
 .PHONY : help
 
 

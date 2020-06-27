@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/frz_neon.dir/main.cpp.obj"
   "CMakeFiles/frz_neon.dir/src/NeuralNetwork.cpp.obj"
+  "CMakeFiles/frz_neon.dir/src/NeuralParser.cpp.obj"
   "frz_neon.exe"
   "frz_neon.exe.manifest"
   "frz_neon.lib"
