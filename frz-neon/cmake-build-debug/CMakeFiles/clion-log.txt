@@ -1,4 +1,0 @@
-C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7223.86\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "G:\Computer Science\Bundled\frz-neon"
--- Configuring done
--- Generating done
--- Build files have been written to: G:/Computer Science/Bundled/frz-neon/cmake-build-debug

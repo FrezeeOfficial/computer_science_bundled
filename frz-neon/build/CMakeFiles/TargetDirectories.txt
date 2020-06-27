@@ -1,3 +1,0 @@
-G:/Computer Science/Bundled/frz-neon/build/CMakeFiles/frz_neon.dir
-G:/Computer Science/Bundled/frz-neon/build/CMakeFiles/ALL_BUILD.dir
-G:/Computer Science/Bundled/frz-neon/build/CMakeFiles/ZERO_CHECK.dir
