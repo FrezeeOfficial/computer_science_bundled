@@ -1,0 +1,7 @@
+FRZ-GHS1 - global handler server
+
+FRZ-SS software server
+FRZ-S - client software
+
+FRZ-W website
+FRZ-WS website server
