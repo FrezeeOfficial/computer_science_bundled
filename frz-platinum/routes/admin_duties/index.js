@@ -3,11 +3,11 @@ const config = require('../../config');
 const mysql = require('mysql');
 var colors = require('colors');
 
-const connection = mysql.createConnection(config.mysql);
-connection.connect((err) => {
-  if (err);
-  console.log((config.mysql.database + ": mysql connected").magenta);
-});
+// const connection = mysql.createConnection(config.mysql);
+// connection.connect((err) => {
+//   if (err);
+//   console.log((config.mysql.database + ": mysql connected").magenta);
+// });
 
 app.get("/list-slaves", (req, res) => {
     listSlaves(asyncCallback)

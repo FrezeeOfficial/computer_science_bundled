@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../frz-platinum/.idea/microservice.iml" filepath="$PROJECT_DIR$/../frz-platinum/.idea/microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/web_app.iml" filepath="$PROJECT_DIR$/.idea/web_app.iml" />
     </modules>
   </component>

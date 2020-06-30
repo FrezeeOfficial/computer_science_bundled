@@ -27,11 +27,27 @@ const Socket = (props) => {
         });
         
         socket.on('new_message', (data) => {
-            console.log(data)
-            if (data.command == "KILL") {
-                invokeError(true, "0x02", "C6100")
-            } else if (data.message_body.command == "login" && data.message_body.status == "accepted") {
-                socketAccepted(true);
+            console.log(data);
+            if (data.error) {
+                // we have an error
+                switch(data.error_case){
+                    case("login"):
+                        invokeError(true, "0x02", "login revoked");
+                        break;
+                    default:
+                        invokeError(true, "0x00", "unknown error");
+                        break;
+                }
+            } else {
+                // continues to the next part
+                switch(data.message_body.command){
+                    case("login"):
+                            socketAccepted("s");
+                        break;
+                    default:
+                        invokeError(true, "0x00", "unknown error");
+                        break;
+                }
             }
         })
 
