@@ -1,0 +1,10 @@
+Requirement and Safety analysis:
+
+Peer - Peer Communication:
+1. Communications must be unreadable to anyone other that intended peer/recipient of api request. (ENCRYPTION)
+2. Payloads sent must be void invalid if packets are modified in malicious intent. (JSON WEB TOKENS / RSA ALGORITHM)
+3. Only allow one token session per ip/user.
+4. TLS protocol used instead of http because of its intergrated HMAC and asymetry public private rsa key usage.
+   which will stop man-in-middle attack and data from being read by non recipient;
+5. disallow mysql brute-force password grinding 
+6. escape all mysql commands where users api request is involved in command

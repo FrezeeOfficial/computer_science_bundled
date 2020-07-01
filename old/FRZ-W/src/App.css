@@ -1,0 +1,31 @@
+.App {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgb(30,39,52);
+  background: linear-gradient(90deg, rgba(30,39,52,1) 0%, rgba(31,38,48,1) 100%);
+}
+
+.copyright-notice {
+  color: rgba(255,255,255,0.2);
+  position: absolute;
+  right: 0;
+  font-size: 15px;
+  font-style: italic;
+  background-color: #34495e;
+  padding: 2px 15px 2px 15px;
+  border-radius: 10px;
+  bottom: 0;
+  margin: 15px;
+}
+
+.fadein, .fadeout {
+  opacity: 0;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.fadein {
+  opacity: 1;
+}

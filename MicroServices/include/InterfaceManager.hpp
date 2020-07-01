@@ -1,0 +1,14 @@
+//
+// Created by pc on 01/07/2020.
+//
+
+#ifndef MICROSERVICES_INTERFACEMANAGER_HPP
+#define MICROSERVICES_INTERFACEMANAGER_HPP
+
+
+class InterfaceManager {
+
+};
+
+
+#endif //MICROSERVICES_INTERFACEMANAGER_HPP

@@ -1,0 +1,211 @@
+.connectivity-bar {
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 999;
+}
+
+.connectivity-bar > span {
+    float: right;
+    margin-right: 5%;
+    font-family: Roboto;
+    font-size: 15px;
+    /* height: 25px; */
+    align-items: middle;
+    display: block;
+}
+
+.svgLoader {
+    margin-left:auto;
+    margin-right:auto; 
+    display:block;
+    margin-top: 15%;
+}
+
+.svgLoaderPath {
+    animation: shine 2s 2s infinite alternate;
+}
+
+@keyframes shine {
+    to {
+      opacity: 0;
+      right: 210%;
+    }
+}
+    
+.sidebar {
+    width: 303px;
+    position: fixed;
+    background-color: #1A222E;
+    float: left;
+    height: 100%;
+}
+
+.topbar {
+    height: 40px;
+    background-color: rgba( 0,0,0,0.29);
+    width: 100%;
+}
+
+#menu-items {
+    padding: 0;
+}
+
+#menu-items > li{
+    list-style: none;
+    background-color: #323C4B;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 8px;
+    display: block;
+    margin: 0 auto;
+    text-align: -webkit-center;
+    padding-bottom: 8px;
+    font-family: Roboto;
+    font-weight: 400;
+
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+#current-item {
+    background-color: #FFFFFF !important;
+    color: #1A222E !important;
+}
+
+
+
+#menu-items > li:hover{
+    background-color: #FFFFFF !important;
+    color: #1A222E !important;
+    cursor: pointer;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    padding-left: 353px;
+    color: white;
+    font-family: Roboto;
+}
+
+.card-fullsize {
+    margin-bottom: 30px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: #1A222E;
+}
+
+.error-modal {
+  max-width: 30%;
+  padding: 23px;
+  width: fit-content;
+  
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+
+  -webkit-box-shadow: 0px 0px 16px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 16px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 16px -10px rgba(0,0,0,0.75);
+  margin-top: 10%;
+  border-radius: 7px;
+
+  background-color: rgba(255, 44, 44, 0.89);
+
+  display: block;
+  width: 20%;
+}
+
+.error-modal-inner span {
+  display: flex;
+  color: #ffffff;
+  max-width: 184px;
+  margin: auto;
+  text-align: center;
+  font-weight: 500;
+}
+
+.error-modal-inner {
+  align-items: center;
+  display: grid;
+  margin: 0 auto;
+}
+
+.oops-error {
+  padding-bottom: 50px;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 600 !important;
+}
+
+.error-modal-inner > svg {
+  height: 98px;
+  width: 98px;
+  display: block;
+  margin: 0 auto;
+}
+
+.small-text {
+  font-size: 10px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.57) !important;
+  float: left;
+  clear: left;
+}
+
+.card-right {
+  display: inline-block;
+  width: 50%;
+  padding-left: 35%;
+}
+
+.card-left {
+  width: 50%;
+  font-family: Roboto;
+  display: inline-block;
+  padding-left: 5%;
+}
+
+.card-header {
+  display: block !important;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding: 0 !important;
+}
+
+.card-body {
+  display: block !important;
+  padding: 0 !important;
+  font-weight: 300;
+  max-width: 400px;
+  font-size: 13px;
+}
+
+.card-right > button {
+  display: block !important;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(255,0,0,0.63);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px 45px 5px 45px;
+}
+
+.card-right > span {
+  display: block !important;
+  font-size: 13px;
+  padding-left: 17px;
+  margin-top: 5px;
+}
+
+.text-color-red {
+  color: rgb(255, 0,0)
+}

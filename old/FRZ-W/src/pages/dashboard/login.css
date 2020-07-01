@@ -1,0 +1,93 @@
+.login-body {
+    height: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 50%;
+    color: rgb(210, 210, 210);
+}
+
+.login-body-left {
+    background-color: rgba(255, 0, 0, 0.28);
+    float: left;
+    width: 50%;
+    font-family: Roboto;
+    padding-left: 15px;
+    height: inherit;
+    overflow-y: auto
+    
+}
+
+.login-body-left > h1 {
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+    font-weight: 400;
+    display: table;
+    margin: 0 auto;
+}
+
+.login-body-left > h2 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.login-body-left > span {
+    font-style: italic;
+    font-size: 12px;
+    display: -webkit-box;
+    max-width: 90%;
+    font-weight: 300;
+}
+
+.login-body-right {
+    background-color: rgba(0, 0, 0, 0.56);
+    width: 50%;
+    height: inherit;
+    color: rgb(210, 210, 210);
+    float: right;
+}
+
+.text-field {
+    background-color: rgba(0,0,0,0) !important;
+    outline-style: none;
+    border: none;
+
+    transition: opacity;
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    transition-delay: 1s;
+        
+    border-bottom: 1px solid rgb(210, 210, 210);
+    color: rgb(210, 210, 210);
+}
+
+.text-field:focus {
+    color: rgba(255, 0, 0, 0.28);
+    background-color: rgba(0,0,0,0) !important;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.28);
+}
+
+.text-field {
+    display: table;
+    width: 50%;
+}
+
+.text-form {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.pin > input {
+    width: 30px;
+    height: 30px;
+    color: rgb(210, 210, 210);
+    background-color: rgba(0,0,0,0);
+    border-radius: 2px;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.pin > input:focus {
+    color: rgba(255, 0, 0, 0.28);
+    border: 1px solid rgba(255, 0, 0, 0.28);
+}

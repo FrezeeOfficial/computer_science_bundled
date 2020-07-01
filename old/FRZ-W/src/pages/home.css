@@ -1,0 +1,133 @@
+.home {
+    color: rgba(255, 255, 255, 0.82);
+    font-family: Roboto;
+    font-weight: 200;
+    height: 100%;
+}
+
+.home>h1 {
+    margin: 0 auto;
+    color: #ffffff;
+    display: table;
+    margin-top:80px;
+    letter-spacing: 9px;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+.home>h2 {
+    margin: 0 auto;
+    max-width: 36ch;
+    display: table;
+    text-align: -webkit-center;
+    font-size: 20px;
+}
+.home>span {
+    margin: 0 auto;
+    margin-top: 80px;
+    display: table;
+    font-size: 20px; 
+}
+.home-demo {
+    margin-top: 70px;
+}
+.home-demo-left>h2 {
+    font-size: 22px;
+}
+.home-demo-left>span {
+    font-size: 17px;
+    max-width: 16ch;
+}
+.home-demo-left {
+    width: 23%;
+    float: left;
+
+}
+.home-demo-right {
+    float: right;
+}
+.home-demo-left>button {
+    background-color:#E86363;
+    color: rgb(30,39,52);
+    border: none;
+    margin-top: 40%;
+    outline: none;
+}
+.test-drive {
+    color: #E86363 !important;
+    background-color: RGBA(232, 99, 99, 0.34);
+}
+.home-demo-right>h2 {
+    background-color: RGBA(232, 99, 99, 0.21);
+    width: 700px;
+    height: 300px
+}
+.home-plans {
+    display: flex;
+    height: 100%;
+    margin-top: 15%;
+    width: 100%;
+}
+.plan {
+    width: 25%;
+    height: 40%;
+    border-radius: 5px;
+    margin-right: 92px;
+  flex-direction: column;
+  display: flex;
+}
+.plan1 {
+    background-color: rgba(232, 99, 99, 0.21);
+    -webkit-box-shadow: 0px 0px 58px 0px rgba(232,99,99,0.21);
+    -moz-box-shadow: 0px 0px 58px 0px rgba(232,99,99,0.21);
+    box-shadow: 0px 0px 58px 0px rgba(232,99,99,0.21);
+}
+.plan3 {
+    background-color: rgba(65, 159, 50, 0.21);
+    -webkit-box-shadow: 0px 0px 58px 0px rgba(64,159,50,0.21);
+    -moz-box-shadow: 0px 0px 58px 0px rgba(64,159,50,0.21);
+    box-shadow: 0px 0px 58px 0px rgba(64,159,50,0.21);
+}
+.plan2 {
+    background-color: rgba(210, 121, 38, 0.72);
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(201,122,38,0.72);
+    -moz-box-shadow: 0px 0px 28px 0px rgba(201,122,38,0.72);
+    box-shadow: 0px 0px 28px 0px rgba(201,122,38,0.72);
+}
+
+.plan h2 {
+    font-size: 24px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 20px;
+}
+
+.plan h3 {
+    font-size: 14px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 20px;
+}
+
+.plan h4 {
+    font-size: 17px;
+    margin: 0 auto;
+    max-width: 235px;
+    display: table;
+    margin-top: 15px;
+}
+
+.plan button {
+    padding: 5px 24px 4px 24px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.43);
+    display: table;
+    border: none;
+    border-radius: 3px;
+    color: #7c532a;
+    margin: 0 auto;
+
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 20px;
+}
