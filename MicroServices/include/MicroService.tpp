@@ -8,6 +8,9 @@
 #include <iostream>
 #include <vector>
 #include "../lib/json.hpp"
+#include "./InterfaceManager.hpp"
+#include "../src/Interfaces/Rest.cpp"
+#include "../src/Interfaces/Socket.cpp"
 
 // the template that all microservices must use
 class MicroService {
@@ -23,6 +26,10 @@ public:
 
     static st_MicroService build_config(nlohmann::json config_json);
 
+    virtual void start_service() {
+        std::cout << "Error: MicroService has incomplete function list" << std::endl;
+    }
+
     MicroService(st_MicroService config);
 
     std::string get_service_name() { return this->config.service_name; };
@@ -31,6 +38,10 @@ protected:
     // main service query
     bool running;
     int status;
+
+    InterfaceManager::InterfaceManager *rest;
+    InterfaceManager::InterfaceManager *socket;
+
     st_MicroService config;
 };
 

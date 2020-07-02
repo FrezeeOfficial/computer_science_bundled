@@ -102,6 +102,12 @@
 		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/InterfaceManager.cpp">
 			<Option target="MicroServices"/>
 		</Unit>
+		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp">
+			<Option target="MicroServices"/>
+		</Unit>
+		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp">
+			<Option target="MicroServices"/>
+		</Unit>
 		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Main.cpp">
 			<Option target="MicroServices"/>
 		</Unit>

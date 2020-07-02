@@ -14,12 +14,13 @@ class Service {
 public:
     Service(std::string config_file_name);
     void load_config();
+    void start_microservices();
     void add_microservice(MicroService *microservice);
-    std::vector <MicroService> list_microservices(){ return this->microservices; };
+    std::vector <MicroService *> list_microservices(){ return this->microservices; };
     std::vector <Interconnect> list_interconnects(){ return this->interconnects; };
 private:
     json config_data;
-    std::vector <MicroService> microservices;
+    std::vector <MicroService *> microservices;
     std::vector <Interconnect> interconnects;
 };
 

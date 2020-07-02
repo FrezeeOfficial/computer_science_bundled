@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Interconnect.hpp
+./MicroService.tpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
+../lib/json.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+iostream
+-
+
 D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
 string
 D:/Gitihub Repos/computer_science_bundled/MicroServices/include/string
@@ -15,6 +25,52 @@ vector
 -
 ../lib/json.hpp
 D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+./InterfaceManager.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
+../src/Interfaces/Rest.cpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp
+../src/Interfaces/Socket.cpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Service.hpp
+vector
+-
+./MicroService.tpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
+./Interconnect.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Interconnect.hpp
+./Utils/Utils.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+../lib/json.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+../../lib/json.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+fstream
+-
+iostream
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/iostream
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/boost/signals2/connection.hpp
+boost/function.hpp
+-
+boost/mpl/bool.hpp
+-
+boost/noncopyable.hpp
+-
+boost/shared_ptr.hpp
+-
+boost/signals2/detail/auto_buffer.hpp
+-
+boost/signals2/detail/null_output_iterator.hpp
+-
+boost/signals2/detail/unique_lock.hpp
+-
+boost/signals2/slot.hpp
+-
+boost/weak_ptr.hpp
+-
 
 D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
 algorithm
@@ -292,7 +348,45 @@ vector
 utility
 -
 
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp
+../../include/InterfaceManager.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
+string
+-
+../../include/Utils/Utils.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+../../lib/boost/signals2/connection.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/boost/signals2/connection.hpp
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Main.cpp
+iostream
+-
+../include/Service.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Service.hpp
+
 D:/Gitihub Repos/computer_science_bundled/MicroServices/src/MicroService.cpp
 ../include/MicroService.tpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Service.cpp
+../include/Service.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Service.hpp
+./Services/WebService.cpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/WebService.cpp
+./Services/SoftwareService.cpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/SoftwareService.cpp
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/Interconnect.cpp
+../../include/Interconnect.hpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Interconnect.hpp
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/SoftwareService.cpp
+../../include/MicroService.tpp
+D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
+
+D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/WebService.cpp
+../../include/MicroService.tpp
 D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
 

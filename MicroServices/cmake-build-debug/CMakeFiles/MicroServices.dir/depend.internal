@@ -3,39 +3,76 @@
 
 CMakeFiles/MicroServices.dir/src/InterfaceManager.cpp.obj
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/src/InterfaceManager.cpp
+CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/boost/signals2/connection.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp
+CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp
 CMakeFiles/MicroServices.dir/src/Main.cpp.obj
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Interconnect.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Service.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/boost/signals2/connection.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Main.cpp
 CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/boost/signals2/connection.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/src/MicroService.cpp
 CMakeFiles/MicroServices.dir/src/Service.cpp.obj
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Interconnect.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Service.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/boost/signals2/connection.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Service.cpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/SoftwareService.cpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/WebService.cpp
 CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Interconnect.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/boost/signals2/connection.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/Interconnect.cpp
 CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/boost/signals2/connection.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/SoftwareService.cpp
 CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/boost/signals2/connection.hpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/lib/json.hpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp
+ D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp
  D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/WebService.cpp
 CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj
  D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp

@@ -9,6 +9,14 @@
 Service::Service(std::string config_file_name) {
     this->config_data = Utils::parse_json(config_file_name);
     this->load_config();
+
+    this->start_microservices();
+};
+
+void Service::start_microservices() {
+    for (int i = 0; i < this->microservices.size(); i++) {
+        this->microservices.at(i)->start_service();
+    }
 };
 
 void Service::load_config() {
@@ -22,6 +30,6 @@ void Service::load_config() {
 };
 
 void Service::add_microservice(MicroService *microservice) {
-    this->microservices.push_back( *microservice);
+    this->microservices.push_back( microservice);
 };
 
