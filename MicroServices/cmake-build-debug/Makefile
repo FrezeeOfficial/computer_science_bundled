@@ -40,19 +40,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\pc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\pc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Gitihub Repos\computer_science_bundled\MicroServices"
+CMAKE_SOURCE_DIR = "G:\Computer Science\Bundled\MicroServices"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug"
+CMAKE_BINARY_DIR = "G:\Computer Science\Bundled\MicroServices\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -60,7 +60,7 @@ CMAKE_BINARY_DIR = "D:\Gitihub Repos\computer_science_bundled\MicroServices\cmak
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\pc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -71,7 +71,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\pc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\CMakeFiles" "D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Computer Science\Bundled\MicroServices\cmake-build-debug\CMakeFiles" "G:\Computer Science\Bundled\MicroServices\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Computer Science\Bundled\MicroServices\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ MicroServices: cmake_check_build_system
 MicroServices\fast:
 	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\build
 .PHONY : MicroServices\fast
+
+config\rest_data\web_service_methods.obj: config\rest_data\web_service_methods.cpp.obj
+
+.PHONY : config\rest_data\web_service_methods.obj
+
+# target to build an object file
+config\rest_data\web_service_methods.cpp.obj:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\config\rest_data\web_service_methods.cpp.obj
+.PHONY : config\rest_data\web_service_methods.cpp.obj
+
+config\rest_data\web_service_methods.i: config\rest_data\web_service_methods.cpp.i
+
+.PHONY : config\rest_data\web_service_methods.i
+
+# target to preprocess a source file
+config\rest_data\web_service_methods.cpp.i:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\config\rest_data\web_service_methods.cpp.i
+.PHONY : config\rest_data\web_service_methods.cpp.i
+
+config\rest_data\web_service_methods.s: config\rest_data\web_service_methods.cpp.s
+
+.PHONY : config\rest_data\web_service_methods.s
+
+# target to generate assembly for a file
+config\rest_data\web_service_methods.cpp.s:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\config\rest_data\web_service_methods.cpp.s
+.PHONY : config\rest_data\web_service_methods.cpp.s
 
 src\InterfaceManager.obj: src\InterfaceManager.cpp.obj
 
@@ -403,6 +430,9 @@ help:
 	@echo ... MicroServices
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... config/rest_data/web_service_methods.obj
+	@echo ... config/rest_data/web_service_methods.i
+	@echo ... config/rest_data/web_service_methods.s
 	@echo ... src/InterfaceManager.obj
 	@echo ... src/InterfaceManager.i
 	@echo ... src/InterfaceManager.s

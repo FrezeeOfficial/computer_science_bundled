@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MicroServices.dir/config/rest_data/web_service_methods.cpp.obj"
   "CMakeFiles/MicroServices.dir/src/InterfaceManager.cpp.obj"
   "CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj"
   "CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj"

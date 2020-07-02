@@ -4,21 +4,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/InterfaceManager.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/InterfaceManager.cpp.obj"
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj"
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Socket.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj"
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Main.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Main.cpp.obj"
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/MicroService.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj"
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Service.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Service.cpp.obj"
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/Interconnect.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj"
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/SoftwareService.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj"
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/WebService.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj"
-  "D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Utils/Utils.cpp" "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/config/rest_data/web_service_methods.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/config/rest_data/web_service_methods.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/InterfaceManager.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/InterfaceManager.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Interfaces/Rest.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Main.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Main.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/MicroService.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Service.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Service.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Services/Interconnect.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Services/SoftwareService.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Services/WebService.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Utils/Utils.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  ".././lib/boost_1_72_0"
   )
 
 # Targets to which this target links.
