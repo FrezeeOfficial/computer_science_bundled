@@ -11,12 +11,12 @@ MicroService::MicroService(MicroService::st_MicroService config) {
 MicroService::st_MicroService MicroService::build_config(nlohmann::json config_json) {
     MicroService::st_MicroService config;
 
-    bool use_socket       = config_json["use_socket"];
-    bool use_rest         = config_json["use_rest"];
+    bool use_socket              = config_json["use_socket"];
+    bool use_rest                = config_json["use_rest"];
     bool is_interconnected       = config_json["is_interconnected"];
     std::string ServiceName      = config_json["service_name"];
-    std::string socket_data      = config_json["socket_data"];
-    std::string rest_data        = config_json["rest_data"];
+    nlohmann::json socket_data   = Utils::parse_json(config_json["socket_data"]);
+    nlohmann::json rest_data     = Utils::parse_json(config_json["rest_data"]);
 
     config.use_socket            = use_socket;
     config.use_rest              = use_rest;

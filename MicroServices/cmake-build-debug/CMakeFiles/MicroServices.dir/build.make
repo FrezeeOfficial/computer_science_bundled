@@ -172,23 +172,23 @@ CMakeFiles\MicroServices.dir\src\MicroService.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MicroServices.dir\src\MicroService.cpp.s /c "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\MicroService.cpp"
 <<
 
-CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.obj: CMakeFiles\MicroServices.dir\flags.make
-CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.obj: ..\src\InterfaceManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MicroServices.dir/src/InterfaceManager.cpp.obj"
+CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.obj: CMakeFiles\MicroServices.dir\flags.make
+CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.obj: ..\src\MicroServiceController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MicroServices.dir/src/MicroServiceController.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.obj /FdCMakeFiles\MicroServices.dir\ /FS -c "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\InterfaceManager.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.obj /FdCMakeFiles\MicroServices.dir\ /FS -c "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\MicroServiceController.cpp"
 <<
 
-CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicroServices.dir/src/InterfaceManager.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\InterfaceManager.cpp"
+CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicroServices.dir/src/MicroServiceController.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\MicroServiceController.cpp"
 <<
 
-CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicroServices.dir/src/InterfaceManager.cpp.s"
+CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicroServices.dir/src/MicroServiceController.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.s /c "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\InterfaceManager.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.s /c "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\MicroServiceController.cpp"
 <<
 
 CMakeFiles\MicroServices.dir\src\Utils\Utils.cpp.obj: CMakeFiles\MicroServices.dir\flags.make
@@ -248,6 +248,25 @@ CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.s /c "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\Interfaces\Rest.cpp"
 <<
 
+CMakeFiles\MicroServices.dir\src\SessionManager.cpp.obj: CMakeFiles\MicroServices.dir\flags.make
+CMakeFiles\MicroServices.dir\src\SessionManager.cpp.obj: ..\src\SessionManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MicroServices.dir/src/SessionManager.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MicroServices.dir\src\SessionManager.cpp.obj /FdCMakeFiles\MicroServices.dir\ /FS -c "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\SessionManager.cpp"
+<<
+
+CMakeFiles\MicroServices.dir\src\SessionManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicroServices.dir/src/SessionManager.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe > CMakeFiles\MicroServices.dir\src\SessionManager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\SessionManager.cpp"
+<<
+
+CMakeFiles\MicroServices.dir\src\SessionManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicroServices.dir/src/SessionManager.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MicroServices.dir\src\SessionManager.cpp.s /c "D:\Gitihub Repos\computer_science_bundled\MicroServices\src\SessionManager.cpp"
+<<
+
 # Object files for target MicroServices
 MicroServices_OBJECTS = \
 "CMakeFiles\MicroServices.dir\src\Main.cpp.obj" \
@@ -256,10 +275,11 @@ MicroServices_OBJECTS = \
 "CMakeFiles\MicroServices.dir\src\Services\WebService.cpp.obj" \
 "CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj" \
 "CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj" \
-"CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.obj" \
+"CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.obj" \
 "CMakeFiles\MicroServices.dir\src\Utils\Utils.cpp.obj" \
 "CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.obj" \
-"CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.obj"
+"CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.obj" \
+"CMakeFiles\MicroServices.dir\src\SessionManager.cpp.obj"
 
 # External object files for target MicroServices
 MicroServices_EXTERNAL_OBJECTS =
@@ -270,15 +290,16 @@ MicroServices.exe: CMakeFiles\MicroServices.dir\src\Services\SoftwareService.cpp
 MicroServices.exe: CMakeFiles\MicroServices.dir\src\Services\WebService.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj
-MicroServices.exe: CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.obj
+MicroServices.exe: CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\src\Utils\Utils.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.obj
+MicroServices.exe: CMakeFiles\MicroServices.dir\src\SessionManager.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\build.make
 MicroServices.exe: CMakeFiles\MicroServices.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable MicroServices.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable MicroServices.exe"
 	C:\Users\pc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\MicroServices.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\MicroServices.dir\objects1.rsp @<<
- /out:MicroServices.exe /implib:MicroServices.lib /pdb:"D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\MicroServices.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:MicroServices.exe /implib:MicroServices.lib /pdb:"D:\Gitihub Repos\computer_science_bundled\MicroServices\cmake-build-debug\MicroServices.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console   -LIBPATH:"D:\Gitihub Repos\computer_science_bundled\MicroServices\.\lib\boost_1_72_0\stage\lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.

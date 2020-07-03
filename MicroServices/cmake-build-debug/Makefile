@@ -124,33 +124,6 @@ MicroServices\fast:
 	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\build
 .PHONY : MicroServices\fast
 
-src\InterfaceManager.obj: src\InterfaceManager.cpp.obj
-
-.PHONY : src\InterfaceManager.obj
-
-# target to build an object file
-src\InterfaceManager.cpp.obj:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.obj
-.PHONY : src\InterfaceManager.cpp.obj
-
-src\InterfaceManager.i: src\InterfaceManager.cpp.i
-
-.PHONY : src\InterfaceManager.i
-
-# target to preprocess a source file
-src\InterfaceManager.cpp.i:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.i
-.PHONY : src\InterfaceManager.cpp.i
-
-src\InterfaceManager.s: src\InterfaceManager.cpp.s
-
-.PHONY : src\InterfaceManager.s
-
-# target to generate assembly for a file
-src\InterfaceManager.cpp.s:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.s
-.PHONY : src\InterfaceManager.cpp.s
-
 src\Interfaces\Rest.obj: src\Interfaces\Rest.cpp.obj
 
 .PHONY : src\Interfaces\Rest.obj
@@ -258,6 +231,33 @@ src\MicroService.s: src\MicroService.cpp.s
 src\MicroService.cpp.s:
 	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\MicroService.cpp.s
 .PHONY : src\MicroService.cpp.s
+
+src\MicroServiceController.obj: src\MicroServiceController.cpp.obj
+
+.PHONY : src\MicroServiceController.obj
+
+# target to build an object file
+src\MicroServiceController.cpp.obj:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.obj
+.PHONY : src\MicroServiceController.cpp.obj
+
+src\MicroServiceController.i: src\MicroServiceController.cpp.i
+
+.PHONY : src\MicroServiceController.i
+
+# target to preprocess a source file
+src\MicroServiceController.cpp.i:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.i
+.PHONY : src\MicroServiceController.cpp.i
+
+src\MicroServiceController.s: src\MicroServiceController.cpp.s
+
+.PHONY : src\MicroServiceController.s
+
+# target to generate assembly for a file
+src\MicroServiceController.cpp.s:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\MicroServiceController.cpp.s
+.PHONY : src\MicroServiceController.cpp.s
 
 src\Service.obj: src\Service.cpp.obj
 
@@ -367,6 +367,33 @@ src\Services\WebService.cpp.s:
 	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Services\WebService.cpp.s
 .PHONY : src\Services\WebService.cpp.s
 
+src\SessionManager.obj: src\SessionManager.cpp.obj
+
+.PHONY : src\SessionManager.obj
+
+# target to build an object file
+src\SessionManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\SessionManager.cpp.obj
+.PHONY : src\SessionManager.cpp.obj
+
+src\SessionManager.i: src\SessionManager.cpp.i
+
+.PHONY : src\SessionManager.i
+
+# target to preprocess a source file
+src\SessionManager.cpp.i:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\SessionManager.cpp.i
+.PHONY : src\SessionManager.cpp.i
+
+src\SessionManager.s: src\SessionManager.cpp.s
+
+.PHONY : src\SessionManager.s
+
+# target to generate assembly for a file
+src\SessionManager.cpp.s:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\SessionManager.cpp.s
+.PHONY : src\SessionManager.cpp.s
+
 src\Utils\Utils.obj: src\Utils\Utils.cpp.obj
 
 .PHONY : src\Utils\Utils.obj
@@ -403,9 +430,6 @@ help:
 	@echo ... MicroServices
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... src/InterfaceManager.obj
-	@echo ... src/InterfaceManager.i
-	@echo ... src/InterfaceManager.s
 	@echo ... src/Interfaces/Rest.obj
 	@echo ... src/Interfaces/Rest.i
 	@echo ... src/Interfaces/Rest.s
@@ -418,6 +442,9 @@ help:
 	@echo ... src/MicroService.obj
 	@echo ... src/MicroService.i
 	@echo ... src/MicroService.s
+	@echo ... src/MicroServiceController.obj
+	@echo ... src/MicroServiceController.i
+	@echo ... src/MicroServiceController.s
 	@echo ... src/Service.obj
 	@echo ... src/Service.i
 	@echo ... src/Service.s
@@ -430,6 +457,9 @@ help:
 	@echo ... src/Services/WebService.obj
 	@echo ... src/Services/WebService.i
 	@echo ... src/Services/WebService.s
+	@echo ... src/SessionManager.obj
+	@echo ... src/SessionManager.i
+	@echo ... src/SessionManager.s
 	@echo ... src/Utils/Utils.obj
 	@echo ... src/Utils/Utils.i
 	@echo ... src/Utils/Utils.s

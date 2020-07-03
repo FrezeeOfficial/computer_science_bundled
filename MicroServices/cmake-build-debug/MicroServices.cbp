@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="D:/Gitihub Repos/computer_science_bundled/MicroServices/./lib/boost_1_72_0"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -47,6 +48,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="D:/Gitihub Repos/computer_science_bundled/MicroServices/./lib/boost_1_72_0"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -87,19 +89,19 @@
 		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Interconnect.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
-		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/include/InterfaceManager.hpp">
+		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp">
 			<Option target="MicroServices"/>
 		</Unit>
-		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroService.tpp">
+		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/include/MicroServiceController.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Service.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
-		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp">
+		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/include/SessionManager.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
-		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/InterfaceManager.cpp">
+		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/include/Utils/Utils.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Interfaces/Rest.cpp">
@@ -114,6 +116,9 @@
 		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/MicroService.cpp">
 			<Option target="MicroServices"/>
 		</Unit>
+		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/MicroServiceController.cpp">
+			<Option target="MicroServices"/>
+		</Unit>
 		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Service.cpp">
 			<Option target="MicroServices"/>
 		</Unit>
@@ -124,6 +129,9 @@
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Services/WebService.cpp">
+			<Option target="MicroServices"/>
+		</Unit>
+		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/SessionManager.cpp">
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="D:/Gitihub Repos/computer_science_bundled/MicroServices/src/Utils/Utils.cpp">
