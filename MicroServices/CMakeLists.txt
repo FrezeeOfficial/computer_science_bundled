@@ -10,7 +10,6 @@ find_package(Boost REQUIRED)
 include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIR})
 
-add_executable(MicroServices src/Main.cpp src/Service.cpp include/Service.hpp src/Services/SoftwareService.cpp src/Services/WebService.cpp src/Services/Interconnect.cpp include/MicroService.tpp src/MicroService.cpp include/Interconnect.hpp src/InterfaceManager.cpp include/InterfaceManager.hpp src/Utils/Utils.cpp include/Utils/Utils.hpp src/Interfaces/Socket.cpp src/Interfaces/Rest.cpp config/rest_data/web_service_methods.cpp)
-
+add_executable(MicroServices src/Main.cpp src/Service.cpp include/Service.hpp src/Services/SoftwareService.cpp src/Services/WebService.cpp src/Services/Interconnect.cpp include/MicroService.tpp src/MicroService.cpp include/Interconnect.hpp src/MicroServiceController.cpp include/MicroServiceController.hpp src/Utils/Utils.cpp include/Utils/Utils.hpp src/Interfaces/Socket.cpp src/Interfaces/Rest.cpp src/SessionManager.cpp include/SessionManager.hpp)
 
 target_link_libraries( MicroServices ${Boost_LIBRARIES} )

@@ -1,0 +1,25 @@
+Although the decision to use C++ for the api was good because it's high modularity and speed. It poses lots of additional security considerations because C++ runs
+lower to the system. Potentially meaning vunrebilities which result in serious consquencess if memory expoits or worse DLL injection.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Pointers and register vunrebilities:
+- Given the requirement of fast applications. Instead of passing initialions as members of a class, direct pointers have been used. The gives the vunrebility
+    of possible DLL injection attacks. All function variables on the stack > 0xffffff layer must be signed to stop injections of malicious code.
+
+- Additionally templates are used which may expose the BBS runtime memory layer. Because Data and BBS layer segments by default of the cpu have read/write
+    permissions, instructions could possibly injected into these segments and executed'
+
+- Intels IA32 processor registers must forcefully point as follows: EIP->Text Layer, EBP, ESP->Stack Layer. Given these guidelines, manipulating the
+    runtime memory layout would be harder during the application initialisation.
+
+- Function Pointers->SEH pointer (structured exeption handler) can be overwritted as it points to accessable memory runtime layers.
+
+- Don't store data in global pointers do to easy manipulation
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Securing the sockets:
+- OpenSSL TLS heartbeat extension info leak. Possible heap over-read, which can result in server memory revealed by client as a malformed heartbeat is sent.
+    1.0.1->1.0.1f
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+The session tokens for the users accesing the micro-services:
