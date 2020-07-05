@@ -1,31 +1,13 @@
 //
-// Created by pc on 02/07/2020.
+// Created by James on 04/07/2020.
 //
 
-#include "../../include/MicroServiceController.hpp"
-#include "../../include/Utils/Utils.hpp"
+#include "../../include/Interfaces/Rest.hpp"
 
-#include <iostream>
-#include <string>
-#include <boost/asio.hpp>
+Interfaces::Rest::Rest(nlohmann::json rest_config) {
+    this->config = rest_config;
+}
 
-namespace InterfaceManager {
-    class RestManager:  public MicroServiceController {
-    public:
-        RestManager(std::string config_file){
-            this->json_config_data = Utils::parse_json(config_file);
-
-        }
-
-        void start_interface() {
-
-            std::cout << this->json_config_data["rest_name"] << ": Rest Interface Initialising" << std::endl;
-        }
-
-
-
-    private:
-        std::string ip;
-        std::string port;
-    };
+void Interfaces::Rest::start_service() {
+    std::cout << this->config["rest_name"] << ": Rest initialising" << std::endl;
 }

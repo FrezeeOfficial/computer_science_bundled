@@ -124,60 +124,6 @@ MicroServices\fast:
 	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\build
 .PHONY : MicroServices\fast
 
-config\rest_data\web_service_methods.obj: config\rest_data\web_service_methods.cpp.obj
-
-.PHONY : config\rest_data\web_service_methods.obj
-
-# target to build an object file
-config\rest_data\web_service_methods.cpp.obj:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\config\rest_data\web_service_methods.cpp.obj
-.PHONY : config\rest_data\web_service_methods.cpp.obj
-
-config\rest_data\web_service_methods.i: config\rest_data\web_service_methods.cpp.i
-
-.PHONY : config\rest_data\web_service_methods.i
-
-# target to preprocess a source file
-config\rest_data\web_service_methods.cpp.i:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\config\rest_data\web_service_methods.cpp.i
-.PHONY : config\rest_data\web_service_methods.cpp.i
-
-config\rest_data\web_service_methods.s: config\rest_data\web_service_methods.cpp.s
-
-.PHONY : config\rest_data\web_service_methods.s
-
-# target to generate assembly for a file
-config\rest_data\web_service_methods.cpp.s:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\config\rest_data\web_service_methods.cpp.s
-.PHONY : config\rest_data\web_service_methods.cpp.s
-
-src\InterfaceManager.obj: src\InterfaceManager.cpp.obj
-
-.PHONY : src\InterfaceManager.obj
-
-# target to build an object file
-src\InterfaceManager.cpp.obj:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.obj
-.PHONY : src\InterfaceManager.cpp.obj
-
-src\InterfaceManager.i: src\InterfaceManager.cpp.i
-
-.PHONY : src\InterfaceManager.i
-
-# target to preprocess a source file
-src\InterfaceManager.cpp.i:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.i
-.PHONY : src\InterfaceManager.cpp.i
-
-src\InterfaceManager.s: src\InterfaceManager.cpp.s
-
-.PHONY : src\InterfaceManager.s
-
-# target to generate assembly for a file
-src\InterfaceManager.cpp.s:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\InterfaceManager.cpp.s
-.PHONY : src\InterfaceManager.cpp.s
-
 src\Interfaces\Rest.obj: src\Interfaces\Rest.cpp.obj
 
 .PHONY : src\Interfaces\Rest.obj
@@ -204,33 +150,6 @@ src\Interfaces\Rest.s: src\Interfaces\Rest.cpp.s
 src\Interfaces\Rest.cpp.s:
 	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.s
 .PHONY : src\Interfaces\Rest.cpp.s
-
-src\Interfaces\Socket.obj: src\Interfaces\Socket.cpp.obj
-
-.PHONY : src\Interfaces\Socket.obj
-
-# target to build an object file
-src\Interfaces\Socket.cpp.obj:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.obj
-.PHONY : src\Interfaces\Socket.cpp.obj
-
-src\Interfaces\Socket.i: src\Interfaces\Socket.cpp.i
-
-.PHONY : src\Interfaces\Socket.i
-
-# target to preprocess a source file
-src\Interfaces\Socket.cpp.i:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.i
-.PHONY : src\Interfaces\Socket.cpp.i
-
-src\Interfaces\Socket.s: src\Interfaces\Socket.cpp.s
-
-.PHONY : src\Interfaces\Socket.s
-
-# target to generate assembly for a file
-src\Interfaces\Socket.cpp.s:
-	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.s
-.PHONY : src\Interfaces\Socket.cpp.s
 
 src\Main.obj: src\Main.cpp.obj
 
@@ -394,6 +313,33 @@ src\Services\WebService.cpp.s:
 	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Services\WebService.cpp.s
 .PHONY : src\Services\WebService.cpp.s
 
+src\SessionManager.obj: src\SessionManager.cpp.obj
+
+.PHONY : src\SessionManager.obj
+
+# target to build an object file
+src\SessionManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\SessionManager.cpp.obj
+.PHONY : src\SessionManager.cpp.obj
+
+src\SessionManager.i: src\SessionManager.cpp.i
+
+.PHONY : src\SessionManager.i
+
+# target to preprocess a source file
+src\SessionManager.cpp.i:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\SessionManager.cpp.i
+.PHONY : src\SessionManager.cpp.i
+
+src\SessionManager.s: src\SessionManager.cpp.s
+
+.PHONY : src\SessionManager.s
+
+# target to generate assembly for a file
+src\SessionManager.cpp.s:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\SessionManager.cpp.s
+.PHONY : src\SessionManager.cpp.s
+
 src\Utils\Utils.obj: src\Utils\Utils.cpp.obj
 
 .PHONY : src\Utils\Utils.obj
@@ -430,18 +376,9 @@ help:
 	@echo ... MicroServices
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... config/rest_data/web_service_methods.obj
-	@echo ... config/rest_data/web_service_methods.i
-	@echo ... config/rest_data/web_service_methods.s
-	@echo ... src/InterfaceManager.obj
-	@echo ... src/InterfaceManager.i
-	@echo ... src/InterfaceManager.s
 	@echo ... src/Interfaces/Rest.obj
 	@echo ... src/Interfaces/Rest.i
 	@echo ... src/Interfaces/Rest.s
-	@echo ... src/Interfaces/Socket.obj
-	@echo ... src/Interfaces/Socket.i
-	@echo ... src/Interfaces/Socket.s
 	@echo ... src/Main.obj
 	@echo ... src/Main.i
 	@echo ... src/Main.s
@@ -460,6 +397,9 @@ help:
 	@echo ... src/Services/WebService.obj
 	@echo ... src/Services/WebService.i
 	@echo ... src/Services/WebService.s
+	@echo ... src/SessionManager.obj
+	@echo ... src/SessionManager.i
+	@echo ... src/SessionManager.s
 	@echo ... src/Utils/Utils.obj
 	@echo ... src/Utils/Utils.i
 	@echo ... src/Utils/Utils.s

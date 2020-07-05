@@ -8,10 +8,8 @@
 #include <iostream>
 #include <vector>
 #include "../lib/json.hpp"
-#include "./MicroServiceController.hpp"
-#include "../src/Interfaces/Rest.cpp"
-#include "../src/Interfaces/Socket.cpp"
 #include "./Utils/Utils.hpp"
+#include "../../include/Interfaces/Rest.hpp"
 
 // the template that all microservices must use
 class MicroService {
@@ -40,9 +38,7 @@ protected:
     bool running;
     int status;
 
-    InterfaceManager::MicroServiceController *rest;
-    InterfaceManager::MicroServiceController *socket;
-
+    Interfaces::Rest *rest_service;
     st_MicroService config;
 };
 

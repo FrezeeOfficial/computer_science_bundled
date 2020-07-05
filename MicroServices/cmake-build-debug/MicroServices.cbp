@@ -86,13 +86,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="G:/Computer Science/Bundled/MicroServices/config/rest_data/web_service_methods.cpp">
-			<Option target="MicroServices"/>
-		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/Interconnect.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
-		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/InterfaceManager.hpp">
+		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/Interfaces/Rest.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/MicroService.tpp">
@@ -101,16 +98,13 @@
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/Service.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/SessionManager.hpp">
+			<Option target="MicroServices"/>
+		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/Utils/Utils.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
-		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/InterfaceManager.cpp">
-			<Option target="MicroServices"/>
-		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Interfaces/Rest.cpp">
-			<Option target="MicroServices"/>
-		</Unit>
-		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket.cpp">
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Main.cpp">
@@ -129,6 +123,9 @@
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Services/WebService.cpp">
+			<Option target="MicroServices"/>
+		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/SessionManager.cpp">
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Utils/Utils.cpp">

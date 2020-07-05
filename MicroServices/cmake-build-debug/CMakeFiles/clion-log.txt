@@ -1,5 +1,4 @@
 C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "G:\Computer Science\Bundled\MicroServices"
--- Found Boost: ./lib/boost_1_72_0 (found version "1.72.0")  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: G:/Computer Science/Bundled/MicroServices/cmake-build-debug

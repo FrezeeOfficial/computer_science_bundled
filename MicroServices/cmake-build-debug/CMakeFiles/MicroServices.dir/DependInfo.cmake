@@ -4,16 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Computer Science/Bundled/MicroServices/config/rest_data/web_service_methods.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/config/rest_data/web_service_methods.cpp.obj"
-  "G:/Computer Science/Bundled/MicroServices/src/InterfaceManager.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/InterfaceManager.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/Interfaces/Rest.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj"
-  "G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/Main.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Main.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/MicroService.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/Service.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Service.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/Services/Interconnect.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/Services/SoftwareService.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/Services/WebService.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/SessionManager.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/SessionManager.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/Utils/Utils.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

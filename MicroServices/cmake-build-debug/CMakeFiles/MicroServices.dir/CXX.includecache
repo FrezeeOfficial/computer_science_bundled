@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+../include/Interfaces/Rest.hpp
+../../lib/json.hpp
+../lib/json.hpp
+string
+-
+iostream
+-
+memory
+-
+boost/asio.hpp
+-
+
+../include/Utils/Utils.hpp
+../../lib/json.hpp
+../lib/json.hpp
+fstream
+-
+iostream
+../include/Utils/iostream
+
 ../lib/boost_1_72_0/boost/array.hpp
 boost/detail/workaround.hpp
 -
@@ -14760,10 +14780,16 @@ G:/Computer Science/Bundled/MicroServices/include/Interconnect.hpp
 ./MicroService.tpp
 G:/Computer Science/Bundled/MicroServices/include/MicroService.tpp
 
-G:/Computer Science/Bundled/MicroServices/include/InterfaceManager.hpp
-../lib/json.hpp
+G:/Computer Science/Bundled/MicroServices/include/Interfaces/Rest.hpp
+../../lib/json.hpp
 G:/Computer Science/Bundled/MicroServices/lib/json.hpp
+string
+-
 iostream
+-
+memory
+-
+boost/asio.hpp
 -
 
 G:/Computer Science/Bundled/MicroServices/include/MicroService.tpp
@@ -14775,12 +14801,10 @@ vector
 -
 ../lib/json.hpp
 G:/Computer Science/Bundled/MicroServices/lib/json.hpp
-./InterfaceManager.hpp
-G:/Computer Science/Bundled/MicroServices/include/InterfaceManager.hpp
-../src/Interfaces/Rest.cpp
-G:/Computer Science/Bundled/MicroServices/src/Interfaces/Rest.cpp
-../src/Interfaces/Socket.cpp
-G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket.cpp
+./Utils/Utils.hpp
+G:/Computer Science/Bundled/MicroServices/include/Utils/Utils.hpp
+../../include/Interfaces/Rest.hpp
+G:/Computer Science/Bundled/include/Interfaces/Rest.hpp
 
 G:/Computer Science/Bundled/MicroServices/include/Service.hpp
 vector
@@ -14793,6 +14817,14 @@ G:/Computer Science/Bundled/MicroServices/include/Interconnect.hpp
 G:/Computer Science/Bundled/MicroServices/include/Utils/Utils.hpp
 ../lib/json.hpp
 G:/Computer Science/Bundled/MicroServices/lib/json.hpp
+
+G:/Computer Science/Bundled/MicroServices/include/SessionManager.hpp
+../../include/Utils/Utils.hpp
+G:/Computer Science/Bundled/include/Utils/Utils.hpp
+string
+-
+vector
+-
 
 G:/Computer Science/Bundled/MicroServices/include/Utils/Utils.hpp
 ../../lib/json.hpp
@@ -15079,18 +15111,8 @@ utility
 -
 
 G:/Computer Science/Bundled/MicroServices/src/Interfaces/Rest.cpp
-../../include/InterfaceManager.hpp
-G:/Computer Science/Bundled/MicroServices/include/InterfaceManager.hpp
-../../include/Utils/Utils.hpp
-G:/Computer Science/Bundled/MicroServices/include/Utils/Utils.hpp
-string
--
-vector
--
-boost/asio.hpp
--
-
-G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket.cpp
+../../include/Interfaces/Rest.hpp
+G:/Computer Science/Bundled/MicroServices/include/Interfaces/Rest.hpp
 
 G:/Computer Science/Bundled/MicroServices/src/Main.cpp
 iostream
@@ -15121,4 +15143,8 @@ G:/Computer Science/Bundled/MicroServices/include/MicroService.tpp
 G:/Computer Science/Bundled/MicroServices/src/Services/WebService.cpp
 ../../include/MicroService.tpp
 G:/Computer Science/Bundled/MicroServices/include/MicroService.tpp
+boost/asio.hpp
+-
+../../include/SessionManager.hpp
+G:/Computer Science/Bundled/MicroServices/include/SessionManager.hpp
 

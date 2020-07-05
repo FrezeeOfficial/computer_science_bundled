@@ -11,11 +11,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="251e0f0f-72d1-4d21-a1b4-4ebcb5cc28e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../frz-platinum/actions/user_managment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frz-platinum/actions/user_managment/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frz-platinum/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frz-platinum/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frz-platinum/routes/admin_duties/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frz-platinum/routes/admin_duties/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frz-platinum/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frz-platinum/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frz-platinum/socket/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frz-platinum/socket/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/InterfaceManager.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroServiceController.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Service.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/SessionManager.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/SessionManager.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/config/rest_data/web_service.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/config/rest_data/web_service.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/config/rest_data/web_service_methods.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/config/socket_data/web_service.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/config/socket_data/web_service.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/include/MicroService.tpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/include/MicroService.tpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/include/MicroServiceController.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/include/MicroServiceController.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/src/Interfaces/Rest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/src/Interfaces/Rest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/src/MicroService.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/src/MicroService.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/src/MicroServiceController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/src/MicroServiceController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/src/Service.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/src/Service.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/src/Services/WebService.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/src/Services/WebService.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +61,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1bcj6I7lN2jg4cpacIXTqC6nfqM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,6 +92,7 @@
       <workItem from="1588938101172" duration="1887000" />
       <workItem from="1590148432240" duration="3057000" />
       <workItem from="1593537422024" duration="4197000" />
+      <workItem from="1593802534409" duration="63000" />
     </task>
     <servers />
   </component>

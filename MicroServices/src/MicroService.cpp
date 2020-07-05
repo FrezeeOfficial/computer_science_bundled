@@ -15,6 +15,7 @@ MicroService::st_MicroService MicroService::build_config(nlohmann::json config_j
     bool use_rest                = config_json["use_rest"];
     bool is_interconnected       = config_json["is_interconnected"];
     std::string ServiceName      = config_json["service_name"];
+
     nlohmann::json socket_data   = Utils::parse_json(config_json["socket_data"]);
     nlohmann::json rest_data     = Utils::parse_json(config_json["rest_data"]);
 

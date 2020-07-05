@@ -23,8 +23,7 @@ void Service::load_config() {
     // firstly do webserver
     json WebServer_json = Utils::get_config_micro_service("WebService", this->config_data);
     MicroService::st_MicroService WebServer_formatted = MicroService::build_config(WebServer_json);
-
-    WebService *WS = new WebService(MicroService::st_MicroService(), MicroService::st_MicroService());
+    WebService *WS = new WebService(MicroService::st_MicroService(), WebServer_formatted);
     this->add_microservice(WS);
 
 };
