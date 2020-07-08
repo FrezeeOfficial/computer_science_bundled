@@ -12,7 +12,7 @@ public:
     WebService(st_MicroService config1, st_MicroService config) : MicroService(config1) {
         this->config = config;
         if (this->config.use_rest) {
-            Interfaces::Rest *R = new Interfaces::Rest(this->config.rest_data);
+            Interfaces::Rest *R = new Interfaces::Rest();
             this->rest_service = R;
         };
     };
