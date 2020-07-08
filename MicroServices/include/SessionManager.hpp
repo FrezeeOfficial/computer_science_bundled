@@ -23,6 +23,8 @@ private:
           int ttl;
     };
 
+    void remove_session(std::string user_id, std::string api_key);
+
     std::vector < stSession > sessions;
     int ttl;
     int token_length;

@@ -9,15 +9,21 @@
 #include <iostream>
 #include <memory>
 #include <boost/asio.hpp>
+#include <vector>
+#include <array>
 
 namespace Interfaces {
-    class Rest {
-       public:
-        Rest(nlohmann::json rest_config);
-        void start_service();
+    using namespace boost::asio;
+    using namespace boost::asio::ip;
 
-        private:
-        nlohmann::json config;
+    class Rest {
+
+       public:
+       Rest(nlohmann::json rest_config);
+       void start_service();
+
+       private:
+       nlohmann::json config;
     };
 }
 
