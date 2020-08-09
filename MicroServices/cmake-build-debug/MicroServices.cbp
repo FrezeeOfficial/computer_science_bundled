@@ -25,6 +25,7 @@
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add directory="G:/Computer Science/Bundled/MicroServices/./lib/boost_1_72_0"/>
+					<Add directory="G:/Computer Science/Bundled/MicroServices/lib/websocketpp"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -49,6 +50,7 @@
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add directory="G:/Computer Science/Bundled/MicroServices/./lib/boost_1_72_0"/>
+					<Add directory="G:/Computer Science/Bundled/MicroServices/lib/websocketpp"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -92,6 +94,9 @@
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/Interfaces/Rest.hpp">
 			<Option target="MicroServices"/>
 		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/Interfaces/Socket.hpp">
+			<Option target="MicroServices"/>
+		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/include/MicroService.tpp">
 			<Option target="MicroServices"/>
 		</Unit>
@@ -105,6 +110,9 @@
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Interfaces/Rest.cpp">
+			<Option target="MicroServices"/>
+		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket.cpp">
 			<Option target="MicroServices"/>
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Main.cpp">

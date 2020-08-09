@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd   -std:c++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"G:\Computer Science\Bundled\MicroServices\.\lib\boost_1_72_0" 
+CXX_INCLUDES = -I"G:\Computer Science\Bundled\MicroServices\.\lib\boost_1_72_0" -I"G:\Computer Science\Bundled\MicroServices\lib\websocketpp" 
 

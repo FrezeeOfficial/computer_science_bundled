@@ -2,12 +2,12 @@
   "MicroServices":
   [
     {
-      "use_socket": false,
-      "use_rest": true,
+      "use_socket": true,
+      "use_rest": false,
       "is_interconnected": false,
       "service_name": "WebService",
       "socket_data": "socket_data/web_service.config.json",
       "rest_data": "rest_data/web_service.config.json"
     }
   ]
-}}
+}

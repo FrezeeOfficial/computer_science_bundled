@@ -10,6 +10,7 @@
 #include "../lib/json.hpp"
 #include "./Utils/Utils.hpp"
 #include "../../include/Interfaces/Rest.hpp"
+#include "../../include/Interfaces/Socket.hpp"
 
 // the template that all microservices must use
 class MicroService {
@@ -39,6 +40,8 @@ protected:
     int status;
 
     Interfaces::Rest *rest_service;
+    Interfaces::Socket *socket_service;
+
     st_MicroService config;
 };
 

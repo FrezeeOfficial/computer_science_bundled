@@ -1568,7 +1568,14 @@ CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.obj: ..\include\Interfaces\
 CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.obj: ..\lib\json.hpp
 CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.obj: ..\src\Interfaces\Rest.cpp
 
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.obj: ..\include\Interfaces\Socket.hpp
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.obj: ..\include\Utils\Utils.hpp
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.obj: ..\lib\json.hpp
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.obj: ..\src\Interfaces\Socket.cpp
+
 CMakeFiles\MicroServices.dir\src\Main.cpp.obj: ..\include\Interfaces\Rest.hpp
+CMakeFiles\MicroServices.dir\src\Main.cpp.obj: ..\include\Interfaces\Socket.hpp
+CMakeFiles\MicroServices.dir\src\Main.cpp.obj: ..\include\Utils\Utils.hpp
 CMakeFiles\MicroServices.dir\src\Main.cpp.obj: ..\lib\boost_1_72_0\boost\array.hpp
 CMakeFiles\MicroServices.dir\src\Main.cpp.obj: ..\lib\boost_1_72_0\boost\asio.hpp
 CMakeFiles\MicroServices.dir\src\Main.cpp.obj: ..\lib\boost_1_72_0\boost\asio\associated_allocator.hpp
@@ -3140,6 +3147,8 @@ CMakeFiles\MicroServices.dir\src\Main.cpp.obj: ..\lib\json.hpp
 CMakeFiles\MicroServices.dir\src\Main.cpp.obj: ..\src\Main.cpp
 
 CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj: ..\include\Interfaces\Rest.hpp
+CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj: ..\include\Interfaces\Socket.hpp
+CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj: ..\include\Utils\Utils.hpp
 CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj: ..\lib\boost_1_72_0\boost\array.hpp
 CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj: ..\lib\boost_1_72_0\boost\asio.hpp
 CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj: ..\lib\boost_1_72_0\boost\asio\associated_allocator.hpp
@@ -4709,6 +4718,7 @@ CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj: ..\lib\json.hpp
 CMakeFiles\MicroServices.dir\src\MicroService.cpp.obj: ..\src\MicroService.cpp
 
 CMakeFiles\MicroServices.dir\src\Service.cpp.obj: ..\include\Interfaces\Rest.hpp
+CMakeFiles\MicroServices.dir\src\Service.cpp.obj: ..\include\Interfaces\Socket.hpp
 CMakeFiles\MicroServices.dir\src\Service.cpp.obj: ..\include\Utils\Utils.hpp
 CMakeFiles\MicroServices.dir\src\Service.cpp.obj: ..\lib\boost_1_72_0\boost\array.hpp
 CMakeFiles\MicroServices.dir\src\Service.cpp.obj: ..\lib\boost_1_72_0\boost\asio.hpp
@@ -6284,6 +6294,8 @@ CMakeFiles\MicroServices.dir\src\Service.cpp.obj: ..\src\Services\SoftwareServic
 CMakeFiles\MicroServices.dir\src\Service.cpp.obj: ..\src\Services\WebService.cpp
 
 CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj: ..\include\Interfaces\Rest.hpp
+CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj: ..\include\Interfaces\Socket.hpp
+CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj: ..\include\Utils\Utils.hpp
 CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj: ..\lib\boost_1_72_0\boost\array.hpp
 CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj: ..\lib\boost_1_72_0\boost\asio.hpp
 CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj: ..\lib\boost_1_72_0\boost\asio\associated_allocator.hpp
@@ -7854,6 +7866,8 @@ CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj: ..\lib\json.hpp
 CMakeFiles\MicroServices.dir\src\Services\Interconnect.cpp.obj: ..\src\Services\Interconnect.cpp
 
 CMakeFiles\MicroServices.dir\src\Services\SoftwareService.cpp.obj: ..\include\Interfaces\Rest.hpp
+CMakeFiles\MicroServices.dir\src\Services\SoftwareService.cpp.obj: ..\include\Interfaces\Socket.hpp
+CMakeFiles\MicroServices.dir\src\Services\SoftwareService.cpp.obj: ..\include\Utils\Utils.hpp
 CMakeFiles\MicroServices.dir\src\Services\SoftwareService.cpp.obj: ..\lib\boost_1_72_0\boost\array.hpp
 CMakeFiles\MicroServices.dir\src\Services\SoftwareService.cpp.obj: ..\lib\boost_1_72_0\boost\asio.hpp
 CMakeFiles\MicroServices.dir\src\Services\SoftwareService.cpp.obj: ..\lib\boost_1_72_0\boost\asio\associated_allocator.hpp
@@ -9423,6 +9437,7 @@ CMakeFiles\MicroServices.dir\src\Services\SoftwareService.cpp.obj: ..\lib\json.h
 CMakeFiles\MicroServices.dir\src\Services\SoftwareService.cpp.obj: ..\src\Services\SoftwareService.cpp
 
 CMakeFiles\MicroServices.dir\src\Services\WebService.cpp.obj: ..\include\Interfaces\Rest.hpp
+CMakeFiles\MicroServices.dir\src\Services\WebService.cpp.obj: ..\include\Interfaces\Socket.hpp
 CMakeFiles\MicroServices.dir\src\Services\WebService.cpp.obj: ..\include\Utils\Utils.hpp
 CMakeFiles\MicroServices.dir\src\Services\WebService.cpp.obj: ..\lib\boost_1_72_0\boost\array.hpp
 CMakeFiles\MicroServices.dir\src\Services\WebService.cpp.obj: ..\lib\boost_1_72_0\boost\asio.hpp

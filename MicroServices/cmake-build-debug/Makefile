@@ -151,6 +151,33 @@ src\Interfaces\Rest.cpp.s:
 	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.s
 .PHONY : src\Interfaces\Rest.cpp.s
 
+src\Interfaces\Socket.obj: src\Interfaces\Socket.cpp.obj
+
+.PHONY : src\Interfaces\Socket.obj
+
+# target to build an object file
+src\Interfaces\Socket.cpp.obj:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.obj
+.PHONY : src\Interfaces\Socket.cpp.obj
+
+src\Interfaces\Socket.i: src\Interfaces\Socket.cpp.i
+
+.PHONY : src\Interfaces\Socket.i
+
+# target to preprocess a source file
+src\Interfaces\Socket.cpp.i:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.i
+.PHONY : src\Interfaces\Socket.cpp.i
+
+src\Interfaces\Socket.s: src\Interfaces\Socket.cpp.s
+
+.PHONY : src\Interfaces\Socket.s
+
+# target to generate assembly for a file
+src\Interfaces\Socket.cpp.s:
+	$(MAKE) -f CMakeFiles\MicroServices.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MicroServices.dir\src\Interfaces\Socket.cpp.s
+.PHONY : src\Interfaces\Socket.cpp.s
+
 src\Main.obj: src\Main.cpp.obj
 
 .PHONY : src\Main.obj
@@ -379,6 +406,9 @@ help:
 	@echo ... src/Interfaces/Rest.obj
 	@echo ... src/Interfaces/Rest.i
 	@echo ... src/Interfaces/Rest.s
+	@echo ... src/Interfaces/Socket.obj
+	@echo ... src/Interfaces/Socket.i
+	@echo ... src/Interfaces/Socket.s
 	@echo ... src/Main.obj
 	@echo ... src/Main.i
 	@echo ... src/Main.s

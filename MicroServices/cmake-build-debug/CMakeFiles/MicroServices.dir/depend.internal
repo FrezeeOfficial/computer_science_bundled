@@ -1568,8 +1568,15 @@ CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj
  G:/Computer Science/Bundled/MicroServices/include/Interfaces/Rest.hpp
  G:/Computer Science/Bundled/MicroServices/lib/json.hpp
  G:/Computer Science/Bundled/MicroServices/src/Interfaces/Rest.cpp
+CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj
+ G:/Computer Science/Bundled/MicroServices/include/Interfaces/Socket.hpp
+ G:/Computer Science/Bundled/MicroServices/include/Utils/Utils.hpp
+ G:/Computer Science/Bundled/MicroServices/lib/json.hpp
+ G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket.cpp
 CMakeFiles/MicroServices.dir/src/Main.cpp.obj
  ../include/Interfaces/Rest.hpp
+ ../include/Interfaces/Socket.hpp
+ ../include/Utils/Utils.hpp
  ../lib/boost_1_72_0/boost/array.hpp
  ../lib/boost_1_72_0/boost/asio.hpp
  ../lib/boost_1_72_0/boost/asio/associated_allocator.hpp
@@ -3141,6 +3148,8 @@ CMakeFiles/MicroServices.dir/src/Main.cpp.obj
  G:/Computer Science/Bundled/MicroServices/src/Main.cpp
 CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj
  ../include/Interfaces/Rest.hpp
+ ../include/Interfaces/Socket.hpp
+ ../include/Utils/Utils.hpp
  ../lib/boost_1_72_0/boost/array.hpp
  ../lib/boost_1_72_0/boost/asio.hpp
  ../lib/boost_1_72_0/boost/asio/associated_allocator.hpp
@@ -4710,6 +4719,7 @@ CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj
  G:/Computer Science/Bundled/MicroServices/src/MicroService.cpp
 CMakeFiles/MicroServices.dir/src/Service.cpp.obj
  ../include/Interfaces/Rest.hpp
+ ../include/Interfaces/Socket.hpp
  ../include/Utils/Utils.hpp
  ../lib/boost_1_72_0/boost/array.hpp
  ../lib/boost_1_72_0/boost/asio.hpp
@@ -6285,6 +6295,8 @@ CMakeFiles/MicroServices.dir/src/Service.cpp.obj
  G:/Computer Science/Bundled/MicroServices/src/Services/WebService.cpp
 CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj
  ../include/Interfaces/Rest.hpp
+ ../include/Interfaces/Socket.hpp
+ ../include/Utils/Utils.hpp
  ../lib/boost_1_72_0/boost/array.hpp
  ../lib/boost_1_72_0/boost/asio.hpp
  ../lib/boost_1_72_0/boost/asio/associated_allocator.hpp
@@ -7855,6 +7867,8 @@ CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj
  G:/Computer Science/Bundled/MicroServices/src/Services/Interconnect.cpp
 CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj
  ../include/Interfaces/Rest.hpp
+ ../include/Interfaces/Socket.hpp
+ ../include/Utils/Utils.hpp
  ../lib/boost_1_72_0/boost/array.hpp
  ../lib/boost_1_72_0/boost/asio.hpp
  ../lib/boost_1_72_0/boost/asio/associated_allocator.hpp
@@ -9424,6 +9438,7 @@ CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj
  G:/Computer Science/Bundled/MicroServices/src/Services/SoftwareService.cpp
 CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj
  ../include/Interfaces/Rest.hpp
+ ../include/Interfaces/Socket.hpp
  ../include/Utils/Utils.hpp
  ../lib/boost_1_72_0/boost/array.hpp
  ../lib/boost_1_72_0/boost/asio.hpp

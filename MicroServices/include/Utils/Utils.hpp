@@ -13,6 +13,7 @@ using nlohmann::json;
 class Utils {
 public:
     static json parse_json(std::string file_name);
+
     static json get_config_micro_service(std::string micro_service_name, json config);
     static std::string generate_token(int token_length);
 };

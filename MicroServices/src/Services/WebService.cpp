@@ -14,7 +14,11 @@ public:
         if (this->config.use_rest) {
             Interfaces::Rest *R = new Interfaces::Rest();
             this->rest_service = R;
-        };
+        } else if (this->config.use_socket) {
+            // socket logic
+            Interfaces::Socket *S = new Interfaces::Socket(this->config.socket_data);
+            this->socket_service = S;
+        }
     };
 
     void start_service(){
@@ -24,7 +28,10 @@ public:
         if (this->config.use_rest) {
             // service using rest
             this->rest_service->start_service();
-        };
+        } else if (this->config.use_socket) {
+            // socket logic
+            this->socket_service->start_service();
+        }
     };
 
 
