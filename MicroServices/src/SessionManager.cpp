@@ -22,3 +22,12 @@ void SessionManager::create_session(std::string api_key, std::string user_id, st
 
     this->sessions.push_back(t_session);
 }
+
+void SessionManager::remove_session(std::string user_id, std::string api_key) {
+    for (int i = 0; i < this->sessions.size(); i++ ) {
+        if (this->sessions.at(i).user_id == user_id && this->sessions.at(i).api_key == api_key) {
+            this->sessions.erase(this->sessions.begin() + i);
+            break;
+        }
+    }
+}

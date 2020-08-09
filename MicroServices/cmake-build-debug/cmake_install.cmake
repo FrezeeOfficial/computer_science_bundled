@@ -1,4 +1,4 @@
-# Install script for directory: G:/Computer Science/Bundled/MicroServices
+# Install script for directory: D:/Gitihub Repos/computer_science_bundled/MicroServices
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
