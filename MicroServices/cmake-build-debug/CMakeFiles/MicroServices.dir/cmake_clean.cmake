@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj"
-  "CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj"
+  "CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Socket.cpp.obj"
+  "CMakeFiles/MicroServices.dir/src/Interfaces/Socket/SocketActions.cpp.obj"
+  "CMakeFiles/MicroServices.dir/src/Interfaces/Socket/SocketRoutes.cpp.obj"
   "CMakeFiles/MicroServices.dir/src/Main.cpp.obj"
   "CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj"
   "CMakeFiles/MicroServices.dir/src/Service.cpp.obj"

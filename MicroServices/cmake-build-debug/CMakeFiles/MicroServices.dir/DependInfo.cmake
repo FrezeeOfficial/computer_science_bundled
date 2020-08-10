@@ -5,7 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "G:/Computer Science/Bundled/MicroServices/src/Interfaces/Rest.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj"
-  "G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/Socket.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Socket.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/SocketActions.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket/SocketActions.cpp.obj"
+  "G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/SocketRoutes.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket/SocketRoutes.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/Main.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Main.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/MicroService.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj"
   "G:/Computer Science/Bundled/MicroServices/src/Service.cpp" "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Service.cpp.obj"

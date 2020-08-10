@@ -1,7 +1,7 @@
 Server -> Client: 
 
 // different tiers for the client to interpret. The higher the level the more critical the request. Ensures proper routing and speed.
-level: {1, 2, 3, 4, 5} 
+level: {1, 2, 3, 4, 5, 6} 
 
 // where data about the client software is contained
 app_data: {
@@ -45,4 +45,31 @@ EXAMPLES:
         digest_type: "url64",
         sha_type: "SHA512"
     }
+}
+
+3.
+{ // level 6 reserved for initial logins
+    "level": 6,
+    "command": "push_token",
+    "return_success": "bool"
+    "auth_data": "username",
+    "username": "frezeeofficial"
+}
+
+4.
+{
+    "level": 6,
+    "command": "push_pin",
+    "return_success": "bool"
+    "auth_data": "token",
+    "token": "2913-0192-8172-9281-6571"
+}
+
+6.
+{
+    "level": 6,
+    "command": "fetch_uuid",
+    "auth_data": ["token", "pin"],
+    "token": "2913-0192-8172-9281-6571",
+    "pin": "9210"
 }

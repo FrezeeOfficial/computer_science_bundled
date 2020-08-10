@@ -21,6 +21,7 @@ using websocketpp::connection_hdl;
 using websocketpp::lib::placeholders::_1;
 using websocketpp::lib::placeholders::_2;
 using websocketpp::lib::bind;
+#include "../../lib/json.hpp";
 #include <websocketpp/config/core.hpp>
 
 namespace Interfaces {
@@ -32,8 +33,23 @@ namespace Interfaces {
         void on_open(connection_hdl hdl);
         void on_close(connection_hdl hdl);
         void on_message(connection_hdl hdl, server::message_ptr msg);
+        void custom_on_msg(server & s, connection_hdl hdl, server::message_ptr msg);
+
+        void route_message(connection_hdl hdl, nlohmann::json jsonMsg);
+        bool authorise(std::string token);
 
         void authenticate();
+
+        class Routes {
+            public:
+            static void lvl6(connection_hdl hdl, nlohmann::json jsonMsg, std::string command);
+        };
+
+        class Actions {
+        public:
+
+        };
+
     private:
         typedef std::set<connection_hdl,std::owner_less<connection_hdl>> con_list;
 
@@ -42,5 +58,6 @@ namespace Interfaces {
         con_list m_connections;
 
         nlohmann::json config;
+
     };
 }

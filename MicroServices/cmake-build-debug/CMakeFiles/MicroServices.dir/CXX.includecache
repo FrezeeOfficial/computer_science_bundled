@@ -43,6 +43,8 @@ websocketpp/server.hpp
 -
 string
 -
+../../lib/json.hpp
+../lib/json.hpp
 websocketpp/config/core.hpp
 -
 
@@ -25131,6 +25133,8 @@ websocketpp/server.hpp
 -
 string
 -
+../../lib/json.hpp
+G:/Computer Science/Bundled/MicroServices/lib/json.hpp
 websocketpp/config/core.hpp
 -
 
@@ -25454,11 +25458,23 @@ vector
 utility
 -
 
-G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket.cpp
-../../include/Interfaces/Socket.hpp
+G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/Socket.cpp
+../../../include/Interfaces/Socket.hpp
 G:/Computer Science/Bundled/MicroServices/include/Interfaces/Socket.hpp
 iostream
-G:/Computer Science/Bundled/MicroServices/src/Interfaces/iostream
+G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/iostream
+
+G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/SocketActions.cpp
+../../../include/Interfaces/Socket.hpp
+G:/Computer Science/Bundled/MicroServices/include/Interfaces/Socket.hpp
+iostream
+G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/iostream
+
+G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/SocketRoutes.cpp
+../../../include/Interfaces/Socket.hpp
+G:/Computer Science/Bundled/MicroServices/include/Interfaces/Socket.hpp
+iostream
+G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/iostream
 
 G:/Computer Science/Bundled/MicroServices/src/Main.cpp
 iostream
