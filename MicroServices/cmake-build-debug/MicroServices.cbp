@@ -5,7 +5,7 @@
 		<Option title="MicroServices"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Users\;CMake Files\Users\James\;CMake Files\Users\James\Desktop\;CMake Files\Users\James\Desktop\websocketpp\;CMake Files\Users\James\Desktop\websocketpp\build\;CMake Files\Users\James\Desktop\websocketpp\build\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="G:/Computer Science/Bundled/MicroServices/cmake-build-debug"/>
@@ -25,7 +25,7 @@
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add directory="G:/Computer Science/Bundled/MicroServices/./lib/boost_1_72_0"/>
-					<Add directory="G:/Computer Science/Bundled/MicroServices/lib/websocketpp"/>
+					<Add directory="C:/Users/James/Desktop/websocketpp/build/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -50,7 +50,7 @@
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add directory="G:/Computer Science/Bundled/MicroServices/./lib/boost_1_72_0"/>
-					<Add directory="G:/Computer Science/Bundled/MicroServices/lib/websocketpp"/>
+					<Add directory="C:/Users/James/Desktop/websocketpp/build/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -141,6 +141,12 @@
 		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/MicroServices/Users/James/Desktop/websocketpp/build/cmake/websocketpp-config.cmake">
+			<Option virtualFolder="CMake Files\Users\James\Desktop\websocketpp\build\cmake\"/>
+		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/MicroServices/Users/James/Desktop/websocketpp/build/cmake/websocketpp-configVersion.cmake">
+			<Option virtualFolder="CMake Files\Users\James\Desktop\websocketpp\build\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

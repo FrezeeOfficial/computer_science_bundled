@@ -1,5 +1,5 @@
 {
   "socket_name": "WebService",
   "ip": "127.0.0.1",
-  "port": "6443"
+  "port": "5000"
 }

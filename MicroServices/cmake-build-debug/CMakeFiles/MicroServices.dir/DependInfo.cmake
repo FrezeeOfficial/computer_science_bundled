@@ -20,7 +20,7 @@ set(CMAKE_CXX_COMPILER_ID "MSVC")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   ".././lib/boost_1_72_0"
-  "../lib/websocketpp"
+  "C:/Users/James/Desktop/websocketpp/build/include"
   )
 
 # Targets to which this target links.
