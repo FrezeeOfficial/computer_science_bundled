@@ -37,7 +37,6 @@ namespace Interfaces {
 
         void route_message(connection_hdl hdl, nlohmann::json jsonMsg);
         bool authorise(std::string token);
-
         void authenticate();
 
         class Routes {
