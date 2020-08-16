@@ -29,30 +29,17 @@ namespace Interfaces {
     public:
         Socket(nlohmann::json config_location);
         void start_service();
+        void stop_service();
 
         void on_open(connection_hdl hdl);
         void on_close(connection_hdl hdl);
         void on_message(connection_hdl hdl, server::message_ptr msg);
-        void custom_on_msg(server & s, connection_hdl hdl, server::message_ptr msg);
-
-        void route_message(connection_hdl hdl, nlohmann::json jsonMsg);
-        bool authorise(std::string token);
-        void authenticate();
-
-        class Routes {
-            public:
-            static void lvl6(connection_hdl hdl, nlohmann::json jsonMsg, std::string command);
-        };
-
-        class Actions {
-        public:
-
-        };
+        bool is_authenticated(nlohmann::json payload);
+        void return_error(connection_hdl hdl, std::string readable_error, std::string error_code);
 
     private:
         typedef std::set<connection_hdl,std::owner_less<connection_hdl>> con_list;
 
-        int m_next_sessionid;
         server m_server;
         con_list m_connections;
 

@@ -1,4 +1,4 @@
-C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "G:\Computer Science\Bundled\MicroServices"
+C:\Users\pc\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "D:\Gitihub Repos\computer_science_bundled\MicroServices"
 -- Configuring done
 -- Generating done
--- Build files have been written to: G:/Computer Science/Bundled/MicroServices/cmake-build-debug
+-- Build files have been written to: D:/Gitihub Repos/computer_science_bundled/MicroServices/cmake-build-debug

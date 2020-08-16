@@ -1,0 +1,45 @@
+This document will specify how sending and receiving messages should look. Using the correct api notation.
+
+/CLOUD_API
+Client -> Server
+
+Fetch Dashboard
+{
+	"token": "11111-11111-11111-11111-11111”",
+    "command": "fetch_dash"
+}
+
+Scan File
+{
+    "token": "111111-11111-111111-11111-11111",
+    "command": "cloud_test_virus",
+    "reference_code": "9201-0192-9271-0183-8172-92mda-idla-ifla",
+    "res": true
+}
+
+
+
+
+
+Server -> Client
+
+Fetch Dashboard
+{
+	“error”: false,
+	“app_data”: {
+        "title": "your device is in danger",
+        "title_description": "a previous app scan revealed windows.exe is a virus",
+
+        "main_card": {
+            "flags": "unsafe",
+            "virus_name": "windows.exe",
+            "reccommended_action": "cloud_test",
+            "reference_code": "9201-0192-9271-0183-8172-92mda-idla-ifla",
+        }
+    }
+}
+
+reference_code = unique code which ties a virus to an account. So when user selects to scan the virus. The cloud app will specify the reference code and take action as allowed.
+flags = weather is is good or bad will change colour of card
+reccomended_action = will tell the cloud app what to issue of the button next to the virus
+virus_name = the name of the virus detected on the computer
