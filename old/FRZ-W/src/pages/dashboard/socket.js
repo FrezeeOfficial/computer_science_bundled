@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Component } from "react";
 import socketIOClient from "socket.io-client";
 import { render } from "@testing-library/react";
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "http://localhost:5000";
 
 const Socket = (props) => {
 

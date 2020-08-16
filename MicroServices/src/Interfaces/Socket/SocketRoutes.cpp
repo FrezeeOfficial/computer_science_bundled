@@ -12,22 +12,15 @@ void Interfaces::Socket::Routes::lvl6(connection_hdl hdl, nlohmann::json jsonMsg
     std::string pin = "2910";
     std::string uuid = "11111-11111-11111-11111-11111";
 
-    server m_sserver = m_server;
+    std::cout << "Command level 6 requested" << std::endl;
 
-    for (auto it : m_connections) {
-        if (jsonMsg["command"] == "push_token") {
-            // pretends that the user name is ok
-            m_sserver.send(it, "{success: true}", websocketpp::frame::opcode::text);
-        } else if (jsonMsg["command"] == "push_pin") {
-            // pretends that the token supplied is good
-            m_sserver.send(it, "{success: true}", websocketpp::frame::opcode::text);
-        } else if (jsonMsg["command"] == "fetch_uuid") {
-            // pretends that the token supplied is good
-            if (jsonMsg["token"] == token && jsonMsg["pin"] == pin) {
-                m_sserver.send(it, "{uuid: " + uuid + "}", websocketpp::frame::opcode::text);
-            } else {
-                m_sserver.send(it, "{success: false}", websocketpp::frame::opcode::text);
-            }
-        }
-    }
 }
+
+/*
+ * 1.0.0 does user have the uuid in its header?
+ *      1.1 no?
+ *          1.1.1? does have special auth header?
+ *              1.1.2 no? reject the connection
+ *
+ *      1.2 yes? ok all good
+ */

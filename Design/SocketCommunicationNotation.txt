@@ -1,4 +1,9 @@
 Server -> Client: 
+/******************************************************/
+UPDATED:
+    Example Notation:
+        wss://localhost:443/cloud_app/API_KEY?client=js&app_version=1.0.0
+
 
 // different tiers for the client to interpret. The higher the level the more critical the request. Ensures proper routing and speed.
 level: {1, 2, 3, 4, 5, 6} 

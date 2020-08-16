@@ -7,10 +7,10 @@ class LoginToken extends Component {
         };
         
         return (
-            <form onSubmit={this.props.handleChange}>
+        <form className="login-form" onSubmit={this.props.handleChange}>
             <div className="text-form">
-                <input className="text-field" type="text" placeholder="TOKEN"/>
-            <button className="button-form-submit" type="submit" >NEXT</button>
+            <input className="text-field" type="text" placeholder="TOKEN"/>
+                <button className="button-form-submit" type="submit" ><a className="go_button"><i class="fa fa-arrow-right"></i></a></button>
             </div>
         </form>
         )

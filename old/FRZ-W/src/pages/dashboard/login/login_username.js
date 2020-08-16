@@ -10,7 +10,7 @@ class LoginUsername extends Component {
             <form className="login-form" onSubmit={this.props.handleChange}>
             <div className="text-form">
                 <input className="text-field" type="text" placeholder="USERNAME"/>
-                <button className="button-form-submit" type="submit" ><a className="go_button"><i>T</i></a></button>
+                <button className="button-form-submit" type="submit" ><a className="go_button"><i class="fa fa-arrow-right"></i></a></button>
             </div>
         </form>
         )

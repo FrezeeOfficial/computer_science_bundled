@@ -1,5 +1,5 @@
 .login-body {
-    height: 15%;
+    height: 10%;
     display: block;
     margin: 0 auto;
     margin-top: 20%;
@@ -114,13 +114,10 @@
     display: block;
     width: 20%;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.33);
-    /* padding-left: 25px; */
     float: right;
+    background-color: #ffffff;
     height: 100%;
-    padding: 9%;
     outline: none;
-    /* padding-right: 25px; */
 }
 
 .login-form {
@@ -132,7 +129,15 @@
 .go_button {
     background-color: #F64949;
     display: block;
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 100%;
+}
+
+.go_button i {
+    color: #ffffff;
+    display: grid;
     height: 100%;
     width: 100%;
-    border-radius: 10px;
+    align-items: center;
 }

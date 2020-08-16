@@ -7,13 +7,11 @@ class LoginPin extends Component {
         };
         
         return (
-        <form onSubmit={this.props.handleChange}>
+        <form className="login-form" onSubmit={this.props.handleChange}>
             <div className="text-form">
-            <div className="pin"> <input type="text"/> <input type="text"/> <input type="text"/> <input type="text"/> </div>
-            <div className="pin"> <input type="text"/> <input type="text"/> <input type="text"/> <input type="text"/> </div>
+            <div className="pin"> <input type="text"/> <input type="text"/> <input type="text"/> <input type="text"/> </div>            
             
-            
-            <button className="button-form-submit" type="submit" >FINISH</button>
+            <button className="button-form-submit" type="submit" ><a className="go_button"><i class="fa fa-arrow-right"></i></a></button>
             </div>
         </form>
         )

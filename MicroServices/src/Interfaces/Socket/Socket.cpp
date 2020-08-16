@@ -33,16 +33,6 @@ void Interfaces::Socket::on_message(connection_hdl hdl, server::message_ptr msg)
         std::stringstream(msg->get_payload()) >> jsonMsg;
 
         // check weather user has auth data
-        if (jsonMsg["security"]["security_hash"].is_null() || jsonMsg["security"]["security_hash"] == "") {
-            std::cout << "sdf" << std::endl;
-            m_server.send(it, "{success: false, error: 0x05}", websocketpp::frame::opcode::text);
-            break;
-        }
-
-        if (!this->authorise(jsonMsg["security"]["security_hash"])) {
-            m_server.send(it, "{success: false, error: 0x06}", websocketpp::frame::opcode::text);
-            break;
-        }
 
         // routing
         this->route_message(hdl, jsonMsg);
@@ -55,7 +45,7 @@ void Interfaces::Socket::route_message(connection_hdl hdl, nlohmann::json jsonMs
         // level routing
         // -----------------------------------------------------------------------------------------------------
         if (jsonMsg["level"] == 6) {
-        Interfaces::Socket::Routes::lvl6(hdl, jsonMsg, jsonMsg["command"]);
+        // Interfaces::Socket::Routes::lvl6(hdl, jsonMsg, jsonMsg["command"]);
         }
         // -----------------------------------------------------------------------------------------------------
         if (jsonMsg["level"] == 5) {
