@@ -12,6 +12,7 @@
 #include <websocketpp/server.hpp>
 
 #include <string>
+#include "xapi"
 
 #endif //MICROSERVICES_SOCKET_HPP
 
