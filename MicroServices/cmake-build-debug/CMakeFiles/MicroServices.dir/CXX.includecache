@@ -25120,24 +25120,6 @@ G:/Computer Science/Bundled/MicroServices/include/Interconnect.hpp
 ./MicroService.tpp
 G:/Computer Science/Bundled/MicroServices/include/MicroService.tpp
 
-G:/Computer Science/Bundled/MicroServices/include/Interfaces/Socket.hpp
-../../lib/json.hpp
-G:/Computer Science/Bundled/MicroServices/lib/json.hpp
-../Utils/Utils.hpp
-G:/Computer Science/Bundled/MicroServices/include/Utils/Utils.hpp
-set
--
-websocketpp/config/asio_no_tls.hpp
-G:/Computer Science/Bundled/MicroServices/include/Interfaces/websocketpp/config/asio_no_tls.hpp
-websocketpp/server.hpp
--
-string
--
-../../lib/json.hpp
-G:/Computer Science/Bundled/MicroServices/lib/json.hpp
-websocketpp/config/core.hpp
--
-
 G:/Computer Science/Bundled/MicroServices/include/MicroService.tpp
 string
 G:/Computer Science/Bundled/MicroServices/include/string
@@ -25458,22 +25440,6 @@ vector
 utility
 -
 
-G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/Socket.cpp
-../../../include/Interfaces/Socket.hpp
-G:/Computer Science/Bundled/MicroServices/include/Interfaces/Socket.hpp
-iostream
-G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/iostream
-
-G:/Computer Science/Bundled/MicroServices/src/Main.cpp
-iostream
--
-../include/Service.hpp
-G:/Computer Science/Bundled/MicroServices/include/Service.hpp
-
-G:/Computer Science/Bundled/MicroServices/src/MicroService.cpp
-../include/MicroService.tpp
-G:/Computer Science/Bundled/MicroServices/include/MicroService.tpp
-
 G:/Computer Science/Bundled/MicroServices/src/Service.cpp
 ../include/Service.hpp
 G:/Computer Science/Bundled/MicroServices/include/Service.hpp
@@ -25481,10 +25447,6 @@ G:/Computer Science/Bundled/MicroServices/include/Service.hpp
 G:/Computer Science/Bundled/MicroServices/src/Services/WebService.cpp
 ./Services/SoftwareService.cpp
 G:/Computer Science/Bundled/MicroServices/src/Services/SoftwareService.cpp
-
-G:/Computer Science/Bundled/MicroServices/src/Services/Interconnect.cpp
-../../include/Interconnect.hpp
-G:/Computer Science/Bundled/MicroServices/include/Interconnect.hpp
 
 G:/Computer Science/Bundled/MicroServices/src/Services/SoftwareService.cpp
 ../../include/MicroService.tpp

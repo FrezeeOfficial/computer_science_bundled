@@ -11,9 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="251e0f0f-72d1-4d21-a1b4-4ebcb5cc28e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Design/DesignIdea 1.0.xd" beforeDir="false" afterPath="$PROJECT_DIR$/../../Design/DesignIdea 1.0.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/SessionManager.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Socket.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Socket.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Service.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Service.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/SessionManager.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/SessionManager.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/include/Interfaces/Socket.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/include/Interfaces/Socket.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MicroServices/src/Interfaces/Socket/Socket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/src/Interfaces/Socket/Socket.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +58,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/package.json" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\202.6397.88\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
+  <component name="RunManager">
+    <configuration name="run" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,11 +94,14 @@
       <workItem from="1593537422024" duration="4197000" />
       <workItem from="1593802534409" duration="63000" />
       <workItem from="1596960444492" duration="7000" />
+      <workItem from="1597836913956" duration="4385000" />
+      <workItem from="1597911690820" duration="1889000" />
+      <workItem from="1598004824319" duration="2402000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -80,22 +116,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1593541850865">
+    <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597837125808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593541850865" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1593541850865">
+    <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597837125808" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1597837137307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593541850865" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1593541850865">
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597837137307" />
+    <state width="1899" height="135" key="GridCell.Tab.0.bottom" timestamp="1598011582962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593541850865" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1593541850865">
+    <state width="1899" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598011582962" />
+    <state width="1899" height="135" key="GridCell.Tab.0.center" timestamp="1598011582962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593541850865" />
+    <state width="1899" height="135" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598011582962" />
+    <state width="1899" height="135" key="GridCell.Tab.0.left" timestamp="1598011582962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="135" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598011582962" />
+    <state width="1899" height="135" key="GridCell.Tab.0.right" timestamp="1598011582962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="135" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598011582962" />
+    <state x="787" y="209" key="SettingsEditor" timestamp="1597837106167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="787" y="209" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597837106167" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590150167797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

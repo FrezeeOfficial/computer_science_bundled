@@ -1,19 +1,19 @@
 C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "G:\Computer Science\Bundled\MicroServices"
-CMake Error at CMakeLists.txt:6 (find_package):
-  By not providing "FindMySQL.cmake" in CMAKE_MODULE_PATH this project has
-  asked CMake to find a package configuration file provided by "MySQL", but
+CMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "FindMariaDB.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "MariaDB", but
   CMake did not find one.
 
-  Could not find a package configuration file provided by "MySQL" with any of
-  the following names:
+  Could not find a package configuration file provided by "MariaDB" with any
+  of the following names:
 
-    MySQLConfig.cmake
-    mysql-config.cmake
+    MariaDBConfig.cmake
+    mariadb-config.cmake
 
-  Add the installation prefix of "MySQL" to CMAKE_PREFIX_PATH or set
-  "MySQL_DIR" to a directory containing one of the above files.  If "MySQL"
-  provides a separate development package or SDK, be sure it has been
-  installed.
+  Add the installation prefix of "MariaDB" to CMAKE_PREFIX_PATH or set
+  "MariaDB_DIR" to a directory containing one of the above files.  If
+  "MariaDB" provides a separate development package or SDK, be sure it has
+  been installed.
 
 
 -- Configuring incomplete, errors occurred!

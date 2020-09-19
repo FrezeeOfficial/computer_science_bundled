@@ -12,7 +12,6 @@
 #include <websocketpp/server.hpp>
 
 #include <string>
-#include "xapi"
 
 #endif //MICROSERVICES_SOCKET_HPP
 
@@ -37,7 +36,9 @@ namespace Interfaces {
         void on_message(connection_hdl hdl, server::message_ptr msg);
         bool is_authenticated(nlohmann::json payload);
         void return_error(connection_hdl hdl, std::string readable_error, std::string error_code);
+        void route_message(connection_hdl hdl, nlohmann::json payload);
 
+        void fetch_dash();
     private:
         typedef std::set<connection_hdl,std::owner_less<connection_hdl>> con_list;
 

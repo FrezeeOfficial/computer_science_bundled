@@ -33,9 +33,7 @@ void Interfaces::Socket::stop_service(){
 void Interfaces::Socket::on_message(connection_hdl hdl, server::message_ptr msg) {
     // where all messages sent to this server will first be handled
     for (auto it : m_connections) {
-        // get payload into json format
-
-        std::cout << "message: " << msg->get_payload() << std::endl;
+        // get payload into json format. If it isn't in proper layout then it will spit an erro which wil be returned in the catch statement
         nlohmann::json jsonMsg;
         try {
             std::stringstream(msg->get_payload()) >> jsonMsg;
@@ -44,13 +42,21 @@ void Interfaces::Socket::on_message(connection_hdl hdl, server::message_ptr msg)
             break;
         }
 
+        // check weather the token in the message is valid
         if (!is_authenticated(jsonMsg)) {
             this->return_error(hdl, "unknown token", "0x02");
             break;
         }
 
 
+        this->route_message(hdl, jsonMsg);
     }
+}
+
+void Interfaces::Socket::route_message(connection_hdl hdl, nlohmann::json payload) {
+    std::string command = payload["command"];
+
+
 }
 
 void Interfaces::Socket::return_error(connection_hdl hdl, std::string readable_error, std::string error_code) {
@@ -65,6 +71,10 @@ bool Interfaces::Socket::is_authenticated(nlohmann::json payload) {
     } else {
         return false;
     }
+}
+
+void Interfaces::Socket::fetch_dash() {
+
 }
 
 void Interfaces::Socket::on_close(connection_hdl hdl) {
