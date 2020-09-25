@@ -71,7 +71,7 @@ class Dashboard extends Component {
         }
 
         // fixme: this is just here for design purposes
-        this.socketAccepted("e")
+        // this.socketAccepted("e")
     }
  
     render(){

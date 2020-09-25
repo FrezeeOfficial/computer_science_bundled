@@ -10,29 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="251e0f0f-72d1-4d21-a1b4-4ebcb5cc28e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Design/DesignIdea 1.0.xd" beforeDir="false" afterPath="$PROJECT_DIR$/../../Design/DesignIdea 1.0.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Rest.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Socket.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Socket.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/MicroService.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Service.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Service.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/Interconnect.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/SoftwareService.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Services/WebService.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/SessionManager.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/SessionManager.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/src/Utils/Utils.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/MicroServices.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/cmake-build-debug/MicroServices.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/include/Interfaces/Socket.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/include/Interfaces/Socket.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MicroServices/src/Interfaces/Socket/Socket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MicroServices/src/Interfaces/Socket/Socket.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="251e0f0f-72d1-4d21-a1b4-4ebcb5cc28e3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +75,7 @@
       <workItem from="1597836913956" duration="4385000" />
       <workItem from="1597911690820" duration="1889000" />
       <workItem from="1598004824319" duration="2402000" />
+      <workItem from="1600890957490" duration="366000" />
     </task>
     <servers />
   </component>
