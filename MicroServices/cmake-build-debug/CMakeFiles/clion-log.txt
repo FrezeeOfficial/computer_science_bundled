@@ -1,20 +1,4 @@
 C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "G:\Computer Science\Bundled\MicroServices"
-CMake Error at CMakeLists.txt:13 (find_package):
-  By not providing "FindMariaDB.cmake" in CMAKE_MODULE_PATH this project has
-  asked CMake to find a package configuration file provided by "MariaDB", but
-  CMake did not find one.
-
-  Could not find a package configuration file provided by "MariaDB" with any
-  of the following names:
-
-    MariaDBConfig.cmake
-    mariadb-config.cmake
-
-  Add the installation prefix of "MariaDB" to CMAKE_PREFIX_PATH or set
-  "MariaDB_DIR" to a directory containing one of the above files.  If
-  "MariaDB" provides a separate development package or SDK, be sure it has
-  been installed.
-
-
--- Configuring incomplete, errors occurred!
-See also "G:/Computer Science/Bundled/MicroServices/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: G:/Computer Science/Bundled/MicroServices/cmake-build-debug

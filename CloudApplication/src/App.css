@@ -2,14 +2,13 @@
   position: fixed;
   height: 100%;
   width: 100%;
-  background: rgb(30,39,52);
-  background: linear-gradient(90deg, rgba(30,39,52,1) 0%, rgba(31,38,48,1) 100%);
+  background-color: #20242f;
 }
 
 .copyright-notice {
   color: rgba(255,255,255,0.2);
   position: absolute;
-  right: 0;
+  left: 0;
   font-size: 15px;
   font-style: italic;
   background-color: #34495e;

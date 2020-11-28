@@ -251,6 +251,44 @@ CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Socket.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MicroServices.dir\src\Interfaces\Socket\Socket.cpp.s /c "G:\Computer Science\Bundled\MicroServices\src\Interfaces\Socket\Socket.cpp"
 <<
 
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Actions.cpp.obj: CMakeFiles\MicroServices.dir\flags.make
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Actions.cpp.obj: ..\src\Interfaces\Socket\Actions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Computer Science\Bundled\MicroServices\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Actions.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MicroServices.dir\src\Interfaces\Socket\Actions.cpp.obj /FdCMakeFiles\MicroServices.dir\ /FS -c "G:\Computer Science\Bundled\MicroServices\src\Interfaces\Socket\Actions.cpp"
+<<
+
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Actions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Actions.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe > CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Actions.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Computer Science\Bundled\MicroServices\src\Interfaces\Socket\Actions.cpp"
+<<
+
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Actions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Actions.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MicroServices.dir\src\Interfaces\Socket\Actions.cpp.s /c "G:\Computer Science\Bundled\MicroServices\src\Interfaces\Socket\Actions.cpp"
+<<
+
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Routes.cpp.obj: CMakeFiles\MicroServices.dir\flags.make
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Routes.cpp.obj: ..\src\Interfaces\Socket\Routes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Computer Science\Bundled\MicroServices\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Routes.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MicroServices.dir\src\Interfaces\Socket\Routes.cpp.obj /FdCMakeFiles\MicroServices.dir\ /FS -c "G:\Computer Science\Bundled\MicroServices\src\Interfaces\Socket\Routes.cpp"
+<<
+
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Routes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Routes.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe > CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Routes.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Computer Science\Bundled\MicroServices\src\Interfaces\Socket\Routes.cpp"
+<<
+
+CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Routes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicroServices.dir/src/Interfaces/Socket/Routes.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MicroServices.dir\src\Interfaces\Socket\Routes.cpp.s /c "G:\Computer Science\Bundled\MicroServices\src\Interfaces\Socket\Routes.cpp"
+<<
+
 # Object files for target MicroServices
 MicroServices_OBJECTS = \
 "CMakeFiles\MicroServices.dir\src\Main.cpp.obj" \
@@ -262,7 +300,9 @@ MicroServices_OBJECTS = \
 "CMakeFiles\MicroServices.dir\src\Utils\Utils.cpp.obj" \
 "CMakeFiles\MicroServices.dir\src\SessionManager.cpp.obj" \
 "CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.obj" \
-"CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Socket.cpp.obj"
+"CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Socket.cpp.obj" \
+"CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Actions.cpp.obj" \
+"CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Routes.cpp.obj"
 
 # External object files for target MicroServices
 MicroServices_EXTERNAL_OBJECTS =
@@ -277,9 +317,11 @@ MicroServices.exe: CMakeFiles\MicroServices.dir\src\Utils\Utils.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\src\SessionManager.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\src\Interfaces\Rest.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Socket.cpp.obj
+MicroServices.exe: CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Actions.cpp.obj
+MicroServices.exe: CMakeFiles\MicroServices.dir\src\Interfaces\Socket\Routes.cpp.obj
 MicroServices.exe: CMakeFiles\MicroServices.dir\build.make
 MicroServices.exe: CMakeFiles\MicroServices.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Computer Science\Bundled\MicroServices\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable MicroServices.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Computer Science\Bundled\MicroServices\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable MicroServices.exe"
 	C:\Users\James\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\MicroServices.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\MicroServices.dir\objects1.rsp @<<
  /out:MicroServices.exe /implib:MicroServices.lib /pdb:"G:\Computer Science\Bundled\MicroServices\cmake-build-debug\MicroServices.pdb" /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:console   -LIBPATH:"G:\Computer Science\Bundled\MicroServices\.\lib\boost_1_72_0\stage\lib"  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

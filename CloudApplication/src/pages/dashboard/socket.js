@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Component } from "react";
-import { w3cwebsocket as W3CWebSocket } from "websocket";
-const ENDPOINT = "ws://localhost:5000/cloud_app";
+import { render } from "@testing-library/react";
+const WebSocket = require('ws');
+const ENDPOINT = "http://localhost:5000/cloud_app";
 
 const Socket = (props) => {
 
@@ -14,19 +15,11 @@ const Socket = (props) => {
         props.socket_accepted(val);
     }
 
-    const client = new W3CWebSocket(ENDPOINT);
+    //const ws = new WebSocket(ENDPOINT);
 
     useEffect(() => {
-        client.onopen = () => {
-            console.log('WebSocket Client Connected');
-
-            client.send(JSON.stringify({
-                token: JSON.parse(props.socket_data).uuid
-            }))
-        };
-        client.onmessage = (message) => {
-            console.log(message);
-        };
+        
+ 
 
     }, );
 

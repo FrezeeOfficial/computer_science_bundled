@@ -112,6 +112,12 @@
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Interfaces/Rest.cpp">
 			<Option target="MicroServices"/>
 		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/Actions.cpp">
+			<Option target="MicroServices"/>
+		</Unit>
+		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/Routes.cpp">
+			<Option target="MicroServices"/>
+		</Unit>
 		<Unit filename="G:/Computer Science/Bundled/MicroServices/src/Interfaces/Socket/Socket.cpp">
 			<Option target="MicroServices"/>
 		</Unit>

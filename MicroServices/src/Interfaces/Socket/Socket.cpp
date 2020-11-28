@@ -13,6 +13,16 @@ Interfaces::Socket::Socket(nlohmann::json config_location) {
     m_server.set_open_handler(bind(&Interfaces::Socket::on_open,this,::_1));
     m_server.set_close_handler(bind(&Interfaces::Socket::on_close,this,::_1));
     m_server.set_message_handler(bind(&Interfaces::Socket::on_message,this,::_1,::_2));
+
+    // here we will fill in the function vector maps
+    this->function_commands.push_back("logout");
+
+    auto fn = &Interfaces::Socket::function;
+    FunctionArray function[] {
+        fn
+    };
+
+
 }
 
 void Interfaces::Socket::start_service() {
@@ -24,12 +34,16 @@ void Interfaces::Socket::start_service() {
     m_server.listen(port);
     m_server.start_accept();
     m_server.run();
+    this->is_running = true;
 }
 
 void Interfaces::Socket::stop_service(){
     m_server.stop();
+    this->is_running = false;
 }
 
+
+// the entry point of entry for a call
 void Interfaces::Socket::on_message(connection_hdl hdl, server::message_ptr msg) {
     // where all messages sent to this server will first be handled
     for (auto it : m_connections) {
@@ -44,53 +58,64 @@ void Interfaces::Socket::on_message(connection_hdl hdl, server::message_ptr msg)
 
         // check weather the token in the message is valid
         if (!is_authenticated(jsonMsg)) {
-            this->return_error(hdl, "unknown token", "0x02");
-            break;
-        }
-
-
-        this->route_message(hdl, jsonMsg);
+            // level 6 is for the initial signing in like pushing pins
+            if(jsonMsg["level"] == "6") {
+                if (jsonMsg["command"] == "push_token") {
+                    // here the app will send a push to the local application on the computer to display a one time token
+                    this->push_token();
+                    this->return_message(hdl, "sent a push request to interconnect");
+                } else if (jsonMsg["command"] == "push_pin") {
+                    // here the app will send a push to the local application on the computer to display a one time pin
+                    this->push_pin();
+                    this->return_message(hdl, "sent a push request to interconnect");
+                } else if (jsonMsg["command"] == "fetch_uuid") {
+                    // will check all checks have been done, make a uuid, add it to database and then send it back to the cloud app.
+                    this->return_message(hdl, this->fetch_uuid());
+                } else {
+                        this->return_error(hdl, "unknown command", "0x03");
+                        break;
+                    }
+                }
+            } else {
+                this->route_message(hdl, jsonMsg);
+            }
     }
 }
 
 void Interfaces::Socket::route_message(connection_hdl hdl, nlohmann::json payload) {
-    std::string command = payload["command"];
+    // routes all the possible commands given that the user is authenticated
+    bool does_command_exist = false;
 
+    for(int i = 0; i < this->function_commands.size(); i++) {
+        if (this->function_commands.at(i) == payload["command"]) {
+            //the function has been found.
+            does_command_exist = true;
 
-}
+        }
+    }
 
-void Interfaces::Socket::return_error(connection_hdl hdl, std::string readable_error, std::string error_code) {
-    m_server.send(hdl, "{error: true, res: " + error_code + ", readable: " + readable_error + "}", websocketpp::frame::opcode::text);
-}
-
-bool Interfaces::Socket::is_authenticated(nlohmann::json payload) {
-    // get json payload
-    // for now the token used is 11111-11111-11111-11111-11111. Will be connected to a database later on.
-    if(payload["token"] == "11111-11111-11111-11111-11111") {
-        return true;
-    } else {
-        return false;
+    if (!does_command_exist) {
+        this->return_error(hdl, "the command doesn't exist", "0x04");
     }
 }
 
-void Interfaces::Socket::fetch_dash() {
-
-}
-
+// when a user terminates connection
 void Interfaces::Socket::on_close(connection_hdl hdl) {
     m_connections.erase(hdl);
 }
 
+// when a user initially connects to the server
 void Interfaces::Socket::on_open(connection_hdl hdl) {
-    // will only accept a connection if the url specifies the location path. Which was set in the [service_name].config.json
     server::connection_ptr con = m_server.get_con_from_hdl(hdl);
     std::string path = con->get_resource();
 
+    // will only accept a connection if the url specifies the location path. Which was set in the [service_name].config.json
     std::size_t pos = path.find(this->config["location_path"]);
     if (pos == 1) {
         std::cout << "allowed to connect" << std::endl;
         m_connections.insert(hdl);
     } else {
         std::cout << "not allowed to connect" << std::endl;
+        this->return_error(hdl, "You are not authorised to access this service", "0x10");
     }
 }

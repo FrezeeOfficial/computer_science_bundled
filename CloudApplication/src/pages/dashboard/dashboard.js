@@ -14,6 +14,8 @@ class Dashboard extends Component {
         super(props);
         this.state = {
             isLoaded: false,
+            status: "Not Connected",
+            status_colour: "red",
             userExist: false,
             error: {
                 error: false,
@@ -36,7 +38,7 @@ class Dashboard extends Component {
             app_data: {
                 card1: {
                     header: "CHECK A CERTAIN FILE",
-                    Textcolor: "red",
+                    Textcolor: "neon-blue",
                     body: "OUR SERVER WILL RUN ANY SUPPORTED FILE BELIEVED A THREAT AND SEND THE RESULTS BACK TO YOU"
                 }
             }
@@ -49,6 +51,7 @@ class Dashboard extends Component {
     }
     socketAccepted = (val) => {
         // established connection with the socket server
+        this.setState({status: "Connected", status_colour: "green"})
         this.setState({isLoaded: true});
         this.setState({device: {connected: true, error: false, readable_error: "CONNECTED TO DEVICE"}})
     }
@@ -70,6 +73,8 @@ class Dashboard extends Component {
             this.setState({userExist: true})
         }
 
+        // fixme: this is just here for design purposes
+        //this.socketAccepted("e")
     }
  
     render(){
@@ -78,7 +83,7 @@ class Dashboard extends Component {
             return (<div> <ErrorPage error_code={this.state.error.error_code} error_point={this.state.error_point}/> <StatusBar/> </div>)
         } else if (this.state.isLoaded) {
             // displays the dashboard
-            return (<div> <DashboardPage app_data={this.state} /> <StatusBar/> </div>)
+            return (<div className="main-content-height-max"><DashboardPage app_data={this.state} /> <StatusBar status_colour={this.state.status_colour} status={this.state.status} /> </div>)
         } else if (!this.state.userExist){
             // display the new user signup form
             return (<LoginPage completed={this.login_complete} />)

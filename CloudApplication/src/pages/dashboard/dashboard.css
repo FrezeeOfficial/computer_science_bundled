@@ -2,8 +2,9 @@
     background-color: #ffffff;
     position: absolute;
     width: 100%;
+    height: 30px;
     bottom: 0;
-    z-index: 999;
+    z-index: 0;
 }
 
 .connectivity-bar > span {
@@ -37,14 +38,17 @@
 .sidebar {
     width: 303px;
     position: fixed;
-    background-color: #1A222E;
+    background-color: #20242f;
+    -webkit-box-shadow: 10px 0px 6px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 10px 0px 6px 0px rgba(0,0,0,0.16);
+    box-shadow: 10px 0px 6px 0px rgba(0,0,0,0.16);
     float: left;
     height: 100%;
 }
 
 .topbar {
     height: 40px;
-    background-color: rgba( 0,0,0,0.29);
+    background-color: #272D3B;
     width: 100%;
 }
 
@@ -97,7 +101,42 @@
     margin-bottom: 30px;
     border-radius: 7px;
     padding: 20px;
-    background-color: #1A222E;
+    background-color: #272D3B;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.16);
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.16);
+}
+
+.card-23 {
+    margin-bottom: 30px;
+    border-radius: 7px;
+    display: -webkit-inline-box;
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    background-color: #272D3B;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.16);
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.16);
+}
+
+.card-13 {
+    margin-bottom: 30px;
+    border-radius: 7px;
+    display: -webkit-inline-box;
+    width: 36%;
+    margin-left: 4%;
+    height: 100%;
+    padding: 20px;
+    background-color: #272D3B;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.16);
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.16);
+}
+
+.card-title-center {
+    margin: 0 auto;
+    display: table;
 }
 
 .error-modal {
@@ -176,6 +215,7 @@ box-shadow: 0px 0px 16px -10px rgba(0,0,0,0.75);
   display: block !important;
   font-weight: 500;
   letter-spacing: 3px;
+  border: none;
   padding: 0 !important;
 }
 
@@ -192,8 +232,11 @@ box-shadow: 0px 0px 16px -10px rgba(0,0,0,0.75);
   outline: none;
   border: none;
   border-radius: 7px;
-  background-color: rgba(255,0,0,0.63);
-  color: #ffffff;
+  background-color: #14fef1;
+  color: rgb(0,0,0);
+    -webkit-box-shadow: 1px 1px 16px 0px rgba(20,254,241,0.2);
+    -moz-box-shadow: 1px 1px 16px 0px rgba(20,254,241,0.2);
+    box-shadow: 1px 1px 16px 0px rgba(20,254,241,0.2);
   font-size: 15px;
   font-weight: 400;
   padding: 5px 45px 5px 45px;
@@ -208,4 +251,110 @@ box-shadow: 0px 0px 16px -10px rgba(0,0,0,0.75);
 
 .text-color-red {
   color: rgb(255, 0,0)
+}
+
+.text-color-neon-blue {
+    color: #14fef1;
+}
+
+.main-title {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.main-title-small {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.card-push-low {
+    margin-top: 25px;
+}
+
+.main-content-height-max {
+    height: 100%;
+    padding-bottom: 8%;
+}
+
+.circle-scan-outer {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 45px;
+  height: 25em;
+  width: 25em;
+  border-radius:100%;
+  background-color: #20242f;
+  padding: 0;
+
+  position: relative;
+}
+
+.circle-scan-iouter {
+  display: block;
+  height: 22em;
+  width: 22em;
+  border-radius:100%;
+  background-color: #10fff1;
+
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.circle-scan-inner {
+  display: block;
+  height: 21em;
+  width: 21em;
+  border-radius:100%;
+  background-color: #20242f;
+
+  position: absolute;
+  top: 50%;
+  right: 2.5%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+#live-scan {
+  height: 80%;
+  width: 100%;
+}
+
+.circle-scan-inner-text {
+  color: #272D3B !important;
+  font-size: 40px !important;
+  position: absolute;
+  top: 50%;
+  right: 43%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.circle-scan-inner-text > i {
+  color: #10fff1 !important;
+  font-size: 28px !important;
+}
+
+.status_icon {
+  width: 12px;
+  display: inline-block;
+  height: 12px;
+  vertical-align: revert;
+  margin-left: 5px;
+  border-radius: 73px;
+}
+
+.green {
+  background-color: #2ecc71;
+}
+
+.red {
+  background-color: #e74c3c;
+}
+
+.connectivity-bar > span {
+  vertical-align: middle;
+  padding-top: 5px;
 }
