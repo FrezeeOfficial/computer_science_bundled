@@ -59,12 +59,6 @@ namespace Interfaces {
         server m_server;
         con_list m_connections;
 
-        std::vector<std::string> function_commands;
-
-        int (*TestFunction) (int a);
-        typedef int (*FunctionArray) (int a);
-        int function(int a){ return a; }
-
         nlohmann::json config;
 
     };

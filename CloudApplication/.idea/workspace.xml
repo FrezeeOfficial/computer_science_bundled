@@ -9,12 +9,23 @@
     </expand>
     <select />
   </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="251e0f0f-72d1-4d21-a1b4-4ebcb5cc28e3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1bcj6I7lN2jg4cpacIXTqC6nfqM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,7 +47,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/package.json" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MicroServices" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,6 +88,7 @@
       <workItem from="1597911690820" duration="1889000" />
       <workItem from="1598004824319" duration="2402000" />
       <workItem from="1600890957490" duration="366000" />
+      <workItem from="1607183184509" duration="30000" />
     </task>
     <servers />
   </component>
@@ -95,37 +108,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597837125808">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607183212162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597837125808" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1597837137307">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597837137307" />
-    <state width="1899" height="135" key="GridCell.Tab.0.bottom" timestamp="1598011582962">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598011582962" />
-    <state width="1899" height="135" key="GridCell.Tab.0.center" timestamp="1598011582962">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="135" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598011582962" />
-    <state width="1899" height="135" key="GridCell.Tab.0.left" timestamp="1598011582962">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="135" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598011582962" />
-    <state width="1899" height="135" key="GridCell.Tab.0.right" timestamp="1598011582962">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="135" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598011582962" />
-    <state x="787" y="209" key="SettingsEditor" timestamp="1597837106167">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="787" y="209" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597837106167" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590150167797">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590150167797" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607183212162" />
   </component>
 </project>

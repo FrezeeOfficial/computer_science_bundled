@@ -13,16 +13,6 @@ Interfaces::Socket::Socket(nlohmann::json config_location) {
     m_server.set_open_handler(bind(&Interfaces::Socket::on_open,this,::_1));
     m_server.set_close_handler(bind(&Interfaces::Socket::on_close,this,::_1));
     m_server.set_message_handler(bind(&Interfaces::Socket::on_message,this,::_1,::_2));
-
-    // here we will fill in the function vector maps
-    this->function_commands.push_back("logout");
-
-    auto fn = &Interfaces::Socket::function;
-    FunctionArray function[] {
-        fn
-    };
-
-
 }
 
 void Interfaces::Socket::start_service() {
@@ -79,23 +69,6 @@ void Interfaces::Socket::on_message(connection_hdl hdl, server::message_ptr msg)
             } else {
                 this->route_message(hdl, jsonMsg);
             }
-    }
-}
-
-void Interfaces::Socket::route_message(connection_hdl hdl, nlohmann::json payload) {
-    // routes all the possible commands given that the user is authenticated
-    bool does_command_exist = false;
-
-    for(int i = 0; i < this->function_commands.size(); i++) {
-        if (this->function_commands.at(i) == payload["command"]) {
-            //the function has been found.
-            does_command_exist = true;
-
-        }
-    }
-
-    if (!does_command_exist) {
-        this->return_error(hdl, "the command doesn't exist", "0x04");
     }
 }
 
