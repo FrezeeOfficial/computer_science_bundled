@@ -20,7 +20,8 @@ class Dashboard extends Component {
             error: {
                 error: false,
                 error_code: null,
-                error_point: null
+                error_point: null,
+                error_readable: null
             },
             socket: {
                 error: false,
@@ -45,9 +46,8 @@ class Dashboard extends Component {
         }
     }
 
-    socketError = (error, error_code, error_point) => {
-        this.setState({socket: {error: error, error_code: error_code, error_point}, device: {readable_error: "ENDPOINT REVOKED"}});
-        this.setState({error: {error: error, error_code: error_code, error_point}});
+    socketError = (error, error_code, error_point, readable_error) => {
+        this.setState({error: {error: error, error_code: error_code, error_point: error_point, error_readable: readable_error}});
     }
     socketAccepted = (val) => {
         // established connection with the socket server
@@ -59,9 +59,16 @@ class Dashboard extends Component {
 
     }
 
-    login_complete(event){
-        console.log(event);
-        console.log("yey")
+    login_complete = (event) => {
+        // re-check data
+        var app_data = localStorage.getItem("app_data");
+        if (app_data != null) {
+            this.setState({userExist: true})
+            window.location.reload(false);
+        } else {
+            this.setState({error: {error: true, error_readable: "Your Account Could Not Be Saved Locally To Your Browser", error_code: "0x90", error_point:"Local"}});
+        }
+
     }
 
     componentDidMount(){
@@ -74,19 +81,19 @@ class Dashboard extends Component {
         }
 
         // fixme: this is just here for design purposes
-        //this.socketAccepted("e")
+        // this.socketAccepted("e")
     }
  
     render(){
         if (this.state.error.error) {
             // displays the error
-            return (<div> <ErrorPage error_code={this.state.error.error_code} error_point={this.state.error_point}/> <StatusBar/> </div>)
+            return (<div> <ErrorPage error_readable={this.state.error.error_readable} error_code={this.state.error.error_code} error_point={this.state.error.error_point}/> <StatusBar/> </div>)
         } else if (this.state.isLoaded) {
             // displays the dashboard
             return (<div className="main-content-height-max"><DashboardPage app_data={this.state} /> <StatusBar status_colour={this.state.status_colour} status={this.state.status} /> </div>)
         } else if (!this.state.userExist){
             // display the new user signup form
-            return (<LoginPage completed={this.login_complete} />)
+            return (<LoginPage login_complete={this.login_complete} />)
         } else {
             // will display splash screen
             return (<div> <Socket socket_data={localStorage.getItem("app_data")} socket_error={this.socketError} socket_accepted={this.socketAccepted} socket_rejected={this.socketRejected}/> <SplashPage/> <StatusBar/> </div>)

@@ -1,5 +1,0 @@
-UUID:
-    Cloud app,
-    MicroServices.
-
-    All applications use the uuid. It allows applications to contact another on a different platform

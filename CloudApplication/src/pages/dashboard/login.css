@@ -1,16 +1,21 @@
 .login-body {
-    height: 10%;
+    height: auto;
     display: block;
     margin: 0 auto;
     margin-top: 20%;
     width: 20%;
     border-radius: 10px;
-    color: rgb(210, 210, 210);
-    background-color: #ffffff;
+    color: rgb(97, 93, 93);
+    background-color: #272d3b;
+}
+
+.login-form :focus {
+    color: rgb(97, 93, 93) !important;
+    transition: 0.3s;
 }
 
 .login-form-container {
-    padding: 10px;
+    padding: 30px;
     padding-right: 10%;
     padding-left: 10%;
     align-items: center;
@@ -65,20 +70,23 @@
 .text-field {
     background-color: rgba(0,0,0,0) !important;
     outline-style: none;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
     border: none;
     transition: opacity;
     transition-timing-function: ease-out;
     transition-duration: 250ms;
     transition-delay: 1s;
         
-    border-bottom: 1px solid rgb(210, 210, 210);
-    color: rgb(210, 210, 210);
+    border-bottom: 1px solid rgb(97, 93, 93);
+    color: rgb(97, 93, 93);
 }
 
 .text-field:focus {
-    color: rgba(255, 0, 0, 0.28);
+    color: #ffffff !important;
     background-color: rgba(0,0,0,0) !important;
-    border-bottom: 1px solid rgba(255, 0, 0, 0.28);
+    border-bottom: 1px solid #ffffff;
 }
 
 .text-field {
@@ -97,16 +105,19 @@
 
 .pin > input {
     width: 30px;
-    height: 30px;
-    color: rgb(210, 210, 210);
+    text-align: center;
+    color: rgb(97, 93, 93);
+    caret-color: transparent;   
     background-color: rgba(0,0,0,0);
-    border-radius: 2px;
-    border: 1px solid rgb(210, 210, 210);
+    border-radius: 50px;
+    border: 2px solid rgb(97, 93, 93);
 }
 
 .pin > input:focus {
-    color: rgba(255, 0, 0, 0.28);
-    border: 1px solid rgba(255, 0, 0, 0.28);
+    color:#10FFF1;
+    outline: 0;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #10FFF1;
 }
 
 .button-form-submit {
@@ -114,10 +125,19 @@
     display: block;
     width: 20%;
     border-radius: 4px;
+    outline: 0 !important;
     float: right;
-    background-color: #ffffff;
+    background-color: rgba(0,0,0,0);
     height: 100%;
     outline: none;
+}
+
+.go_button :hover {
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 100%;
+    background-color: #5dfff4 !important;
+    transition: 0.5s;
 }
 
 .login-form {
@@ -127,7 +147,7 @@
 }
 
 .go_button {
-    background-color: #F64949;
+    background-color: #10FFF1;
     display: block;
     width: 2.2vw;
     height: 2.2vw;

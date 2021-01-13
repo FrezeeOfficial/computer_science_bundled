@@ -4,12 +4,14 @@ const WebSocket = require('ws');
 const ENDPOINT = "http://localhost:5000/cloud_app";
 
 const Socket = (props) => {
+    console.log("sdf");
+
 
     var app_data = JSON.parse(props.socket_data);
     const [response, setResponse] = useState("");
     
-    function invokeError(error, error_code, error_point){
-        props.socket_error(error, error_code, error_point)
+    function invokeError(error, error_code, error_point, readable_error){
+        props.socket_error(error, error_code, error_point, readable_error)
     }
     function socketAccepted(val){
         props.socket_accepted(val);
@@ -19,9 +21,14 @@ const Socket = (props) => {
 
     useEffect(() => {
         
- 
+        //FIXME: this is a temp for ui testing
+        setTimeout(() => {
+            socketAccepted("e");
+            // invokeError(true, "fX91", "Local", "Connection To The Server Failed. Please Try Again Later");
+        }, 5);
 
-    }, );
+
+    },);
 
     return (null);  
 }

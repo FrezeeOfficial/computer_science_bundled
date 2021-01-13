@@ -14,7 +14,7 @@ class ErrorPage extends Component {
                   </svg>
 
                     <span className="oops-error">Whoops</span>
-                    <span>You device failed to establish a socket request with {this.props.error_point || "unknown"}</span>
+                    <span>{this.props.error_readable || "We Can't Find A Translatable Error. Please Use The Error Code"}</span>
                         <br></br>
                     <span className="small-text">Error Code: {this.props.error_code || "Unknown"}</span>
                     <span className="small-text">Failure Point: {this.props.error_point || "Unknown"}</span>

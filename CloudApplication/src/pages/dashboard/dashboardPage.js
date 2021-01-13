@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
 import StatusBar from "./statusBar";
+
+// the content from each tab
+import Account from './dash_content/account';
+import Dashboard from './dash_content/dashboard';
+import Advanced from './dash_content/advanced';
+import Threats from './dash_content/threats';
+import dashboard from './dash_content/dashboard';
+
 class DashboardPage extends Component {
 
     constructor(props) {
@@ -7,11 +15,34 @@ class DashboardPage extends Component {
         this.state = {
             scan: {
                 scan_percentage: 1
+            },
+            content_active: {
+                dashboard: true,
+                threats: false,
+                account: false,
+                advanced: false
             }
         }
     }
     componentDidMount(){    
 
+    }
+
+    changePage = (value) => {
+        switch(value){
+            case "dashboard": 
+                this.setState({content_active: { threats: false, account: false, advanced: false, dashboard: true }});
+            break;
+            case "threats":
+                this.setState({content_active: { threats: true, account: false, advanced: false, dashboard: false }});
+            break;
+            case "account": 
+                this.setState({content_active: { threats: false, account: true, advanced: false, dashboard: false }});
+            break;
+            case "advanced":
+                this.setState({content_active: { threats: false, account: false, advanced: true, dashboard: false }});     
+            break;   
+        }
     }
 
     render(){
@@ -56,10 +87,10 @@ class DashboardPage extends Component {
                 </div>
                 <div className="menu">
                     <ul id="menu-items">
-                        <li id="current-item">DASHBOARDS</li>
-                        <li>THREATS</li>
-                        <li>ACCOUNT</li>
-                        <li>ADVANCED</li>
+                        <li onClick={() => this.changePage("dashboard")} id={this.state.content_active.dashboard + ""}>DASHBOARDS</li>
+                        <li onClick={() => this.changePage("threats")} id={this.state.content_active.threats + ""} >THREATS</li>
+                        <li onClick={() => this.changePage("account")} id={this.state.content_active.account + ""} >ACCOUNT</li>
+                        <li onClick={() => this.changePage("advanced")} id={this.state.content_active.advanced + ""} >ADVANCED</li>
                     </ul>
                 </div>
             </div>
@@ -67,39 +98,10 @@ class DashboardPage extends Component {
             <div className="topbar">
                 
             </div>
-
-            <div className="content">
-                <h2 className="main-title">Your Device is in Danger</h2>
-                <h3 className="main-title-small">a previous app scan revealed virus.exe is a virus</h3>
-
-                <div className="card-fullsize card-push-low">
-                    <div className="card-left">
-                        <span className="card-header">{this.props.app_data.app_data.card1.header}<span className={ "text-color-" + this.props.app_data.app_data.card1.Textcolor} > - RECOMMENDED</span></span>
-                        <span className="card-body">{this.props.app_data.app_data.card1.body}</span>
-                    </div>
-                    <div className="card-right">
-                        <button>START</button>
-                        <span>OTHER OPTIONS</span>
-                    </div>
-                </div>
-
-                <div className="card-23 card-push-low">
-                    <div id="live-scan">
-                        <span className="card-title-center">Scan System</span>
-                        <div className="circle-scan-outer">
-                            <div className="circle-scan-iouter">
-                                <div className="circle-scan-inner">
-                                    <a className="circle-scan-inner-text">{this.state.scan.scan_percentage}<i>%</i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card-13 card-push-low">
-                    <span className="card-title-center">History</span>
-                </div>
-            </div>
+                <Dashboard app_data={this.props.app_data} active={this.state.content_active.dashboard} />
+                <Threats active={this.state.content_active.threats} />
+                <Account active={this.state.content_active.account} />
+                <Advanced active={this.state.content_active.advanced} />
                 {/*the white status bar that is displayed at the bottom of the page which shows weather the app is connected to the severs or not*/}
                 <StatusBar />
             </div>

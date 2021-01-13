@@ -75,7 +75,7 @@
     transition: all .1s ease-in;
 }
 
-#current-item {
+#true {
     background-color: #FFFFFF !important;
     color: #1A222E !important;
 }

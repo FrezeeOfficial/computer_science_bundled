@@ -131,3 +131,27 @@
     display: flex;
     margin-top: 20px;
 }
+
+.home-header {
+    width: 100%;
+    height: 40px;
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.home-header a {
+    text-align: center;
+    float: right;
+    color: rgba(255,255,255,0.8);
+    width: 200px;
+    margin-top: 7px;
+}
+
+.home-header a:hover {
+    transition-duration: 0.2s;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(232, 99, 99, 0.21);
+}

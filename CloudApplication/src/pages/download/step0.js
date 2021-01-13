@@ -12,7 +12,13 @@ class step0 extends Component {
         }
 
         return (
+        
+        <div>
+            <div className="home-header">
+                <a href="/dashboard">Already Logged In?</a>
+            </div>
             <div className="home container">
+
                 <h1>THE MOST POWERFUL ANTIVIRUS YET</h1>
                 <h2>a portable and lightweight virus detection and prevention application, for free</h2>
                 <span>WINDOWS / IOS / ANDROID</span>
@@ -27,6 +33,7 @@ class step0 extends Component {
                         </div>
                     </div>
             </div>
+        </div>
         )
     }    
 }
